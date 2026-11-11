@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "locale": "fr",
+  "phases": [
+    {
+      "id": "thcTaper",
+      "index": 3,
+      "title": "Réduire le THC",
+      "durationDays": 28,
+      "goal": "Traverser la fenêtre. Laisser le sommeil revenir.",
+      "subtitle": "Dix jours difficiles. Puis dix-huit qui ne le sont pas.",
+
+      "entryScreen": {
+        "title": "Lis ceci avant de commencer. C'est le plus important.",
+        "body": "Ton sommeil va D'ABORD EMPIRER.\n\nPas parce que le cannabis t'aidait. Parce qu'il te privait de sommeil paradoxal depuis des années, et que ton cerveau va le rattraper d'un coup.\n\nCe qui t'attend :\n· Des rêves très intenses, parfois désagréables. C'est le rebond de REM. C'est un bon signe.\n· De l'insomnie, de l'irritabilité, des sueurs nocturnes, une perte d'appétit.\n· Un pic entre le 2e et le 6e jour.\n· Un retour à la normale en deux à quatre semaines.\n· Un sommeil ensuite MEILLEUR qu'avant. Pas seulement égal.\n\nSi personne ne te prévient, tu vis la troisième nuit blanche comme la preuve que le cannabis t'aidait à dormir. C'est exactement l'inverse. Ce que tu vis, c'est le sevrage.\n\nMaintenant tu le sais. Et une fenêtre de dix jours, quand on sait qu'elle en fait dix, se traverse.",
+        "confirmLabel": "J'ai compris ce qui m'attend",
+        "secondaryLabel": "Pas encore. Je reste en phase 2.",
+        "note": "Rester en phase 2 ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      },
+
+      "strategyChoice": {
+        "title": "Comment tu descends",
+        "body": "Il n'y a pas de bonne réponse. Il y a la tienne.",
+        "options": [
+          {
+            "id": "taper",
+            "label": "Par paliers",
+            "detail": "Réduction d'environ 25 % par semaine sur quatre semaines. Symptômes étalés, plus supportables, mais la fenêtre difficile dure plus longtemps et se répète à chaque palier.",
+            "bestFor": "Consommation élevée, contraintes de travail lourdes, aucune marge pour une mauvaise semaine."
+          },
+          {
+            "id": "cold",
+            "label": "Arrêt net",
+            "detail": "Fenêtre concentrée sur dix jours. Plus dur, plus court, et le rebond de sommeil arrive plus vite.",
+            "bestFor": "Une période où tu peux encaisser dix jours moyens. Idéalement pas en pleine urgence de chantier."
+          },
+          {
+            "id": "vaporize_then_taper",
+            "label": "Vaporisateur d'abord, puis paliers",
+            "detail": "Tu es déjà passé au vaporisateur en phase 1. Tu réduis maintenant le nombre de sessions, pas la substance. Le corps a déjà arrêté d'encaisser la combustion.",
+            "bestFor": "La voie par défaut si tu as suivi les phases précédentes."
+          }
+        ],
+        "note": "Aucun choix n'est définitif. Tu peux changer de stratégie sans perdre quoi que ce soit."
+      },
+
+      "hardWindow": {
+        "startDay": 1,
+        "endDay": 10,
+        "bannerTemplate": "Jour {n} sur 10 de la fenêtre difficile",
+        "curveLabel": "Intensité attendue des symptômes",
+        "curve": [40, 70, 90, 95, 85, 70, 55, 40, 30, 20],
+        "footnote": "Cette courbe est une moyenne. La tienne sera différente. Mais elle descendra."
+      },
+
+      "days": [
+        {
+          "day": 1,
+          "windowDay": 1,
+          "theme": "fenetre",
+          "title": "Jour 1. Il ne se passera probablement rien.",
+          "body": "Le THC a une demi-vie longue. Il est encore là. Tu ne sentiras sans doute pas grand-chose aujourd'hui, et c'est normal.\n\nProfite de cette journée pour préparer les suivantes. Range ton matériel hors de vue — pas dans une poubelle, simplement hors de vue. Préviens une personne de confiance. Bois de l'eau.\n\nDemain, ça commence.",
+          "expectedSymptoms": ["Peu ou pas de symptômes", "Éventuellement de l'anticipation, de la nervosité"],
+          "action": "Préviens une personne. Une seule suffit. Dis-lui : « les dix prochains jours, je vais être désagréable. »",
+          "reassurance": "Tu n'es pas en train de te priver de quelque chose. Tu es en train de récupérer quelque chose.",
+          "why": "La demi-vie longue du THC décale le début du sevrage de 24 à 48 h.",
+          "evidence": "A",
+          "readTimeSeconds": 40
+        },
+        {
+          "day": 2,
+          "windowDay": 2,
+          "theme": "fenetre",
+          "title": "Jour 2. Ça commence, et c'est le programme.",
+          "body": "Irritabilité. Nervosité. Une envie diffuse de faire quelque chose de tes mains sans savoir quoi.\n\nCe soir, l'endormissement sera plus long que d'habitude. Peut-être une heure. Peut-être plus.\n\nSi tu te retournes depuis vingt minutes : lève-toi. Va dans une autre pièce, lumière faible, quelque chose de calme. Reviens quand le sommeil arrive. Rester au lit sans dormir apprend à ton cerveau que le lit est un endroit où l'on ne dort pas.\n\nCe n'est pas une insomnie. C'est un sevrage. Ça a une fin, et elle est datée.",
+          "expectedSymptoms": ["Irritabilité", "Endormissement long", "Nervosité, agitation"],
+          "action": "Ce soir : chambre à 17-19 °C. Si tu ne dors pas à 20 min, tu te lèves.",
+          "reassurance": "Jour 2 sur 10. La courbe monte encore. Elle redescendra.",
+          "why": "Le contrôle par le stimulus est le pilier de la TCC de l'insomnie, supérieure aux somnifères sur le long terme.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 3,
+          "windowDay": 3,
+          "theme": "fenetre",
+          "title": "Jour 3. Les rêves arrivent.",
+          "body": "Si tu as rêvé cette nuit — intensément, bizarrement, peut-être désagréablement — voici ce qui s'est passé.\n\nPendant des années, le THC a supprimé ton sommeil paradoxal. Ton cerveau vient de récupérer l'accès à cette phase, et il rattrape. C'est le rebond de REM.\n\nCes rêves sont le signe le plus fiable que le mécanisme fonctionne. Ils sont désagréables et ils sont une bonne nouvelle. Les deux à la fois.\n\nIls s'atténuent en une à deux semaines. Ce que tu récupères, c'est la phase de consolidation de la mémoire et de récupération nerveuse.",
+          "expectedSymptoms": ["Rêves très intenses", "Réveils nocturnes", "Sueurs nocturnes", "Perte d'appétit"],
+          "action": "Note dans le cahier : « rêves intenses, O/N ». C'est un marqueur de progression, pas un symptôme.",
+          "reassurance": "Jour 3 sur 10. Tu es sur la partie la plus raide de la courbe.",
+          "why": "Le rebond de sommeil paradoxal est la contrepartie directe de sa suppression chronique.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 4,
+          "windowDay": 4,
+          "theme": "fenetre",
+          "title": "Jour 4. Le pic. Relis le jour 20 de la phase 0.",
+          "body": "Aujourd'hui ou demain, c'est le maximum. Après, ça descend.\n\nTu vas te dire que le cannabis t'aidait à dormir. Tu vas te dire que tu tenais mieux le coup avant. Tu vas peut-être te dire que ce programme est une erreur.\n\nAu jour 20 de la phase d'observation, tu as lu une page qui annonçait exactement cette pensée. Elle avait vingt-trois jours d'avance sur toi.\n\nCe que tu ressens n'est pas une information sur le cannabis. C'est une information sur le sevrage. Ce n'est pas la même chose, et la différence est tout.",
+          "expectedSymptoms": ["Pic d'irritabilité", "Insomnie", "Anxiété", "Envie forte", "Perte d'appétit"],
+          "action": "Rien d'héroïque. Passe la journée. Utilise le SOS autant de fois qu'il le faut.",
+          "reassurance": "Jour 4 sur 10. C'est aujourd'hui le plus dur. Demain, c'est déjà derrière.",
+          "why": "Le pic du sevrage cannabique se situe entre J2 et J6.",
+          "evidence": "A",
+          "readTimeSeconds": 60,
+          "highlight": true
+        },
+        {
+          "day": 5,
+          "windowDay": 5,
+          "theme": "fenetre",
+          "title": "Jour 5. Ton corps a un rythme, pas une opinion.",
+          "body": "Tu n'es pas en train de tester ta volonté. Ta volonté n'a rien à voir là-dedans.\n\nDes récepteurs CB1 saturés depuis des années sont en train de retrouver leur sensibilité. Ce processus a une durée. Il ne s'accélère pas si tu serres les dents, et il ne s'arrête pas si tu passes une mauvaise journée.\n\nTu n'as qu'une chose à faire : ne pas interrompre l'horloge.\n\nBois. Mange, même sans faim. Sors dix minutes le matin. C'est tout ce que le programme te demande aujourd'hui.",
+          "expectedSymptoms": ["Irritabilité", "Fatigue", "Sommeil fragmenté", "Appétit encore bas"],
+          "action": "Trois repas, même petits. La perte d'appétit du sevrage fait perdre du muscle, et tu es déjà sec.",
+          "reassurance": "Jour 5 sur 10. La courbe vient de basculer. Tu descends.",
+          "why": "La resensibilisation des récepteurs CB1 suit sa propre cinétique, indépendante de l'effort volontaire.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 6,
+          "windowDay": 6,
+          "theme": "fenetre",
+          "title": "Jour 6. La douleur, peut-être, va parler plus fort.",
+          "body": "Si une douleur chronique semble pire depuis quelques jours, ce n'est pas une aggravation.\n\nC'est l'hyperalgésie de sevrage. La sensibilité à la douleur remonte au-dessus de son niveau habituel, temporairement. Une partie de ce que le joint « soulageait » était en réalité le manque, entre deux prises.\n\nTu découvres maintenant le niveau réel de ta douleur. Il est probablement plus bas que ce que tu ressens aujourd'hui, et plus haut que ce que tu croyais quand tu fumais.\n\nCe qui la traitera, ce n'est pas le THC. C'est de traiter sa cause réelle — mouvement, sommeil, et un professionnel si elle persiste.",
+          "expectedSymptoms": ["Douleur perçue accrue", "Sensibilité générale", "Symptômes en décroissance"],
+          "action": "Bouge aujourd'hui, même doucement : marche, étirements, mobilité. Sans forcer.",
+          "reassurance": "Jour 6 sur 10. Cette hyperalgésie se dissipe en une à deux semaines.",
+          "why": "L'arrêt du cannabis chez l'usager quotidien peut provoquer une hyperalgésie transitoire.",
+          "evidence": "C",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 7,
+          "windowDay": 7,
+          "theme": "fenetre",
+          "title": "Jour 7. Une semaine. La pente s'adoucit.",
+          "body": "Sept jours. Tu es passé par le pic, et tu es encore là.\n\nCe qui reste : un sommeil encore fragmenté, une irritabilité résiduelle, des rêves toujours intenses. Ce qui commence à partir : les sueurs, l'anxiété de fond, la perte d'appétit.\n\nOuvre le cahier de bord et regarde la colonne « qualité ». Compare le jour 3 au jour 6. Si tu ne vois rien encore, c'est normal — sept points, c'est trop peu.\n\nDans dix jours, tu verras.",
+          "expectedSymptoms": ["Sommeil fragmenté", "Irritabilité en baisse", "Rêves encore présents"],
+          "action": "Relis tes sept dernières entrées. Sans conclure.",
+          "reassurance": "Jour 7 sur 10. Trois jours.",
+          "why": "Les symptômes de sevrage décroissent après le pic, sans revenir à leur intensité maximale.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 8,
+          "windowDay": 8,
+          "theme": "fenetre",
+          "title": "Jour 8. Le rituel, pas la molécule.",
+          "body": "À ce stade, l'essentiel du sevrage physiologique est derrière toi. Ce qui persiste est d'un autre ordre : le geste, l'heure, le lieu.\n\nLa fin du chantier. Le moment où tu poses les outils. La transition entre le travail et la maison.\n\nAu jour 13 de la phase d'observation, tu as écrit dans le cahier à quoi servait le joint. Va relire ta réponse. Elle a été écrite par quelqu'un qui fumait encore, et qui était donc mieux placé que toi aujourd'hui pour le savoir.\n\nCe rituel demande un remplaçant. Pas un substitut chimique : un autre geste, à la même heure.",
+          "expectedSymptoms": ["Envies liées aux horaires et aux lieux", "Symptômes physiques faibles"],
+          "action": "Relis ta note du jour 13. Choisis un geste de remplacement pour ton rituel le plus rigide.",
+          "reassurance": "Jour 8 sur 10. Le corps est presque sorti. La tête met un peu plus longtemps.",
+          "why": "Une habitude qu'on retire sans remplacer sa fonction revient toujours.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 9,
+          "windowDay": 9,
+          "theme": "fenetre",
+          "title": "Jour 9. Le jour où l'on se croit guéri.",
+          "body": "Attention à celui-ci. Il est trompeur.\n\nTu vas te sentir mieux. Beaucoup mieux. Assez bien pour te dire qu'un seul joint, maintenant, ne changerait rien — puisque tu as prouvé que tu pouvais tenir.\n\nC'est le raisonnement le plus courant du neuvième jour. Il est logique et il est faux : la tolérance ne redescend pas en neuf jours, mais le conditionnement, lui, se réactive en une seule prise.\n\nSi tu fumes aujourd'hui, tu ne perds ni ton XP, ni tes médailles, ni tes jours cumulés. Tu perds seulement la fin de cette fenêtre — et il faudra la refaire.",
+          "expectedSymptoms": ["Sensation de mieux-être", "Confiance excessive", "Envie de tester"],
+          "action": "Aujourd'hui, si l'envie vient : SOS, cinq minutes, puis relis cette page.",
+          "reassurance": "Jour 9 sur 10. Un jour.",
+          "why": "L'effet de violation de l'abstinence est déclenché par la confiance excessive plus souvent que par la détresse.",
+          "evidence": "B",
+          "readTimeSeconds": 60,
+          "highlight": true
+        },
+        {
+          "day": 10,
+          "windowDay": 10,
+          "theme": "fenetre",
+          "title": "Jour 10. La fenêtre se referme.",
+          "body": "C'est fait.\n\nLe plus difficile est derrière. Ce qui suit n'est pas facile, mais ce n'est plus la même chose : ce n'est plus un sevrage, c'est une reconstruction.\n\nÀ partir d'aujourd'hui, le sommeil va remonter. Lentement. Par paliers irréguliers. Avec des nuits qui te feront douter, suivies de nuits qui te répondront.\n\nDans deux à quatre semaines, il dépassera ce qu'il était quand tu fumais. Ce n'est pas une promesse d'application. C'est ce que montrent les données.",
+          "expectedSymptoms": ["Symptômes résiduels faibles", "Sommeil encore irrégulier"],
+          "action": "Regarde ta médaille. Elle ne sera jamais reprise.",
+          "reassurance": "Fenêtre franchie.",
+          "why": "Les symptômes du sevrage cannabique se résolvent en deux à quatre semaines.",
+          "evidence": "A",
+          "readTimeSeconds": 45,
+          "awardsMedal": "decouplage_le_monoxyde_sen_va",
+          "closesHardWindow": true
+        },
+
+        {
+          "day": 12,
+          "theme": "reconstruction",
+          "title": "Le sommeil ne remonte pas en ligne droite",
+          "body": "Tu vas avoir une bonne nuit, puis deux mauvaises. Puis trois bonnes. Puis une catastrophique, sans raison.\n\nC'est la forme normale d'une récupération. Une courbe qui monte en dents de scie n'est pas une courbe qui échoue.\n\nLe piège du jour 12, c'est de juger une tendance sur une nuit. Tu as un cahier de bord précisément pour ça : il regarde des moyennes là où ta mémoire ne retient que la dernière nuit.",
+          "action": "Ne juge rien sur moins de sept nuits.",
+          "why": "La variabilité intra-individuelle du sommeil est élevée pendant la récupération.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 14,
+          "theme": "reconstruction",
+          "title": "Deux semaines. Les rêves s'apaisent.",
+          "body": "Le rebond de REM se normalise. Les rêves restent présents, mais ils cessent d'être envahissants.\n\nCe que tu récupères là n'est pas anecdotique : le sommeil paradoxal est la phase de consolidation de la mémoire et de régulation émotionnelle. Il travaille pendant que tu dors, et il ne travaillait plus depuis des années.\n\nTu vas peut-être remarquer, dans les semaines qui viennent, que tu retiens mieux. Ce n'est pas une impression.",
+          "action": "Ouvre Constats. Compare tes 14 dernières nuits aux 21 de la phase d'observation.",
+          "why": "Le REM assure la consolidation mnésique et la régulation émotionnelle.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 17,
+          "theme": "reconstruction",
+          "title": "La douleur, réévaluée",
+          "body": "L'hyperalgésie du sevrage est passée. Tu perçois maintenant ta douleur réelle, sans le voile du THC et sans le rebond du manque.\n\nC'est le bon moment pour faire le point honnêtement. Est-ce qu'elle te réveille toujours la nuit ? Est-ce qu'elle s'est améliorée depuis que tu bouges davantage ?\n\nSi une douleur persiste au-delà de trois semaines : consulte, c'est le moment. Ce n'est pas un échec du programme. C'est ce que le programme t'a permis de voir.",
+          "action": "Compare tes nuits : moyenne de la phase 0 contre moyenne des 7 derniers jours, dans l'onglet Avant / Maintenant.",
+          "why": "Une douleur prise tôt se traite mieux qu'une douleur installée.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 21,
+          "theme": "reconstruction",
+          "title": "Trois semaines. La cognition revient.",
+          "body": "Attention, mémoire de travail, fonctions exécutives : les déficits liés à l'usage chronique chez l'adulte sont légers, et ils sont réversibles.\n\nIls récupèrent après quelques semaines d'abstinence. En usage pluriquotidien, on n'entrait jamais dans cette fenêtre. Tu y es depuis vingt et un jours.\n\nDans ton métier, ce n'est pas une statistique. C'est un temps de réaction devant une meuleuse.",
+          "action": "Rien. Constate.",
+          "why": "Les déficits cognitifs de l'usage adulte sont réversibles ; ceux de l'usage adolescent, pas toujours.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 24,
+          "theme": "reconstruction",
+          "title": "L'envie reviendra. Ce n'est pas un signal.",
+          "body": "Dans un mois, dans six mois, une envie surgira. Sans prévenir, sans raison, souvent au meilleur moment de ta vie.\n\nCe n'est pas le signe que le sevrage a échoué. C'est un conditionnement qui se rappelle à toi — une odeur, une heure, un lieu, une fin de chantier particulièrement dure.\n\nElle dure cinq minutes. Elle a toujours duré cinq minutes. Le bouton SOS restera là pour toujours.",
+          "action": "Vérifie que le SOS est accessible depuis ton écran d'accueil Android. Widget, raccourci, peu importe.",
+          "why": "Le craving conditionné persiste longtemps après la résolution du sevrage physiologique.",
+          "evidence": "A",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 28,
+          "theme": "bilan",
+          "title": "Vingt-huit jours. Regarde d'où tu viens.",
+          "body": "Ouvre l'onglet Avant / Maintenant.\n\nÀ gauche : les vingt et un jours de la phase d'observation. Six virgule deux joints par jour, cinq heures quarante de sommeil, une qualité de quatre sur dix.\n\nÀ droite : tes quatorze derniers jours.\n\nSi une ligne n'a pas bougé, elle est affichée en gris. L'application ne te ment pas pour te faire plaisir — c'était la règle depuis le premier jour.\n\nCe tableau, personne ne te l'a donné. Tu l'as écrit, deux minutes chaque matin, pendant quarante-neuf matins.",
+          "action": "Passe en phase de consolidation. Ou reste ici. Le programme ne t'attend pas avec impatience.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 55,
+          "unlocksPhase": "consolidation"
+        }
+      ],
+
+      "relapseScreen": {
+        "title": "Tu as enregistré une consommation",
+        "body": "C'est une donnée, pas une faute.\n\nTon total de jours cumulés ne bouge pas. Ton XP ne bouge pas. Tes médailles restent.\n\nDeux questions, et une seule compte vraiment :\n\nOù en étais-tu dans la fenêtre ? Si c'était entre le jour 2 et le jour 6, tu as croisé le pic — c'est là que presque tout le monde le fait.\n\nEt maintenant : est-ce que tu ouvres le cahier demain matin ?\n\nC'est la seule question. Pas celle d'aujourd'hui.",
+        "xpAwarded": 15,
+        "medalHint": "Remplis le cahier demain matin et la médaille « Le retour » se débloque.",
+        "primaryLabel": "Je continue la phase",
+        "secondaryLabel": "Je redescends en phase 2",
+        "note": "Redescendre d'une phase ne fait rien perdre. C'est une décision, pas une chute."
+      },
+
+      "sosOverrides": {
+        "hardWindowMessage": "Tu es au jour {n} sur 10. Cette envie est du sevrage, pas un manque de volonté. Elle dure cinq minutes. Le sevrage dure dix jours. Les deux ont une fin."
+      },
+
+      "exitScreen": {
+        "title": "Phase 3 terminée",
+        "body": "Le sevrage physiologique est derrière. Ce qui reste est un travail de terrain : les rituels, les envies conditionnées, le sommeil qui se stabilise.\n\nLa phase de consolidation est plus légère. Cahier hebdomadaire, paliers santé long terme, relecture des insights.\n\nTu peux y aller quand tu veux.",
+        "primaryLabel": "Passer à la consolidation",
+        "secondaryLabel": "Rester encore ici"
+      }
+    }
+  ]
+}

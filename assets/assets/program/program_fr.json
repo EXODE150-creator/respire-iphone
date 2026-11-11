@@ -1,0 +1,1086 @@
+{
+  "version": 1,
+  "locale": "fr",
+  "evidenceLegend": {
+    "A": "Preuve solide — essais randomisés multiples ou consensus institutionnel.",
+    "B": "Preuve modérée — essais limités, effectifs faibles, résultats hétérogènes.",
+    "C": "Preuve faible ou mécanistique — physiologie, observationnel, données contradictoires.",
+    "—": "Aucune preuve — marketing, témoignage, tradition."
+  },
+  "phases": [
+    {
+      "id": "observation",
+      "index": 0,
+      "title": "Observer",
+      "durationDays": 21,
+      "goal": "Ne rien changer. Mesurer.",
+      "subtitle": "Vingt et un matins. Deux minutes chacun. Aucun renoncement.",
+      "entryScreen": {
+        "title": "Cette phase ne te demande rien",
+        "body": "Tu ne vas rien arrêter. Tu ne vas rien réduire. Pendant trois semaines, tu fumes exactement comme d'habitude.\n\nLa seule chose que tu fais, c'est noter. Deux minutes chaque matin, au réveil.\n\nÀ la fin, l'application te montrera ce que personne ne peut te dire aujourd'hui : ce que la fumée fait à TON sommeil, à TOI. Pas à un panel d'étude. À toi.\n\nDeux règles gratuites s'installent quand même dès aujourd'hui, parce qu'elles ne demandent aucun renoncement — seulement un décalage.",
+        "confirmLabel": "Je commence"
+      },
+      "freeRules": [
+        {
+          "id": "no_smoke_before_bed",
+          "label": "Rien de fumé dans les 2 à 3 h avant le coucher",
+          "why": "C'est la mesure la plus rentable du programme. Elle ne réduit pas ta consommation, elle la déplace."
+        },
+        {
+          "id": "no_smoke_after_wake",
+          "label": "Rien de fumé dans l'heure suivant le réveil",
+          "why": "Casse le conditionnement. Rend toute réduction ultérieure beaucoup plus facile."
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Aujourd'hui, tu ne changes rien",
+          "body": "C'est le seul programme de sevrage qui commence par te demander de continuer.\n\nLa raison est simple : tu ne peux pas corriger ce que tu n'as pas mesuré. Si tu réduis aujourd'hui, tu n'auras jamais de point de comparaison. Tu sauras peut-être que ça va mieux, mais tu ne sauras pas pourquoi, ni de combien, ni grâce à quoi.\n\nPendant vingt et un jours, tu es le sujet et le chercheur. Le chercheur ne touche à rien tant qu'il n'a pas de données.",
+          "action": "Ce soir, note l'heure de ton dernier joint. Demain matin au réveil, ouvre le cahier.",
+          "why": "Sans mesure, pas de pilotage.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 2,
+          "theme": "installation",
+          "title": "Sept colonnes, deux minutes",
+          "body": "Le cahier de bord tient sur six colonnes. Heure de coucher, heure de lever, qualité de la nuit sur dix, nombre de réveils, humeur sur dix, et une dernière : combien d'heures se sont écoulées entre ta dernière consommation et le moment où tu t'es couché.\n\nCette dernière colonne est celle qui compte. Les cinq autres sont là pour lui donner un sens.\n\nRemplis-le au réveil, avant le café — enfin, tu n'en bois pas. Avant le premier geste, alors.",
+          "action": "Remplis ta première entrée maintenant. Même approximative. Une donnée imparfaite vaut mieux qu'une case vide.",
+          "why": "L'estimation de mémoire est systématiquement fausse. Le relevé quotidien ne l'est pas.",
+          "evidence": "A",
+          "readTimeSeconds": 40
+        },
+        {
+          "day": 3,
+          "theme": "installation",
+          "title": "Les deux règles qui ne coûtent rien",
+          "body": "Tu ne réduis pas. Tu déplaces.\n\nRien de fumé dans les deux à trois heures avant le coucher. Rien de fumé dans l'heure suivant le réveil. Le total de la journée ne change pas — seulement sa répartition.\n\nLa première règle protège ta nuit. La seconde casse le réflexe : celui qui te fait rouler avant même d'être réveillé, sans décision, sans envie réelle. C'est le geste le plus automatique de ta journée, et donc le plus facile à observer.\n\nSi tu ne tiens pas ces règles, note-le aussi. C'est une donnée.",
+          "action": "Décale ton premier joint d'une heure après le réveil. Observe ce qui se passe dans ta tête entre-temps.",
+          "why": "Un rituel automatique ne se supprime pas. Il se rend d'abord visible.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 4,
+          "theme": "molecules",
+          "title": "Tu fumes deux choses",
+          "body": "Un joint avec tabac, ce n'est pas une substance. C'est deux, et elles ne font pas du tout la même chose.\n\nLe THC a une demi-vie longue. Il reste. La nicotine, elle, disparaît en deux heures — et c'est précisément pour ça qu'elle revient te chercher toutes les deux heures.\n\nQuand tu roules un joint parce que « ça fait un moment », ce n'est presque jamais le THC qui parle. C'est la nicotine. Beaucoup de gens qui se croient dépendants au cannabis sont surtout dépendants au tabac qu'ils y mettent.\n\nTu ne le sauras qu'en les séparant. Pas aujourd'hui.",
+          "action": "Aujourd'hui, à chaque joint, note dans l'app le contexte : réveil, pause, fin de chantier, soir. Rien d'autre.",
+          "why": "La fréquence est le rythme de la nicotine. La durée est celui du THC.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 5,
+          "theme": "molecules",
+          "title": "Ce que le THC t'apporte, honnêtement",
+          "body": "Le cannabis peut être recherché pour la détente, le sommeil ou le soulagement d'un symptôme. Ces effets ressentis sont réels pour la personne, mais ne permettent pas de conclure à un bénéfice médical.\n\nCertains médicaments cannabinoïdes ont des indications précises et un suivi médical ; l'automédication par du cannabis fumé ou vaporisé n'est pas équivalente. Comparer globalement cannabis et alcool masque des risques différents.\n\nLa suite n'est pas un procès : elle aide à observer sans transformer l'expérience personnelle en diagnostic.",
+          "action": "Demande-toi ce que tu attends du joint. Pas ce qu'il te fait — ce que tu attends de lui.",
+          "why": "On ne quitte bien que ce qu'on a d'abord regardé en face.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 6,
+          "theme": "molecules",
+          "title": "Ce qu'il te coûte, honnêtement aussi",
+          "body": "Les effets du THC sur le sommeil dépendent de la dose, de la fréquence, du produit et de la personne. Un usage fréquent peut s'accompagner de tolérance, et une réduction peut temporairement perturber le sommeil.\n\nLe cahier peut montrer des associations entre horaires de consommation et nuits. Il ne peut pas prouver que le THC est la cause d'un trouble du sommeil ni remplacer une évaluation médicale.",
+          "action": "Rien. Lis, et va travailler.",
+          "why": "La tolérance transforme un bénéfice en maintenance.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 7,
+          "theme": "molecules",
+          "title": "Une semaine. Regarde ce que tu as écrit.",
+          "body": "Sept entrées. Ouvre-les.\n\nCombien de joints par jour, en moyenne ? Compare ce chiffre à celui que tu aurais donné dimanche dernier, de mémoire. Il y a presque toujours un écart. Il est instructif.\n\nÀ quelle heure fumes-tu le plus ? Regarde la distribution horaire. Tu vas y voir des rituels, pas des envies. Le réveil. La pause. La fin du chantier. Le coucher.\n\nUn rituel se remplace. Une envie s'attend. Ce ne sont pas les mêmes outils.",
+          "action": "Identifie ton rituel le plus rigide. Celui dont l'heure ne bouge jamais.",
+          "why": "Sept jours suffisent à révéler une structure. Vingt et un suffisent à la prouver.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 8,
+          "theme": "sommeil",
+          "title": "Pourquoi toi, sans café ni alcool",
+          "body": "Un sommeil court peut avoir de nombreuses causes : horaires, stress, douleur, environnement, substances ou trouble du sommeil. Le cahier peut révéler des associations, mais pas désigner un responsable.\n\nSi les nuits courtes persistent, si tu ronfles fortement, fais des pauses respiratoires ou ressens une somnolence importante dans la journée, parle-en à un médecin.",
+          "action": "Cette nuit, si tu te réveilles, note l'heure sur ton téléphone. Le matin, note ce qui t'a réveillé, si tu le sais.",
+          "why": "Éliminer les causes banales, c'est déjà la moitié du diagnostic.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 9,
+          "theme": "sommeil",
+          "title": "L'heure de lever, pas l'heure de coucher",
+          "body": "Si tu ne devais retenir qu'une seule chose de tout ce programme, ce serait celle-ci.\n\nL'ancre du rythme circadien, c'est l'heure de lever. Fixe. Sept jours sur sept. Y compris le dimanche, y compris après une mauvaise nuit — surtout après une mauvaise nuit.\n\nDormir plus tard le week-end pour « rattraper » décale ton horloge de deux heures. Le lundi, tu es en décalage horaire sans avoir pris l'avion.\n\nC'est gratuit. C'est immédiat. Et c'est le levier le plus puissant que tu aies.",
+          "action": "Choisis une heure de lever. Une seule. Règle l'alarme pour les sept prochains jours, week-end compris.",
+          "why": "L'heure de lever fixe est le régulateur circadien le mieux établi.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 10,
+          "theme": "sommeil",
+          "title": "Dix minutes dehors",
+          "body": "Dans la demi-heure qui suit ton lever, sors. Dix minutes. Pas derrière une vitre — dehors. Même sous un ciel couvert du Puy-de-Dôme en novembre.\n\nLa lumière du matin déclenche la sécrétion de mélatonine quatorze à seize heures plus tard. Autrement dit : ce que tu fais à sept heures du matin décide de ton endormissement à vingt-trois heures.\n\nC'est le levier le plus sous-estimé du sommeil. Il ne coûte rien. Il ne se vend pas. C'est peut-être pour ça qu'on n'en parle jamais.",
+          "action": "Demain matin, café du chantier dehors. Ou dix minutes à regarder le jardin. Peu importe, mais dehors.",
+          "why": "L'exposition lumineuse matinale avance la phase circadienne.",
+          "evidence": "A",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 11,
+          "theme": "sommeil",
+          "title": "Dix-sept degrés",
+          "body": "L'endormissement est déclenché par une baisse de la température corporelle. Pas par la fatigue, pas par le noir : par le refroidissement.\n\nUne chambre à vingt et un degrés retarde l'endormissement. Dix-sept à dix-neuf, c'est la fenêtre. En hiver, coupe le chauffage de la chambre. En été, ouvre avant de te coucher.",
+          "action": "Vérifie la température de ta chambre ce soir. Teste la position avec le coussin.",
+          "why": "La thermorégulation est le signal physiologique d'endormissement.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 12,
+          "theme": "envies",
+          "title": "Une envie peut redescendre",
+          "body": "C'est le fait le plus utile de tout ce programme.\n\nUne envie n'est pas une ligne droite qui monte jusqu'à ce que tu cèdes. C'est une vague. Elle monte, elle culmine, elle redescend. Trois à cinq minutes, en général.\n\nTu n'as pas à la combattre. Tu n'as pas besoin de volonté. Tu as besoin d'une horloge.\n\nÀ partir d'aujourd'hui, le bouton SOS est actif. Tu n'es pas obligé de t'en servir pour résister. Sers-t'en pour observer : appuie, regarde le timer, et va fumer si tu veux. Tu auras appris la forme de ta vague.",
+          "action": "Au prochain pic d'envie, appuie sur SOS. Même si tu comptes fumer après.",
+          "why": "Le craving est auto-limité. La croyance qu'il monte indéfiniment est ce qui le rend invincible.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 13,
+          "theme": "envies",
+          "title": "À quoi sert le joint ?",
+          "body": "Question sérieuse. Prends-la au sérieux.\n\nDécompresser après la journée ? Calmer une anxiété qui ne dit pas son nom ? Éteindre une douleur ? Marquer la frontière entre le travail et la maison ? Occuper les mains ?\n\nUne habitude qu'on retire sans avoir remplacé sa fonction revient toujours. Toujours. C'est pour ça que la volonté échoue : elle s'attaque au geste et laisse la fonction intacte.\n\nSi le joint marque la fin de la journée, il te faudra un autre rituel de fin de journée. Si le joint éteint la douleur, il te faudra traiter la douleur. Ce n'est pas une métaphore, c'est un plan.",
+          "action": "Écris ta réponse dans la note libre du cahier. Sans te relire. Personne ne la lira.",
+          "why": "Identifier la fonction d'une habitude, c'est la moitié du travail de remplacement.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 14,
+          "theme": "envies",
+          "title": "Deux semaines. Le premier graphique.",
+          "body": "Quatorze entrées. L'onglet Constats vient de s'ouvrir.\n\nTu vas y voir un nuage de points : chaque nuit, sa qualité en hauteur, et en largeur le nombre d'heures entre ton dernier joint et ton coucher.\n\nRegarde-le sans conclure. Quatorze points, ce n'est pas encore une preuve. C'est une intuition.\n\nEt s'il n'y a rien à voir — si le nuage est plat, sans tendance — l'application te le dira. Elle ne fabriquera pas un résultat pour t'encourager. Ce serait le plus mauvais service qu'elle puisse te rendre.",
+          "action": "Ouvre Constats. Regarde. Ne décide rien.",
+          "why": "Quatorze mesures donnent une tendance. Vingt et une donnent une corrélation.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 15,
+          "theme": "corps",
+          "title": "Ton corps manque d'oxygène",
+          "body": "La nicotine resserre les vaisseaux. Le monoxyde de carbone de la combustion prend la place de l'oxygène sur l'hémoglobine. Tes tissus reçoivent donc moins d'oxygène que ceux d'un non-fumeur. En permanence. Chaque heure de chaque jour.\n\nMoins d'oxygène, c'est une réparation plus lente : les blessures, les inflammations et les douleurs durent plus longtemps et récidivent davantage chez les fumeurs. C'est mesuré et documenté.\n\nChaque jour sans combustion, l'oxygène recommence à circuler normalement.",
+          "action": "Si tu n'as pas encore pris rendez-vous, prends-le aujourd'hui. Dis au médecin si la douleur te réveille la nuit.",
+          "why": "La vasoconstriction et le CO ralentissent la cicatrisation tendineuse.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 16,
+          "theme": "corps",
+          "title": "Le piège que personne ne voit",
+          "body": "Une douleur peut changer pendant une réduction, mais le journal ne permet pas de savoir si cela vient du sevrage, d'un problème préexistant ou d'une autre cause.\n\nNote son intensité et son contexte. Si elle est nouvelle, importante ou persistante, demande un avis médical et ne modifie pas seul un traitement antalgique.",
+          "action": "Commence les rotations externes à l'élastique. Trois séries de quinze. Charge très légère.",
+          "why": "L'hyperalgésie de sevrage imite la douleur qu'elle prétend soulager.",
+          "evidence": "C",
+          "readTimeSeconds": 65
+        },
+        {
+          "day": 17,
+          "theme": "corps",
+          "title": "Ce qui se répare pendant que tu dors",
+          "body": "Le sommeil n'est pas un arrêt. C'est un chantier.\n\nC'est là que se fait la réparation tissulaire et la sécrétion d'hormone de croissance. Une semaine à moins de six heures dégrade la testostérone, la sensibilité à l'insuline et le temps de réaction.\n\nEt cette dernière n'est pas une abstraction. Meuleuse. Poste à souder. Tube acier de cinquante millimètres. Le temps de réaction, dans ton métier, c'est un doigt.\n\nLa privation de sommeil abaisse aussi le seuil de perception de la douleur. Tu ne dors pas mal parce que tu as mal. Tu as plus mal parce que tu dors mal. Les deux sont vrais. C'est une boucle.",
+          "action": "Compte tes heures de sommeil réelles sur les sept derniers jours. Fais la moyenne.",
+          "why": "Le sommeil court abaisse le seuil de douleur et ralentit la réparation.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 18,
+          "theme": "preparation",
+          "title": "Bientôt : séparer, pas arrêter",
+          "body": "Dans trois jours, tu liras tes données. Ensuite viendra la phase 1.\n\nElle ne te demandera pas d'arrêter. Elle te demandera de séparer le tabac de l'herbe.\n\nPourquoi séparer d'abord ? Parce que tant que les deux sont mélangés, tu ne sais pas laquelle des deux dépendances tu combats. Et parce que la nicotine, celle qui crée la fréquence, est peut-être plus facile à retirer que tu ne le crois — une fois qu'elle n'est plus prise en otage par l'herbe.\n\nBeaucoup de gens voient leur fréquence baisser d'elle-même en deux semaines. Sans effort. Parce que le rythme de toutes les deux heures, c'était celui de la nicotine.",
+          "action": "Aucune. Lis. Laisse infuser.",
+          "why": "Deux dépendances entremêlées sont plus difficiles à défaire qu'une seule à la fois.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 19,
+          "theme": "preparation",
+          "title": "Trois voies, tu en choisiras une",
+          "body": "Éviter la fumée réduit l'exposition aux produits de combustion, mais vaporiser n'est pas sans risque et Respire ne recommande ni appareil ni réglage. Fumer d'autres plantes reste une combustion et n'est pas présenté comme une solution sûre.\n\nSi du tabac est mélangé au cannabis, un médecin ou un pharmacien peut évaluer la dépendance nicotinique et proposer, si nécessaire, un traitement nicotinique de substitution adapté.",
+          "action": "Ouvre le module Substituts. Lis les trois voies. Ne choisis pas encore.",
+          "why": "Supprimer la combustion supprime le monoxyde de carbone, pas le THC.",
+          "evidence": "B",
+          "readTimeSeconds": 70
+        },
+        {
+          "day": 20,
+          "theme": "preparation",
+          "title": "Ce qui t'attend, dit à l'avance",
+          "body": "Le jour où tu retireras le tabac, tu entreras en sevrage nicotinique. Pas cannabique.\n\nIrritabilité. Concentration difficile. Une envie pressante de rouler quelque chose, n'importe quoi. Pic entre le premier et le troisième jour. Décroissance sur deux à quatre semaines.\n\nEt voici l'erreur que font presque tous ceux qui essaient : ils attribuent ça au manque d'herbe. Ils concluent que « le joint pur, ça ne le fait pas ». Ils remettent du tabac.\n\nCe n'était pas l'herbe qui manquait.\n\nLa parade existe : un patch nicotinique pendant deux à trois semaines, porté la journée, retiré le soir. Prescription du médecin. Remboursé.",
+          "action": "Note cette page. Tu la reliras au jour 3 de la phase suivante, et tu comprendras pourquoi.",
+          "why": "Un sevrage annoncé est un sevrage franchissable.",
+          "evidence": "A",
+          "readTimeSeconds": 65
+        },
+        {
+          "day": 21,
+          "theme": "analyse",
+          "title": "Vingt et un matins. Voici ce que tu as trouvé.",
+          "body": "Tu n'as rien arrêté. Tu n'as rien réduit. Tu as noté.\n\nCe que tu vas lire maintenant n'a été écrit par aucune étude, aucun laboratoire, aucun médecin. Ce sont tes nuits, tes consommations, ton humeur.\n\nSi une corrélation apparaît, elle est à toi. Si rien n'apparaît, c'est une information tout aussi précieuse : elle veut dire que la cause est ailleurs, et qu'il faut la chercher ailleurs.\n\nTu es la seule personne au monde à disposer de ces données. Elles valent plus que tout ce que tu as lu dans cette application.",
+          "action": "Ouvre l'analyse complète.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 50,
+          "triggersAnalysis": true,
+          "unlocksPhase": "decoupling"
+        }
+      ],
+      "exitScreen": {
+        "title": "Phase 0 terminée",
+        "body": "Vingt et un jours d'observation. Tu peux passer à la phase de découplage quand tu veux — demain, la semaine prochaine, ou dans un mois.\n\nLe programme ne t'attend pas avec impatience. Il t'attend, c'est tout.",
+        "primaryLabel": "Passer au découplage",
+        "secondaryLabel": "Rester encore en observation",
+        "note": "Rester en observation ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      }
+    },
+    {
+      "id": "decoupling",
+      "index": 1,
+      "title": "Découpler",
+      "durationDays": 14,
+      "goal": "Séparer la nicotine du THC. Ne rien arrêter.",
+      "subtitle": "Tu ne réduis pas. Tu enlèves le tabac de l'herbe.",
+      "entryScreen": {
+        "title": "L'étape la plus rentable, et la moins douloureuse",
+        "body": "Tu fumes deux choses dans le même geste. Le THC, que tu cherches. Et la nicotine, que le tabac y met.\n\nCette phase ne te demande pas de fumer moins. Elle te demande de séparer les deux, pour que tu voies enfin lequel des deux tu cherches vraiment.\n\nUne surprise attend la plupart des gens : quand la nicotine s'en va, la fréquence baisse d'elle-même. Le besoin de rouler toutes les deux heures, c'était elle, pas le THC.\n\nMais retirer le tabac déclenche un vrai sevrage nicotinique. On va le gérer, pas le subir.",
+        "confirmLabel": "Je choisis ma voie",
+        "secondaryLabel": "Je reste encore en observation",
+        "note": "Rester en observation ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      },
+      "strategyChoice": {
+        "title": "Comment tu sépares",
+        "body": "Trois voies. La première est la meilleure pour ton corps. Choisis selon ta réalité, pas selon l'idéal.",
+        "options": [
+          {
+            "id": "vaporizer",
+            "label": "Vaporisateur à herbe sèche",
+            "detail": "Éviter la combustion réduit l'exposition au monoxyde de carbone et à certains toxiques de fumée, mais vaporiser n'est pas sans risque. Respire ne recommande ni appareil ni réglage.",
+            "bestFor": "La voie recommandée. Effet immédiat sur la toux et le souffle.",
+            "recommended": true
+          },
+          {
+            "id": "pure_joint",
+            "label": "Joint pur, base végétale",
+            "detail": "Respire ne recommande pas de fumer des plantes de remplacement : toute combustion produit des substances irritantes et potentiellement toxiques.",
+            "bestFor": "Zéro budget, envie de garder le geste du roulage."
+          },
+          {
+            "id": "tobacco_plus_nrt",
+            "label": "Je garde le tabac + substituts en journée",
+            "detail": "Un professionnel peut proposer un traitement nicotinique de substitution selon la dépendance, les envies, le sommeil et les éventuels effets indésirables.",
+            "bestFor": "Le tabac te tient trop pour l'enlever d'un coup. On le remplace, on ne l'arrache pas."
+          }
+        ],
+        "note": "Tu peux changer de voie à tout moment, sans rien perdre."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Jour 1. Le premier joint sans tabac.",
+          "body": "Aujourd'hui, une seule chose : une prise sans tabac. Une seule. Le reste de ta journée, tu fumes comme d'habitude.\n\nSi tu as choisi le vaporisateur, attends-toi à une surprise : la vapeur ne « tape » pas dans la poitrine comme la fumée. Beaucoup croient que ça ne marche pas et tirent trois fois plus. Attends dix minutes avant de juger. L'effet est là, plus propre.\n\nSi tu as choisi le joint pur, il tiendra moins bien et brûlera plus vite. C'est normal, tu ajusteras le mélange.",
+          "action": "Une seule prise sans tabac aujourd'hui. Note dans l'app ce que tu as ressenti, en une phrase.",
+          "why": "Séparer les substances rend chacune observable.",
+          "evidence": "B",
+          "readTimeSeconds": 50,
+          "awardsMedal": "decouplage_separe"
+        },
+        {
+          "day": 2,
+          "theme": "sevrage_nicotine",
+          "title": "Jour 2. Le manque de nicotine se montre",
+          "body": "Si tu as remplacé plusieurs prises par du sans-tabac, tu sens peut-être quelque chose : une nervosité, une irritabilité, une envie diffuse de rouler.\n\nCe n'est pas le manque d'herbe. Tu as ton THC. C'est la nicotine.\n\nCette distinction est tout l'intérêt de la phase. Pour la première fois, tu peux sentir la différence entre les deux manques. L'un est lié à la substance que tu cherches. L'autre, à celle que tu ne cherchais même pas.",
+          "action": "Quand l'envie monte, demande-toi : est-ce que je veux planer, ou est-ce que je veux juste la cigarette ? Note ta réponse.",
+          "why": "La nicotine, demi-vie 2 h, génère un manque plus fréquent et plus net que le THC.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 3,
+          "theme": "sevrage_nicotine",
+          "title": "Jour 3. Le pic nicotinique, et la parade",
+          "body": "Irritabilité, difficulté de concentration et envies peuvent survenir lors d'une diminution de nicotine, avec une intensité et une durée variables.\n\nLes traitements nicotiniques font partie des aides recommandées. Un médecin ou un pharmacien choisit le produit, le dosage et la durée selon ta situation ; Respire ne fixe pas ce traitement.",
+          "action": "Passe en pharmacie ou prends 5 min pour lire le module Substituts. Le patch change ces trois jours du tout au tout.",
+          "why": "Les substituts nicotiniques doublent les chances de réussite d'un sevrage tabagique.",
+          "evidence": "A",
+          "readTimeSeconds": 60,
+          "highlight": true
+        },
+        {
+          "day": 5,
+          "theme": "observation",
+          "title": "Jour 5. Compte tes prises.",
+          "body": "Ouvre le journal des consommations et regarde le nombre de prises par jour depuis le début de la phase.\n\nChez beaucoup de gens, il a déjà baissé. Pas par effort, pas par volonté : parce que le moteur de la fréquence, c'était la nicotine, et qu'elle n'est plus dans le geste.\n\nSi c'est ton cas, tu viens d'apprendre quelque chose d'énorme sur ta consommation. Tu fumais souvent parce que tu fumais du tabac.",
+          "action": "Compare tes prises quotidiennes de cette semaine à ta baseline de la phase 0.",
+          "why": "La fréquence de consommation est largement pilotée par la dépendance nicotinique.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 7,
+          "theme": "corps",
+          "title": "Jour 7. Ton souffle, déjà.",
+          "body": "Si tu es passé au vaporisateur ou au sans-tabac, une semaine sans combustion a déjà un effet mesurable.\n\nLe monoxyde de carbone quitte le sang en douze heures. Sur une semaine, la toux du matin s'allège, et l'oxygène recommence à circuler normalement.\n\nTu ne le sens pas encore fort. Mais le mécanisme, lui, tourne déjà.",
+          "action": "Note ta toux du matin sur 10. Tu compareras dans une semaine.",
+          "why": "L'arrêt de la combustion élimine le CO et améliore l'oxygénation tissulaire.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 10,
+          "theme": "rituel",
+          "title": "Jour 10. Le geste, maintenant que la nicotine part.",
+          "body": "La partie chimique du sevrage nicotinique s'estompe. Reste le geste : rouler, allumer, la main occupée.\n\nSi tu es au vaporisateur, tu l'as déjà remplacé. Si tu es au patch, le geste te manque peut-être encore — c'est pour ça que l'inhalateur nicotinique existe : il garde le mouvement quand c'est lui qui compte.\n\nObserve ce qui te manque exactement. La substance, ou le mouvement ? La réponse oriente la suite.",
+          "action": "Identifie si c'est la nicotine ou le geste qui te manque. Ce sont deux problèmes, deux solutions.",
+          "why": "La composante gestuelle de la dépendance est distincte de la composante pharmacologique.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 14,
+          "theme": "bilan",
+          "title": "Jour 14. Deux dépendances, désormais séparées.",
+          "body": "Tu as fait le plus intelligent et le moins reconnu du parcours : tu as démêlé deux dépendances qui n'en formaient qu'une.\n\nMaintenant tu sais. Tu sais si c'était surtout le tabac. Tu sais ce que le THC seul te fait. Tu sais ce que respirer sans combustion change à ton souffle.\n\nLa suite se sépare en deux : réduire la nicotine restante, puis réduire le THC. Tu choisis l'ordre. Chez la plupart, la nicotine d'abord — c'est elle qui pèse le plus sur le sommeil de seconde partie de nuit.",
+          "action": "Passe à la réduction de la nicotine. Ou reste ici pour stabiliser. Rien ne presse.",
+          "why": "Traiter une dépendance isolée est plus simple que deux entremêlées.",
+          "evidence": "B",
+          "readTimeSeconds": 55,
+          "unlocksPhase": "nicotineTaper"
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as repris du tabac aujourd'hui",
+        "body": "Ce n'est pas une faute. C'est une information sur la force de la dépendance nicotinique — et elle est plus forte qu'on ne le dit.\n\nTes jours cumulés ne bougent pas. Ton XP ne bouge pas.\n\nSi le tabac revient sans arrêt malgré ta volonté, ce n'est pas un manque de caractère : la dépendance est peut-être plus forte que l'aide que tu as aujourd'hui. Parles-en à un pharmacien ou un médecin, ou à Tabac info service (39 89).",
+        "xpAwarded": 15,
+        "medalHint": "Note ta prochaine prise sans tabac et tu repars.",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Je retourne en observation"
+      },
+      "exitScreen": {
+        "title": "Phase 1 terminée",
+        "body": "Les deux substances sont séparées. Tu vois clair.\n\nProchaine étape : réduire la nicotine qui reste. Tu peux y aller ou stabiliser encore ici.",
+        "primaryLabel": "Réduire la nicotine",
+        "secondaryLabel": "Rester ici"
+      }
+    },
+    {
+      "id": "nicotineTaper",
+      "index": 2,
+      "title": "Réduire la nicotine",
+      "durationDays": 28,
+      "goal": "Descendre la nicotine par paliers, avec les substituts.",
+      "subtitle": "Une descente encadrée, pas un arrêt à la volonté.",
+      "entryScreen": {
+        "title": "On descend par marches, pas en sautant",
+        "body": "Le sevrage nicotinique brutal échoue dans la grande majorité des cas. Pas par faiblesse : parce que la nicotine crée une dépendance physique réelle, et que la volonté seule ne suffit pas contre une pharmacologie.\n\nCe qui aide le plus : un traitement nicotinique adapté, puis une diminution progressive, au rythme décidé avec le pharmacien ou le médecin. À chaque étape, le corps s'adapte avant la suivante.\n\nCe n'est pas de la triche. C'est la méthode recommandée, remboursée, et validée par les données.",
+        "confirmLabel": "Je commence la descente",
+        "secondaryLabel": "Je stabilise encore le découplage",
+        "note": "Le dosage de départ se décide avec un médecin ou un pharmacien. L'app t'informe, elle ne te prescrit rien."
+      },
+      "fagerstromPrompt": {
+        "title": "D'abord, où tu en es",
+        "body": "Le test de Fagerström mesure ta dépendance nicotinique en six questions. Son résultat ne sert pas à te doser toi-même : il sert à préparer ta conversation avec le pharmacien, pour qu'il choisisse le bon dosage de départ.",
+        "cta": "Faire le test (2 min)"
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Jour 1. Le bon dosage de départ",
+          "body": "Un traitement nicotinique doit être adapté à la dépendance, aux envies, aux effets indésirables et aux autres éléments de santé. Le score de Fagerström aide à préparer l'échange, mais ne donne pas un dosage.\n\nDemande au médecin ou au pharmacien comment utiliser le produit et quand le réévaluer.",
+          "action": "Présente ton score et tes relevés à un médecin ou un pharmacien.",
+          "why": "Le choix et l'ajustement du traitement relèvent d'un professionnel.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 3,
+          "theme": "substituts",
+          "title": "Jour 3. Le patch, et la nuit",
+          "body": "Les patchs existent avec différentes durées d'action. Le sommeil, les envies au réveil et les effets indésirables peuvent guider le choix, mais aucun format ne convient à tout le monde.\n\nN'enlève pas ou ne change pas seul ton patch : si tu dors mal ou as des rêves pénibles, demande conseil au pharmacien ou au médecin.",
+          "action": "Note tes symptômes et parle-en au professionnel qui suit ton traitement.",
+          "why": "Le format et l'horaire d'un patch doivent être adaptés individuellement.",
+          "evidence": "B",
+          "readTimeSeconds": 55,
+          "highlight": true
+        },
+        {
+          "day": 7,
+          "theme": "palier",
+          "title": "Jour 7. Premier point sur le traitement",
+          "body": "Après une période de traitement, fais le point sur les envies, les consommations, le sommeil et les effets indésirables. Ces informations aident le professionnel à décider s'il faut maintenir ou modifier le traitement.\n\nRespire ne recommande pas de diminuer une dose ou de retirer une forme nicotinique de ta propre initiative.",
+          "action": "Note tes envies, ton sommeil et les effets ressentis, puis fais le point avec ton pharmacien ou ton médecin.",
+          "why": "Une réduction trop rapide réactive le manque et précède la rechute.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 10,
+          "theme": "envies",
+          "title": "Jour 10. La gomme, bien utilisée",
+          "body": "Si tu utilises des gommes pour les pics, la technique compte. Mal utilisée, une gomme ne délivre presque rien et donne des brûlures d'estomac.\n\nLa bonne méthode : mâcher lentement jusqu'au picotement, puis coincer la gomme contre la joue. Quand le picotement s'arrête, mâcher deux ou trois fois, puis reparquer. Une gomme dure environ trente minutes.\n\nÀ ne pas faire : mâcher comme un chewing-gum, ni boire quoi que ce soit d'acide juste avant.",
+          "action": "Teste la technique mâcher-parquer sur ta prochaine gomme.",
+          "why": "La nicotine des gommes s'absorbe par la muqueuse buccale, pas par déglutition.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 14,
+          "theme": "bilan",
+          "title": "Jour 14. Deux semaines. Le sommeil répond ?",
+          "body": "Compare tes nuits récentes à la phase d'observation. Une différence peut être utile à discuter avec le professionnel, sans prouver que la nicotine ou le patch en est la cause.\n\nSi les réveils persistent, recherche avec un médecin d'autres causes possibles.",
+          "action": "Ouvre Constats. Regarde si les réveils nocturnes ont baissé.",
+          "why": "L'élimination du sevrage nicturne réduit la fragmentation du sommeil.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 21,
+          "theme": "palier",
+          "title": "Jour 21. Les marches basses",
+          "body": "Les dernières étapes sont souvent les plus délicates, moins par le manque physique que par l'attachement au filet de sécurité. Renoncer à la dernière gomme fait peur.\n\nC'est normal. Quand et comment arrêter le substitut se décide avec ton pharmacien ou ton médecin : rien ne presse.\n\nIl n'y a pas de médaille pour aller vite. Il y en a une pour arriver.",
+          "action": "Si tu te sens prêt à arrêter le substitut, parles-en d'abord à ton pharmacien ou ton médecin.",
+          "why": "En fin de sevrage, l'attachement au substitut tient souvent plus de l'habitude que du besoin physique.",
+          "evidence": "C",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 28,
+          "theme": "bilan",
+          "title": "Jour 28. La nicotine, derrière ou presque.",
+          "body": "Quatre semaines de descente. Que tu sois à zéro nicotine ou sur la dernière marche, tu as fait le plus dur du sevrage nicotinique.\n\nCe qui change concrètement : plus de manque nocturne, plus de pic toutes les deux heures, un sommeil de seconde partie de nuit qui se répare.\n\nReste le THC. C'est la phase suivante, et c'est la plus exigeante pour le sommeil — mais tu l'abordes avec un corps déjà nettoyé de la nicotine. C'est un énorme avantage.",
+          "action": "Passe à la réduction du THC quand tu te sens prêt. Relis son écran d'entrée avant : il prévient de tout.",
+          "why": "Aborder le sevrage THC sans dépendance nicotinique simplifie une variable majeure.",
+          "evidence": "B",
+          "readTimeSeconds": 55,
+          "unlocksPhase": "thcTaper"
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as consommé plus de nicotine que prévu",
+        "body": "Ce n'est pas un échec de la descente. C'est une information utile.\n\nSi les envies reviennent fort, le traitement n'est peut-être plus adapté, ou la diminution a été trop rapide. Parles-en à ton pharmacien ou ton médecin : c'est avec lui que le traitement s'ajuste.\n\nTes jours cumulés et ton XP ne bougent pas. Une descente en dents de scie reste une descente.",
+        "xpAwarded": 15,
+        "medalHint": "Fais le point avec un professionnel et continue.",
+        "primaryLabel": "J'ajuste et je continue",
+        "secondaryLabel": "Je remonte d'une phase"
+      },
+      "exitScreen": {
+        "title": "Phase 2 terminée",
+        "body": "La nicotine est derrière, ou presque. Le sommeil de seconde partie de nuit se répare déjà.\n\nProchaine étape : le THC. La plus exigeante, mais tu l'abordes nettoyé de la nicotine. Lis bien son écran d'entrée.",
+        "primaryLabel": "Aborder le sevrage THC",
+        "secondaryLabel": "Stabiliser encore ici"
+      }
+    },
+    {
+      "id": "thcTaper",
+      "index": 3,
+      "title": "Réduire le THC",
+      "durationDays": 28,
+      "goal": "Traverser la fenêtre. Laisser le sommeil revenir.",
+      "subtitle": "Dix jours difficiles. Puis dix-huit qui ne le sont pas.",
+      "entryScreen": {
+        "title": "Lis ceci avant de commencer. C'est le plus important.",
+        "body": "Après l'arrêt d'un usage fréquent, certaines personnes présentent irritabilité, sommeil perturbé, rêves intenses, baisse d'appétit ou sueurs. Les symptômes commencent souvent après un ou deux jours, peuvent être plus marqués durant la première semaine et durer plusieurs semaines.\n\nCette chronologie est une moyenne : Respire ne peut ni prédire ton évolution ni garantir un sommeil meilleur qu'avant. Demande un avis si les symptômes sont intenses, persistent, ou s'accompagnent d'idées noires, d'une douleur importante ou de vomissements répétés.",
+        "confirmLabel": "J'ai compris ce qui m'attend",
+        "secondaryLabel": "Pas encore. Je reste en phase 2.",
+        "note": "Rester en phase 2 ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      },
+      "strategyChoice": {
+        "title": "Comment tu descends",
+        "body": "Il n'y a pas de bonne réponse. Il y a la tienne.",
+        "options": [
+          {
+            "id": "taper",
+            "label": "Par paliers",
+            "detail": "Réduction d'environ 25 % par semaine sur quatre semaines. Symptômes étalés, plus supportables, mais la fenêtre difficile dure plus longtemps et se répète à chaque palier.",
+            "bestFor": "Consommation élevée, contraintes de travail lourdes, aucune marge pour une mauvaise semaine."
+          },
+          {
+            "id": "cold",
+            "label": "Arrêt net",
+            "detail": "Fenêtre concentrée sur dix jours. Plus dur, plus court, et le rebond de sommeil arrive plus vite.",
+            "bestFor": "Une période où tu peux encaisser dix jours moyens. Idéalement pas en pleine urgence de chantier."
+          },
+          {
+            "id": "vaporize_then_taper",
+            "label": "Vaporisateur d'abord, puis paliers",
+            "detail": "Tu es déjà passé au vaporisateur en phase 1. Tu réduis maintenant le nombre de sessions, pas la substance. Le corps a déjà arrêté d'encaisser la combustion.",
+            "bestFor": "La voie par défaut si tu as suivi les phases précédentes."
+          }
+        ],
+        "note": "Aucun choix n'est définitif. Tu peux changer de stratégie sans perdre quoi que ce soit."
+      },
+      "hardWindow": {
+        "startDay": 1,
+        "endDay": 10,
+        "bannerTemplate": "Jour {n} sur 10 de la fenêtre difficile",
+        "curveLabel": "Intensité attendue des symptômes",
+        "curve": [
+          40,
+          70,
+          90,
+          95,
+          85,
+          70,
+          55,
+          40,
+          30,
+          20
+        ],
+        "footnote": "Cette courbe est une moyenne. La tienne sera différente. Mais elle descendra."
+      },
+      "days": [
+        {
+          "day": 1,
+          "windowDay": 1,
+          "theme": "fenetre",
+          "title": "Jour 1. Il ne se passera probablement rien.",
+          "body": "Le THC a une demi-vie longue. Il est encore là. Tu ne sentiras sans doute pas grand-chose aujourd'hui, et c'est normal.\n\nProfite de cette journée pour préparer les suivantes. Range ton matériel hors de vue — pas dans une poubelle, simplement hors de vue. Préviens une personne de confiance. Bois de l'eau.\n\nDemain, ça commence.",
+          "expectedSymptoms": [
+            "Peu ou pas de symptômes",
+            "Éventuellement de l'anticipation, de la nervosité"
+          ],
+          "action": "Préviens une personne. Une seule suffit. Dis-lui : « les dix prochains jours, je vais être désagréable. »",
+          "reassurance": "Tu n'es pas en train de te priver de quelque chose. Tu es en train de récupérer quelque chose.",
+          "why": "La demi-vie longue du THC décale le début du sevrage de 24 à 48 h.",
+          "evidence": "A",
+          "readTimeSeconds": 40
+        },
+        {
+          "day": 2,
+          "windowDay": 2,
+          "theme": "fenetre",
+          "title": "Jour 2. Ça commence, et c'est le programme.",
+          "body": "Irritabilité. Nervosité. Une envie diffuse de faire quelque chose de tes mains sans savoir quoi.\n\nCe soir, l'endormissement sera plus long que d'habitude. Peut-être une heure. Peut-être plus.\n\nSi tu te retournes depuis vingt minutes : lève-toi. Va dans une autre pièce, lumière faible, quelque chose de calme. Reviens quand le sommeil arrive. Rester au lit sans dormir apprend à ton cerveau que le lit est un endroit où l'on ne dort pas.\n\nCe n'est pas une insomnie. C'est un sevrage. Ça a une fin, et elle est datée.",
+          "expectedSymptoms": [
+            "Irritabilité",
+            "Endormissement long",
+            "Nervosité, agitation"
+          ],
+          "action": "Ce soir : chambre à 17-19 °C. Si tu ne dors pas à 20 min, tu te lèves.",
+          "reassurance": "Jour 2 sur 10. La courbe monte encore. Elle redescendra.",
+          "why": "Le contrôle par le stimulus est le pilier de la TCC de l'insomnie, supérieure aux somnifères sur le long terme.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 3,
+          "windowDay": 3,
+          "theme": "fenetre",
+          "title": "Jour 3. Les rêves arrivent.",
+          "body": "Si tu as rêvé cette nuit — intensément, bizarrement, peut-être désagréablement — voici ce qui s'est passé.\n\nPendant des années, le THC a supprimé ton sommeil paradoxal. Ton cerveau vient de récupérer l'accès à cette phase, et il rattrape. C'est le rebond de REM.\n\nCes rêves sont le signe le plus fiable que le mécanisme fonctionne. Ils sont désagréables et ils sont une bonne nouvelle. Les deux à la fois.\n\nIls s'atténuent en une à deux semaines. Ce que tu récupères, c'est la phase de consolidation de la mémoire et de récupération nerveuse.",
+          "expectedSymptoms": [
+            "Rêves très intenses",
+            "Réveils nocturnes",
+            "Sueurs nocturnes",
+            "Perte d'appétit"
+          ],
+          "action": "Note dans le cahier : « rêves intenses, O/N ». C'est un marqueur de progression, pas un symptôme.",
+          "reassurance": "Jour 3 sur 10. Tu es sur la partie la plus raide de la courbe.",
+          "why": "Le rebond de sommeil paradoxal est la contrepartie directe de sa suppression chronique.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 4,
+          "windowDay": 4,
+          "theme": "fenetre",
+          "title": "Jour 4. Le pic. Relis le jour 20 de la phase 0.",
+          "body": "Aujourd'hui ou demain, c'est le maximum. Après, ça descend.\n\nTu vas te dire que le cannabis t'aidait à dormir. Tu vas te dire que tu tenais mieux le coup avant. Tu vas peut-être te dire que ce programme est une erreur.\n\nAu jour 20 de la phase d'observation, tu as lu une page qui annonçait exactement cette pensée. Elle avait vingt-trois jours d'avance sur toi.\n\nCe que tu ressens n'est pas une information sur le cannabis. C'est une information sur le sevrage. Ce n'est pas la même chose, et la différence est tout.",
+          "expectedSymptoms": [
+            "Pic d'irritabilité",
+            "Insomnie",
+            "Anxiété",
+            "Envie forte",
+            "Perte d'appétit"
+          ],
+          "action": "Rien d'héroïque. Passe la journée. Utilise le SOS autant de fois qu'il le faut.",
+          "reassurance": "Jour 4 sur 10. C'est aujourd'hui le plus dur. Demain, c'est déjà derrière.",
+          "why": "Le pic du sevrage cannabique se situe entre J2 et J6.",
+          "evidence": "A",
+          "readTimeSeconds": 60,
+          "highlight": true
+        },
+        {
+          "day": 5,
+          "windowDay": 5,
+          "theme": "fenetre",
+          "title": "Jour 5. Ton corps a un rythme, pas une opinion.",
+          "body": "Tu n'es pas en train de tester ta volonté. Ta volonté n'a rien à voir là-dedans.\n\nDes récepteurs CB1 saturés depuis des années sont en train de retrouver leur sensibilité. Ce processus a une durée. Il ne s'accélère pas si tu serres les dents, et il ne s'arrête pas si tu passes une mauvaise journée.\n\nTu n'as qu'une chose à faire : ne pas interrompre l'horloge.\n\nBois. Mange, même sans faim. Sors dix minutes le matin. C'est tout ce que le programme te demande aujourd'hui.",
+          "expectedSymptoms": [
+            "Irritabilité",
+            "Fatigue",
+            "Sommeil fragmenté",
+            "Appétit encore bas"
+          ],
+          "action": "Trois repas, même petits. La perte d'appétit du sevrage fait perdre du muscle, et tu es déjà sec.",
+          "reassurance": "Jour 5 sur 10. La courbe vient de basculer. Tu descends.",
+          "why": "La resensibilisation des récepteurs CB1 suit sa propre cinétique, indépendante de l'effort volontaire.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 6,
+          "windowDay": 6,
+          "theme": "fenetre",
+          "title": "Jour 6. La douleur, peut-être, va parler plus fort.",
+          "body": "Si une douleur apparaît ou s'aggrave pendant une réduction, ne conclus pas automatiquement qu'il s'agit du sevrage. Une douleur a de nombreuses causes possibles et mérite une évaluation si elle est intense, inhabituelle ou persistante.\n\nÉvite de modifier un traitement antalgique sans avis médical.",
+          "expectedSymptoms": [
+            "Douleur perçue accrue",
+            "Sensibilité générale",
+            "Symptômes en décroissance"
+          ],
+          "action": "Bouge aujourd'hui, même doucement : marche, étirements, mobilité. Sans forcer.",
+          "reassurance": "Jour 6 sur 10. Cette hyperalgésie se dissipe en une à deux semaines.",
+          "why": "L'arrêt du cannabis chez l'usager quotidien peut provoquer une hyperalgésie transitoire.",
+          "evidence": "C",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 7,
+          "windowDay": 7,
+          "theme": "fenetre",
+          "title": "Jour 7. Une semaine. La pente s'adoucit.",
+          "body": "Sept jours. Tu es passé par le pic, et tu es encore là.\n\nCe qui reste : un sommeil encore fragmenté, une irritabilité résiduelle, des rêves toujours intenses. Ce qui commence à partir : les sueurs, l'anxiété de fond, la perte d'appétit.\n\nOuvre le cahier de bord et regarde la colonne « qualité ». Compare le jour 3 au jour 6. Si tu ne vois rien encore, c'est normal — sept points, c'est trop peu.\n\nDans dix jours, tu verras.",
+          "expectedSymptoms": [
+            "Sommeil fragmenté",
+            "Irritabilité en baisse",
+            "Rêves encore présents"
+          ],
+          "action": "Relis tes sept dernières entrées. Sans conclure.",
+          "reassurance": "Jour 7 sur 10. Trois jours.",
+          "why": "Les symptômes de sevrage décroissent après le pic, sans revenir à leur intensité maximale.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 8,
+          "windowDay": 8,
+          "theme": "fenetre",
+          "title": "Jour 8. Le rituel, pas la molécule.",
+          "body": "À ce stade, l'essentiel du sevrage physiologique est derrière toi. Ce qui persiste est d'un autre ordre : le geste, l'heure, le lieu.\n\nLa fin du chantier. Le moment où tu poses les outils. La transition entre le travail et la maison.\n\nAu jour 13 de la phase d'observation, tu as écrit dans le cahier à quoi servait le joint. Va relire ta réponse. Elle a été écrite par quelqu'un qui fumait encore, et qui était donc mieux placé que toi aujourd'hui pour le savoir.\n\nCe rituel demande un remplaçant. Pas un substitut chimique : un autre geste, à la même heure.",
+          "expectedSymptoms": [
+            "Envies liées aux horaires et aux lieux",
+            "Symptômes physiques faibles"
+          ],
+          "action": "Relis ta note du jour 13. Choisis un geste de remplacement pour ton rituel le plus rigide.",
+          "reassurance": "Jour 8 sur 10. Le corps est presque sorti. La tête met un peu plus longtemps.",
+          "why": "Une habitude qu'on retire sans remplacer sa fonction revient toujours.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 9,
+          "windowDay": 9,
+          "theme": "fenetre",
+          "title": "Jour 9. Le jour où l'on se croit guéri.",
+          "body": "Attention à celui-ci. Il est trompeur.\n\nTu vas te sentir mieux. Beaucoup mieux. Assez bien pour te dire qu'un seul joint, maintenant, ne changerait rien — puisque tu as prouvé que tu pouvais tenir.\n\nC'est le raisonnement le plus courant du neuvième jour. Il est logique et il est faux : la tolérance ne redescend pas en neuf jours, mais le conditionnement, lui, se réactive en une seule prise.\n\nSi tu fumes aujourd'hui, tu ne perds ni ton XP, ni tes médailles, ni tes jours cumulés. Tu perds seulement la fin de cette fenêtre — et il faudra la refaire.",
+          "expectedSymptoms": [
+            "Sensation de mieux-être",
+            "Confiance excessive",
+            "Envie de tester"
+          ],
+          "action": "Aujourd'hui, si l'envie vient : SOS, cinq minutes, puis relis cette page.",
+          "reassurance": "Jour 9 sur 10. Un jour.",
+          "why": "L'effet de violation de l'abstinence est déclenché par la confiance excessive plus souvent que par la détresse.",
+          "evidence": "B",
+          "readTimeSeconds": 60,
+          "highlight": true
+        },
+        {
+          "day": 10,
+          "windowDay": 10,
+          "theme": "fenetre",
+          "title": "Jour 10. La fenêtre se referme.",
+          "body": "Tu as franchi une étape importante. Certains symptômes peuvent déjà diminuer tandis que d'autres, notamment le sommeil ou l'humeur, peuvent persister plusieurs semaines.\n\nContinue à noter sans attendre une courbe parfaite. Respire ne peut pas garantir un délai ni un niveau de récupération individuel ; demande conseil si les difficultés persistent ou s'aggravent.",
+          "expectedSymptoms": [
+            "Symptômes résiduels faibles",
+            "Sommeil encore irrégulier"
+          ],
+          "action": "Regarde ta médaille. Elle ne sera jamais reprise.",
+          "reassurance": "Fenêtre franchie.",
+          "why": "Les symptômes du sevrage cannabique se résolvent en deux à quatre semaines.",
+          "evidence": "A",
+          "readTimeSeconds": 45,
+          "awardsMedal": "decouplage_le_monoxyde_sen_va",
+          "closesHardWindow": true
+        },
+        {
+          "day": 12,
+          "theme": "reconstruction",
+          "title": "Le sommeil ne remonte pas en ligne droite",
+          "body": "Tu vas avoir une bonne nuit, puis deux mauvaises. Puis trois bonnes. Puis une catastrophique, sans raison.\n\nC'est la forme normale d'une récupération. Une courbe qui monte en dents de scie n'est pas une courbe qui échoue.\n\nLe piège du jour 12, c'est de juger une tendance sur une nuit. Tu as un cahier de bord précisément pour ça : il regarde des moyennes là où ta mémoire ne retient que la dernière nuit.",
+          "action": "Ne juge rien sur moins de sept nuits.",
+          "why": "La variabilité intra-individuelle du sommeil est élevée pendant la récupération.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 14,
+          "theme": "reconstruction",
+          "title": "Deux semaines. Les rêves s'apaisent.",
+          "body": "Le rebond de REM se normalise. Les rêves restent présents, mais ils cessent d'être envahissants.\n\nCe que tu récupères là n'est pas anecdotique : le sommeil paradoxal est la phase de consolidation de la mémoire et de régulation émotionnelle. Il travaille pendant que tu dors, et il ne travaillait plus depuis des années.\n\nTu vas peut-être remarquer, dans les semaines qui viennent, que tu retiens mieux. Ce n'est pas une impression.",
+          "action": "Ouvre Constats. Compare tes 14 dernières nuits aux 21 de la phase d'observation.",
+          "why": "Le REM assure la consolidation mnésique et la régulation émotionnelle.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 17,
+          "theme": "reconstruction",
+          "title": "La douleur, réévaluée",
+          "body": "L'hyperalgésie du sevrage est passée. Tu perçois maintenant ta douleur réelle, sans le voile du THC et sans le rebond du manque.\n\nC'est le bon moment pour faire le point honnêtement. Est-ce qu'elle te réveille toujours la nuit ? Est-ce qu'elle s'est améliorée depuis que tu bouges davantage ?\n\nSi une douleur persiste au-delà de trois semaines : consulte, c'est le moment. Ce n'est pas un échec du programme. C'est ce que le programme t'a permis de voir.",
+          "action": "Compare tes nuits : moyenne de la phase 0 contre moyenne des 7 derniers jours, dans l'onglet Avant / Maintenant.",
+          "why": "Une douleur prise tôt se traite mieux qu'une douleur installée.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 21,
+          "theme": "reconstruction",
+          "title": "Trois semaines. La cognition revient.",
+          "body": "Attention, mémoire de travail, fonctions exécutives : les déficits liés à l'usage chronique chez l'adulte sont légers, et ils sont réversibles.\n\nIls récupèrent après quelques semaines d'abstinence. En usage pluriquotidien, on n'entrait jamais dans cette fenêtre. Tu y es depuis vingt et un jours.\n\nDans ton métier, ce n'est pas une statistique. C'est un temps de réaction devant une meuleuse.",
+          "action": "Rien. Constate.",
+          "why": "Les déficits cognitifs de l'usage adulte sont réversibles ; ceux de l'usage adolescent, pas toujours.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 24,
+          "theme": "reconstruction",
+          "title": "L'envie reviendra. Ce n'est pas un signal.",
+          "body": "Une envie peut réapparaître longtemps après une réduction ou un arrêt, parfois en lien avec une odeur, une heure, un lieu ou une émotion. Sa durée varie.\n\nLe bouton SOS reste disponible pour t'aider à traverser le moment ; demande du soutien si les envies deviennent fréquentes ou difficiles à gérer.",
+          "action": "Vérifie que le SOS est accessible depuis ton écran d'accueil Android. Widget, raccourci, peu importe.",
+          "why": "Le craving conditionné persiste longtemps après la résolution du sevrage physiologique.",
+          "evidence": "A",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 28,
+          "theme": "bilan",
+          "title": "Vingt-huit jours. Regarde d'où tu viens.",
+          "body": "Ouvre l'onglet Avant / Maintenant.\n\nÀ gauche : les vingt et un jours de la phase d'observation. Six virgule deux joints par jour, cinq heures quarante de sommeil, une qualité de quatre sur dix.\n\nÀ droite : tes quatorze derniers jours.\n\nSi une ligne n'a pas bougé, elle est affichée en gris. L'application ne te ment pas pour te faire plaisir — c'était la règle depuis le premier jour.\n\nCe tableau, personne ne te l'a donné. Tu l'as écrit, deux minutes chaque matin, pendant quarante-neuf matins.",
+          "action": "Passe en phase de consolidation. Ou reste ici. Le programme ne t'attend pas avec impatience.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 55,
+          "unlocksPhase": "consolidation"
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as enregistré une consommation",
+        "body": "C'est une donnée, pas une faute.\n\nTon total de jours cumulés ne bouge pas. Ton XP ne bouge pas. Tes médailles restent.\n\nDeux questions, et une seule compte vraiment :\n\nOù en étais-tu dans la fenêtre ? Si c'était entre le jour 2 et le jour 6, tu as croisé le pic — c'est là que presque tout le monde le fait.\n\nEt maintenant : est-ce que tu ouvres le cahier demain matin ?\n\nC'est la seule question. Pas celle d'aujourd'hui.",
+        "xpAwarded": 15,
+        "medalHint": "Remplis le cahier demain matin et la médaille « Le retour » se débloque.",
+        "primaryLabel": "Je continue la phase",
+        "secondaryLabel": "Je redescends en phase 2",
+        "note": "Redescendre d'une phase ne fait rien perdre. C'est une décision, pas une chute."
+      },
+      "sosOverrides": {
+        "hardWindowMessage": "Tu es au jour {n} sur 10. La durée et l'intensité d'une envie varient. Utilise le guide SOS et demande de l'aide si les symptômes deviennent difficiles à gérer."
+      },
+      "exitScreen": {
+        "title": "Phase 3 terminée",
+        "body": "Le sevrage physiologique est derrière. Ce qui reste est un travail de terrain : les rituels, les envies conditionnées, le sommeil qui se stabilise.\n\nLa phase de consolidation est plus légère. Cahier hebdomadaire, paliers santé long terme, relecture des insights.\n\nTu peux y aller quand tu veux.",
+        "primaryLabel": "Passer à la consolidation",
+        "secondaryLabel": "Rester encore ici"
+      }
+    },
+    {
+      "id": "consolidation",
+      "index": 4,
+      "title": "Consolider",
+      "durationDays": null,
+      "goal": "Maintenir. Vivre avec l'outil, plus léger.",
+      "subtitle": "Le gros du travail est fait. On passe en entretien.",
+      "entryScreen": {
+        "title": "Le mode allégé",
+        "body": "Le programme passe en entretien.\n\nÀ partir de maintenant : un point hebdomadaire au lieu du cahier quotidien, les paliers santé de long terme, et l'onglet Avant/Maintenant pour voir le chemin parcouru.\n\nLe bouton SOS reste disponible. Une envie peut revenir longtemps après et sa durée varie ; demande du soutien si elle devient difficile à gérer.",
+        "confirmLabel": "Passer en entretien",
+        "note": "Tu peux revenir à un suivi quotidien à tout moment, sans rien perdre."
+      },
+      "cadence": "weekly",
+      "weeklyCheckIn": {
+        "title": "Le point de la semaine",
+        "questions": [
+          "Sommeil moyen cette semaine (heures)",
+          "Qualité moyenne /10",
+          "Nombre de consommations cette semaine",
+          "Une chose qui a été difficile",
+          "Une chose qui a été plus facile qu'avant"
+        ],
+        "xpReward": 60
+      },
+      "longTermMilestones": [
+        {
+          "key": "clean_1_month",
+          "label": "1 mois sans combustion",
+          "body": "La fonction respiratoire commence à se restaurer. La toux du matin recule."
+        },
+        {
+          "key": "clean_3_months",
+          "label": "3 mois",
+          "body": "Circulation et capacité pulmonaire nettement améliorées. Le sommeil est stabilisé au-dessus de sa ligne d'avant."
+        },
+        {
+          "key": "clean_6_months",
+          "label": "6 mois",
+          "body": "Fais le point sur ton attention, ta mémoire et ton bien-être sans supposer une récupération complète. Parle à ton médecin de tout symptôme persistant ; aucun dosage biologique n'est recommandé automatiquement par Respire."
+        },
+        {
+          "key": "clean_1_year",
+          "label": "1 an",
+          "body": "Le sur-risque cardiovasculaire lié au tabac est réduit de moitié. Relis ton document « Rétablissement physique ». Le schéma de départ est-il encore le tien ?"
+        }
+      ],
+      "recurringContent": [
+        {
+          "id": "craving_returns",
+          "title": "Une envie a surgi ?",
+          "body": "Des mois après, une envie peut revenir, forte, sans raison, souvent dans un bon moment. Ce n'est pas une rechute qui commence. C'est un conditionnement qui se rappelle à toi. SOS, cinq minutes, elle passe.",
+          "trigger": "on_craving_after_30_clean_days"
+        },
+        {
+          "id": "sleep_regression",
+          "title": "Une mauvaise semaine de sommeil ?",
+          "body": "Le sommeil fait des vagues, même longtemps après. Une mauvaise semaine n'annule pas trois bons mois. Regarde la moyenne, pas la dernière nuit.",
+          "trigger": "on_sleep_quality_drop"
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as consommé",
+        "body": "Après des semaines ou des mois, ça arrive. Ça n'efface rien.\n\nTes jours cumulés, ton XP, tes médailles : tout reste. Le compteur de série en cours repart, le compteur cumulé, lui, continue d'avancer.\n\nUne seule question compte : demain matin, tu fais ton point ?",
+        "xpAwarded": 15,
+        "medalHint": "Le point de demain débloque « Le retour ».",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Revenir à un suivi quotidien"
+      }
+    }
+  ],
+  "substitutesModule": {
+    "title": "Substituts",
+    "intro": "Ce module t'informe. Il ne te prescrit rien. Le dosage de tout substitut nicotinique se décide avec un médecin ou un pharmacien — c'est gratuit, rapide, et les substituts sont remboursés sur prescription en France.",
+    "fagerstrom": {
+      "title": "Test de Fagerström",
+      "subtitle": "6 questions. Mesure ta dépendance nicotinique. Sert à préparer ta visite en pharmacie, pas à te doser toi-même.",
+      "questions": [
+        {
+          "q": "Le matin, combien de temps après ton réveil fumes-tu ta première cigarette (ou ton premier joint) ?",
+          "answers": [
+            {
+              "label": "Dans les 5 minutes",
+              "points": 3
+            },
+            {
+              "label": "6 à 30 minutes",
+              "points": 2
+            },
+            {
+              "label": "31 à 60 minutes",
+              "points": 1
+            },
+            {
+              "label": "Après 60 minutes",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Trouves-tu difficile de t'abstenir là où c'est interdit ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "À quelle cigarette (ou prise) renoncerais-tu le plus difficilement ?",
+          "answers": [
+            {
+              "label": "La première du matin",
+              "points": 1
+            },
+            {
+              "label": "Une autre",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Combien en fumes-tu par jour ?",
+          "answers": [
+            {
+              "label": "10 ou moins",
+              "points": 0
+            },
+            {
+              "label": "11 à 20",
+              "points": 1
+            },
+            {
+              "label": "21 à 30",
+              "points": 2
+            },
+            {
+              "label": "31 ou plus",
+              "points": 3
+            }
+          ]
+        },
+        {
+          "q": "Fumes-tu davantage dans les premières heures après le réveil que le reste de la journée ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Fumes-tu même quand tu es malade, alité une bonne partie de la journée ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        }
+      ],
+      "scoring": [
+        {
+          "range": "0-2",
+          "label": "Dépendance faible",
+          "note": "Un accompagnement, avec ou sans substitut, peut suffire. Un pharmacien ou un médecin t'aidera à choisir."
+        },
+        {
+          "range": "3-4",
+          "label": "Dépendance moyenne",
+          "note": "Les substituts nicotiniques sont souvent utiles à ce niveau. Montre ce score à un pharmacien ou un médecin : c'est lui qui choisit le produit et le dosage."
+        },
+        {
+          "range": "5-6",
+          "label": "Dépendance forte",
+          "note": "Un professionnel peut proposer un ou plusieurs substituts selon la situation. Ce score ne fixe pas le traitement."
+        },
+        {
+          "range": "7-10",
+          "label": "Dépendance très forte",
+          "note": "Demande conseil à un médecin ou un pharmacien avant de choisir le produit et le dosage."
+        }
+      ],
+      "disclaimer": "Ce score prépare la conversation avec le professionnel. Il ne remplace pas son avis et ne fixe pas ton dosage."
+    },
+    "nicotineSubstitutes": {
+      "title": "Substituts nicotiniques (remboursés sur prescription)",
+      "items": [
+        {
+          "type": "patch",
+          "name": "Patch (timbre)",
+          "how": "Diffusion continue de nicotine à travers la peau. Existe en 16 h et 24 h, à plusieurs dosages.",
+          "keyPointForUser": "Les patchs existent avec différentes durées et différents dosages. Le choix dépend notamment des envies, du sommeil et des effets indésirables : vois avec un professionnel.",
+          "tip": "Coller sur une peau sèche, sans poil, changer de zone chaque jour.",
+          "watchOut": "Rougeur cutanée fréquente et bénigne. Cauchemars possibles avec le 24 h — raison de plus de préférer le 16 h."
+        },
+        {
+          "type": "gum",
+          "name": "Gomme à mâcher",
+          "how": "Nicotine absorbée par la muqueuse de la bouche. Dosages 2 mg et 4 mg.",
+          "keyPointForUser": "Utile sur les pics d'envie, en complément du patch.",
+          "tip": "Technique mâcher-parquer : mâcher jusqu'au picotement, coincer contre la joue, reprendre quand le picotement cesse. ~30 min par gomme.",
+          "watchOut": "Mâcher comme un chewing-gum ne délivre rien et brûle l'estomac. Pas de boisson acide juste avant."
+        },
+        {
+          "type": "lozenge",
+          "name": "Pastille / comprimé sublingual",
+          "how": "Se dissout sous la langue ou dans la bouche. Absorption par la muqueuse.",
+          "keyPointForUser": "Plus discret que la gomme, pratique sur un chantier.",
+          "tip": "Laisser fondre, ne pas croquer ni avaler.",
+          "watchOut": "Même précaution que la gomme sur les boissons acides."
+        },
+        {
+          "type": "spray",
+          "name": "Spray buccal",
+          "how": "Pulvérisation dans la bouche. Absorption la plus rapide des substituts.",
+          "keyPointForUser": "Le plus efficace sur un pic d'envie brutal, quand ça monte vite.",
+          "tip": "Ne pas inhaler pendant la pulvérisation. Ne pas pulvériser vers la gorge.",
+          "watchOut": "Picotement ou hoquet au début, transitoire."
+        },
+        {
+          "type": "inhaler",
+          "name": "Inhalateur",
+          "how": "Cartouche de nicotine aspirée par un embout. Reproduit le geste de porter à la bouche.",
+          "keyPointForUser": "Le seul qui conserve le geste. Pertinent si c'est le mouvement, plus que la substance, qui te manque.",
+          "tip": "Aspirations courtes et fréquentes plutôt que profondes.",
+          "watchOut": "Moins efficace par temps froid : la vaporisation baisse sous 15 °C. À garder au chaud sur un chantier d'hiver."
+        }
+      ]
+    },
+    "ritualSubstitutes": {
+      "title": "Substituts au geste et au rituel (sans nicotine)",
+      "intro": "Quand ce n'est pas la molécule qui manque, mais le geste, l'heure, ou la transition.",
+      "items": [
+        {
+          "name": "Vaporisateur à herbe sèche",
+          "detail": "Éviter la combustion réduit l'exposition au monoxyde de carbone et à certains toxiques de fumée, mais vaporiser n'est pas sans risque. Respire ne recommande ni appareil ni réglage.",
+          "warning": "HERBE SÈCHE UNIQUEMENT. Les cartouches d'huile de provenance incertaine ont causé de graves atteintes pulmonaires (EVALI). Ne jamais vapoter d'huile non contrôlée."
+        },
+        {
+          "name": "Base végétale sans tabac",
+          "detail": "Respire ne recommande pas de fumer des plantes de remplacement : toute combustion produit des substances irritantes et potentiellement toxiques.",
+          "warning": "La combustion demeure : c'est un substitut à la nicotine, pas à la fumée."
+        },
+        {
+          "name": "Substituts comportementaux du geste",
+          "detail": "Bâtonnet de réglisse, cure-dent, balle anti-stress, bracelet à faire tourner. Pour occuper la main qui cherche à rouler.",
+          "warning": null
+        },
+        {
+          "name": "Le remplacement du rituel de fin de journée",
+          "detail": "Si le joint marquait la fin du chantier, il faut un autre marqueur : une douche systématique en rentrant, dix minutes d'étirements, un thé, un tour du jardin ou de l'étang. Le cerveau a besoin d'une frontière entre le travail et la maison.",
+          "warning": null
+        }
+      ]
+    },
+    "neverDoes": [
+      "Recommander un dosage précis de nicotine sans renvoi au pharmacien ou au médecin.",
+      "Suggérer d'arrêter un traitement en cours.",
+      "Se substituer à un avis médical.",
+      "Présenter le cannabis comme anodin.",
+      "Vendre ou recommander une marque de produit."
+    ]
+  }
+}

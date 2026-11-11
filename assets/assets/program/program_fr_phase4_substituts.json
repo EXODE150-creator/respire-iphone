@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "locale": "fr",
+
+  "phases": [
+    {
+      "id": "consolidation",
+      "index": 4,
+      "title": "Consolider",
+      "durationDays": null,
+      "goal": "Maintenir. Vivre avec l'outil, plus léger.",
+      "subtitle": "Le gros du travail est fait. On passe en entretien.",
+
+      "entryScreen": {
+        "title": "Le mode allégé",
+        "body": "Tu n'as plus besoin d'un message chaque matin. Le programme passe en entretien.\n\nÀ partir de maintenant : un point hebdomadaire au lieu du cahier quotidien, les paliers santé de long terme, et l'onglet Avant/Maintenant que tu peux ouvrir quand tu veux voir le chemin parcouru.\n\nLe bouton SOS ne disparaît jamais. Les envies conditionnées reviennent des mois plus tard, sans prévenir. Elles durent toujours cinq minutes.",
+        "confirmLabel": "Passer en entretien",
+        "note": "Tu peux revenir à un suivi quotidien à tout moment, sans rien perdre."
+      },
+
+      "cadence": "weekly",
+
+      "weeklyCheckIn": {
+        "title": "Le point de la semaine",
+        "questions": [
+          "Sommeil moyen cette semaine (heures)",
+          "Qualité moyenne /10",
+          "Nombre de consommations cette semaine",
+          "Une chose qui a été difficile",
+          "Une chose qui a été plus facile qu'avant"
+        ],
+        "xpReward": 60
+      },
+
+      "longTermMilestones": [
+        { "key": "clean_1_month", "label": "1 mois sans combustion", "body": "La fonction respiratoire commence à se restaurer. La toux du matin recule." },
+        { "key": "clean_3_months", "label": "3 mois", "body": "Circulation et capacité pulmonaire nettement améliorées. Le sommeil est stabilisé au-dessus de sa ligne d'avant." },
+        { "key": "clean_6_months", "label": "6 mois", "body": "Cognition, mémoire et attention pleinement récupérées. Refais le point avec ton médecin : vitamine D, fonction rénale." },
+        { "key": "clean_1_year", "label": "1 an", "body": "Le sur-risque cardiovasculaire lié au tabac est réduit de moitié. Relis ton document « Rétablissement physique ». Le schéma de départ est-il encore le tien ?" }
+      ],
+
+      "recurringContent": [
+        {
+          "id": "craving_returns",
+          "title": "Une envie a surgi ?",
+          "body": "Des mois après, une envie peut revenir, forte, sans raison, souvent dans un bon moment. Ce n'est pas une rechute qui commence. C'est un conditionnement qui se rappelle à toi. SOS, cinq minutes, elle passe.",
+          "trigger": "on_craving_after_30_clean_days"
+        },
+        {
+          "id": "sleep_regression",
+          "title": "Une mauvaise semaine de sommeil ?",
+          "body": "Le sommeil fait des vagues, même longtemps après. Une mauvaise semaine n'annule pas trois bons mois. Regarde la moyenne, pas la dernière nuit.",
+          "trigger": "on_sleep_quality_drop"
+        }
+      ],
+
+      "relapseScreen": {
+        "title": "Tu as consommé",
+        "body": "Après des semaines ou des mois, ça arrive. Ça n'efface rien.\n\nTes jours cumulés, ton XP, tes médailles : tout reste. Le compteur de série en cours repart, le compteur cumulé, lui, continue d'avancer.\n\nUne seule question compte : demain matin, tu fais ton point ?",
+        "xpAwarded": 15,
+        "medalHint": "Le point de demain débloque « Le retour ».",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Revenir à un suivi quotidien"
+      }
+    }
+  ],
+
+  "substitutesModule": {
+    "title": "Substituts",
+    "intro": "Ce module t'informe. Il ne te prescrit rien. Le dosage de tout substitut nicotinique se décide avec un médecin ou un pharmacien — c'est gratuit, rapide, et les substituts sont remboursés sur prescription en France.",
+
+    "fagerstrom": {
+      "title": "Test de Fagerström",
+      "subtitle": "6 questions. Mesure ta dépendance nicotinique. Sert à préparer ta visite en pharmacie, pas à te doser toi-même.",
+      "questions": [
+        {
+          "q": "Le matin, combien de temps après ton réveil fumes-tu ta première cigarette (ou ton premier joint) ?",
+          "answers": [
+            { "label": "Dans les 5 minutes", "points": 3 },
+            { "label": "6 à 30 minutes", "points": 2 },
+            { "label": "31 à 60 minutes", "points": 1 },
+            { "label": "Après 60 minutes", "points": 0 }
+          ]
+        },
+        {
+          "q": "Trouves-tu difficile de t'abstenir là où c'est interdit ?",
+          "answers": [
+            { "label": "Oui", "points": 1 },
+            { "label": "Non", "points": 0 }
+          ]
+        },
+        {
+          "q": "À quelle cigarette (ou prise) renoncerais-tu le plus difficilement ?",
+          "answers": [
+            { "label": "La première du matin", "points": 1 },
+            { "label": "Une autre", "points": 0 }
+          ]
+        },
+        {
+          "q": "Combien en fumes-tu par jour ?",
+          "answers": [
+            { "label": "10 ou moins", "points": 0 },
+            { "label": "11 à 20", "points": 1 },
+            { "label": "21 à 30", "points": 2 },
+            { "label": "31 ou plus", "points": 3 }
+          ]
+        },
+        {
+          "q": "Fumes-tu davantage dans les premières heures après le réveil que le reste de la journée ?",
+          "answers": [
+            { "label": "Oui", "points": 1 },
+            { "label": "Non", "points": 0 }
+          ]
+        },
+        {
+          "q": "Fumes-tu même quand tu es malade, alité une bonne partie de la journée ?",
+          "answers": [
+            { "label": "Oui", "points": 1 },
+            { "label": "Non", "points": 0 }
+          ]
+        }
+      ],
+      "scoring": [
+        { "range": "0-2", "label": "Dépendance faible", "note": "Un accompagnement, avec ou sans substitut, peut suffire. Un pharmacien ou un médecin t'aidera à choisir." },
+        { "range": "3-4", "label": "Dépendance moyenne", "note": "Les substituts nicotiniques sont souvent utiles à ce niveau. Montre ce score à un pharmacien ou un médecin : c'est lui qui choisit le produit et le dosage." },
+        { "range": "5-6", "label": "Dépendance forte", "note": "Un professionnel peut proposer un ou plusieurs substituts selon la situation. Ce score ne fixe pas le traitement." },
+        { "range": "7-10", "label": "Dépendance très forte", "note": "Demande conseil à un médecin ou un pharmacien avant de choisir le produit et le dosage." }
+      ],
+      "disclaimer": "Ce score prépare la conversation avec le professionnel. Il ne remplace pas son avis et ne fixe pas ton dosage."
+    },
+
+    "nicotineSubstitutes": {
+      "title": "Substituts nicotiniques (remboursés sur prescription)",
+      "items": [
+        {
+          "type": "patch",
+          "name": "Patch (timbre)",
+          "how": "Diffusion continue de nicotine à travers la peau. Existe en 16 h et 24 h, à plusieurs dosages.",
+          "keyPointForUser": "Le patch 16 h, retiré au coucher, supprime le manque nocturne — cause majeure de tes réveils. Le 24 h maintient un apport la nuit : à réserver aux envies matinales très fortes.",
+          "tip": "Coller sur une peau sèche, sans poil, changer de zone chaque jour.",
+          "watchOut": "Rougeur cutanée fréquente et bénigne. Cauchemars possibles avec le 24 h — raison de plus de préférer le 16 h."
+        },
+        {
+          "type": "gum",
+          "name": "Gomme à mâcher",
+          "how": "Nicotine absorbée par la muqueuse de la bouche. Dosages 2 mg et 4 mg.",
+          "keyPointForUser": "Utile sur les pics d'envie, en complément du patch.",
+          "tip": "Technique mâcher-parquer : mâcher jusqu'au picotement, coincer contre la joue, reprendre quand le picotement cesse. ~30 min par gomme.",
+          "watchOut": "Mâcher comme un chewing-gum ne délivre rien et brûle l'estomac. Pas de boisson acide juste avant."
+        },
+        {
+          "type": "lozenge",
+          "name": "Pastille / comprimé sublingual",
+          "how": "Se dissout sous la langue ou dans la bouche. Absorption par la muqueuse.",
+          "keyPointForUser": "Plus discret que la gomme, pratique sur un chantier.",
+          "tip": "Laisser fondre, ne pas croquer ni avaler.",
+          "watchOut": "Même précaution que la gomme sur les boissons acides."
+        },
+        {
+          "type": "spray",
+          "name": "Spray buccal",
+          "how": "Pulvérisation dans la bouche. Absorption la plus rapide des substituts.",
+          "keyPointForUser": "Le plus efficace sur un pic d'envie brutal, quand ça monte vite.",
+          "tip": "Ne pas inhaler pendant la pulvérisation. Ne pas pulvériser vers la gorge.",
+          "watchOut": "Picotement ou hoquet au début, transitoire."
+        },
+        {
+          "type": "inhaler",
+          "name": "Inhalateur",
+          "how": "Cartouche de nicotine aspirée par un embout. Reproduit le geste de porter à la bouche.",
+          "keyPointForUser": "Le seul qui conserve le geste. Pertinent si c'est le mouvement, plus que la substance, qui te manque.",
+          "tip": "Aspirations courtes et fréquentes plutôt que profondes.",
+          "watchOut": "Moins efficace par temps froid : la vaporisation baisse sous 15 °C. À garder au chaud sur un chantier d'hiver."
+        }
+      ]
+    },
+
+    "ritualSubstitutes": {
+      "title": "Substituts au geste et au rituel (sans nicotine)",
+      "intro": "Quand ce n'est pas la molécule qui manque, mais le geste, l'heure, ou la transition.",
+      "items": [
+        {
+          "name": "Vaporisateur à herbe sèche",
+          "detail": "Supprime combustion, monoxyde de carbone et goudrons, en gardant le THC. Réglage 180-195 °C.",
+          "warning": "HERBE SÈCHE UNIQUEMENT. Les cartouches d'huile de provenance incertaine ont causé de graves atteintes pulmonaires (EVALI). Ne jamais vapoter d'huile non contrôlée."
+        },
+        {
+          "name": "Base végétale sans tabac",
+          "detail": "Pour rouler sans nicotine : molène (bouillon-blanc, douce, brûle régulièrement), damiana, camomille, feuilles de framboisier. Disponibles en herboristerie. Commencer à 50/50 avec l'herbe.",
+          "warning": "La combustion demeure : c'est un substitut à la nicotine, pas à la fumée."
+        },
+        {
+          "name": "Substituts comportementaux du geste",
+          "detail": "Bâtonnet de réglisse, cure-dent, balle anti-stress, bracelet à faire tourner. Pour occuper la main qui cherche à rouler.",
+          "warning": null
+        },
+        {
+          "name": "Le remplacement du rituel de fin de journée",
+          "detail": "Si le joint marquait la fin du chantier, il faut un autre marqueur : une douche systématique en rentrant, dix minutes d'étirements, un thé, un tour du jardin ou de l'étang. Le cerveau a besoin d'une frontière entre le travail et la maison.",
+          "warning": null
+        }
+      ]
+    },
+
+    "neverDoes": [
+      "Recommander un dosage précis de nicotine sans renvoi au pharmacien ou au médecin.",
+      "Suggérer d'arrêter un traitement en cours.",
+      "Se substituer à un avis médical.",
+      "Présenter le cannabis comme anodin.",
+      "Vendre ou recommander une marque de produit."
+    ]
+  }
+}

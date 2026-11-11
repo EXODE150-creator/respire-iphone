@@ -1,0 +1,645 @@
+{
+  "version": 1,
+  "locale": "fr",
+  "evidenceLegend": {
+    "A": "Preuve solide — essais randomisés multiples ou consensus institutionnel.",
+    "B": "Preuve modérée — essais limités, effectifs faibles, résultats hétérogènes.",
+    "C": "Preuve faible ou mécanistique — physiologie, observationnel, données contradictoires.",
+    "—": "Aucune preuve — marketing, témoignage, tradition."
+  },
+  "phases": [
+    {
+      "id": "observation",
+      "index": 0,
+      "title": "Observer",
+      "durationDays": 21,
+      "goal": "Ne rien changer. Mesurer.",
+      "subtitle": "Vingt et un matins. Deux minutes chacun. Aucun renoncement.",
+      "entryScreen": {
+        "title": "Cette phase ne te demande rien",
+        "body": "Tu ne vas rien arrêter. Tu ne vas rien réduire. Pendant trois semaines, tu fumes exactement comme d'habitude.\n\nLa seule chose que tu fais, c'est noter. Deux minutes chaque matin, au réveil.\n\nÀ la fin, l'application te montrera ce que personne ne peut te dire aujourd'hui : ce que la cigarette fait à TON sommeil, à TON souffle, à TOI. Pas à un panel d'étude. À toi.\n\nDeux règles gratuites s'installent quand même dès aujourd'hui, parce qu'elles ne demandent aucun renoncement — seulement un décalage.",
+        "confirmLabel": "Je commence"
+      },
+      "freeRules": [
+        {
+          "id": "no_smoke_before_bed",
+          "label": "Rien de fumé dans les 2 à 3 h avant le coucher",
+          "why": "La nicotine est un stimulant. Cette règle ne réduit pas ta consommation, elle protège ta nuit."
+        },
+        {
+          "id": "no_smoke_after_wake",
+          "label": "Rien de fumé dans l'heure suivant le réveil",
+          "why": "Casse le conditionnement le plus fort de la journée. Rend toute réduction ultérieure beaucoup plus facile."
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Aujourd'hui, tu ne changes rien",
+          "body": "C'est le seul programme de sevrage qui commence par te demander de continuer.\n\nLa raison est simple : tu ne peux pas corriger ce que tu n'as pas mesuré. Si tu réduis aujourd'hui, tu n'auras jamais de point de comparaison. Tu sauras peut-être que ça va mieux, mais tu ne sauras pas pourquoi, ni de combien, ni grâce à quoi.\n\nPendant vingt et un jours, tu es le sujet et le chercheur. Le chercheur ne touche à rien tant qu'il n'a pas de données.",
+          "action": "Ce soir, note l'heure de ta dernière cigarette. Demain matin au réveil, ouvre le cahier.",
+          "why": "Sans mesure, pas de pilotage.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 2,
+          "theme": "installation",
+          "title": "Six colonnes, deux minutes",
+          "body": "Le cahier de bord tient sur six colonnes. Heure de coucher, heure de lever, qualité de la nuit sur dix, nombre de réveils, humeur sur dix, et une dernière : combien d'heures se sont écoulées entre ta dernière cigarette et le moment où tu t'es couché.\n\nCette dernière colonne est celle qui compte. Les cinq autres sont là pour lui donner un sens.\n\nRemplis-le au réveil, avant le café, avant la première cigarette. Avant le premier geste.",
+          "action": "Remplis ta première entrée maintenant. Même approximative. Une donnée imparfaite vaut mieux qu'une case vide.",
+          "why": "L'estimation de mémoire est systématiquement fausse. Le relevé quotidien ne l'est pas.",
+          "evidence": "A",
+          "readTimeSeconds": 40
+        },
+        {
+          "day": 3,
+          "theme": "installation",
+          "title": "Les deux règles qui ne coûtent rien",
+          "body": "Tu ne réduis pas. Tu déplaces.\n\nRien de fumé dans les deux à trois heures avant le coucher. Rien de fumé dans l'heure suivant le réveil. Le total de la journée ne change pas — seulement sa répartition.\n\nLa première règle protège ta nuit. La seconde casse le réflexe : celui qui allume une cigarette avant même que tu sois réveillé, sans décision, sans envie réelle. C'est le geste le plus automatique de ta journée, et donc le plus instructif à observer.\n\nSi tu ne tiens pas ces règles, note-le aussi. C'est une donnée.",
+          "action": "Décale ta première cigarette d'une heure après le réveil. Observe ce qui se passe dans ta tête entre-temps.",
+          "why": "Un rituel automatique ne se supprime pas. Il se rend d'abord visible.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 4,
+          "theme": "molecules",
+          "title": "Une horloge de deux heures",
+          "body": "La nicotine a une demi-vie d'environ deux heures. Deux heures après une cigarette, la moitié a disparu. Et c'est précisément à ce moment-là qu'une petite alarme interne se déclenche : tension, impatience, l'impression qu'il manque quelque chose.\n\nCe n'est pas du stress. C'est le manque, réglé comme une horloge.\n\nLa cigarette « qui détend » détend surtout de ça : du manque créé par la précédente. Le calme qu'elle t'apporte, c'est le calme que la nicotine t'avait retiré deux heures plus tôt.\n\nTu n'as pas besoin de le croire. Regarde juste les heures de tes cigarettes cette semaine.",
+          "action": "Aujourd'hui, note mentalement l'intervalle entre tes cigarettes. Compare-le à deux heures.",
+          "why": "Comprendre le cycle du manque, c'est comprendre pourquoi il s'éteint après l'arrêt.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 5,
+          "theme": "molecules",
+          "title": "Ce que la cigarette t'apporte, honnêtement",
+          "body": "Ce programme ne va pas te raconter que la cigarette ne sert à rien. Elle structure tes journées : la pause, la fin du repas, la sortie entre collègues, le moment pour soi.\n\nCe sont des fonctions réelles. Une pause est réelle. Un moment de respiration profonde est réel. Un rituel social est réel.\n\nCe qui suit n'est donc pas un procès. C'est un inventaire. Parce qu'une habitude qu'on retire sans avoir remplacé sa fonction revient toujours.\n\nLa question de la semaine : qu'est-ce que chaque cigarette fait pour toi — à part éteindre le manque de la précédente ?",
+          "action": "À chaque cigarette aujourd'hui, note le contexte dans l'app : réveil, pause, repas, social, soir.",
+          "why": "On ne quitte bien que ce qu'on a d'abord regardé en face.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 6,
+          "theme": "molecules",
+          "title": "Le monoxyde de carbone",
+          "body": "La fumée de combustion contient du monoxyde de carbone. Il prend la place de l'oxygène sur l'hémoglobine — le transporteur d'oxygène de ton sang.\n\nConcrètement : tes muscles, ton cerveau, ta peau, tes tissus reçoivent en permanence moins d'oxygène que ceux d'un non-fumeur. Chaque heure de chaque jour.\n\nLa bonne nouvelle est chiffrée : le monoxyde de carbone quitte le sang en douze heures. C'est le premier bénéfice de tout arrêt, et le plus rapide.\n\nPas aujourd'hui. Aujourd'hui, tu observes.",
+          "action": "Rien. Lis, et continue de noter.",
+          "why": "Le CO est le poison le plus rapide à partir — douze heures.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 7,
+          "theme": "rituels",
+          "title": "Une semaine. Regarde ce que tu as écrit.",
+          "body": "Sept entrées. Ouvre-les.\n\nCombien de cigarettes par jour, en moyenne ? Compare ce chiffre à celui que tu aurais donné dimanche dernier, de mémoire. Il y a presque toujours un écart. Il est instructif.\n\nÀ quelle heure fumes-tu le plus ? Regarde la distribution horaire dans les Constats. Tu vas y voir des rituels, pas des envies. Le réveil. Le café. La pause. La fin du repas.\n\nUn rituel se remplace. Une envie s'attend. Ce ne sont pas les mêmes outils.",
+          "action": "Identifie ton rituel le plus rigide. Celui dont l'heure ne bouge jamais.",
+          "why": "Sept jours suffisent à révéler une structure. Vingt et un suffisent à la prouver.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 9,
+          "theme": "sommeil",
+          "title": "L'heure de lever, pas l'heure de coucher",
+          "body": "Si tu ne devais retenir qu'une seule chose de tout ce programme, ce serait celle-ci.\n\nL'ancre du rythme circadien, c'est l'heure de lever. Fixe. Sept jours sur sept. Y compris le dimanche, y compris après une mauvaise nuit — surtout après une mauvaise nuit.\n\nDormir plus tard le week-end pour « rattraper » décale ton horloge de deux heures. Le lundi, tu es en décalage horaire sans avoir pris l'avion.\n\nC'est gratuit. C'est immédiat. Et c'est le levier le plus puissant que tu aies.",
+          "action": "Choisis ton heure de lever. Note-la. Tiens-la sept jours.",
+          "why": "L'heure de lever fixe est le pilier central des thérapies du sommeil.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 11,
+          "theme": "molecules",
+          "title": "La première du matin",
+          "body": "À quelle vitesse fumes-tu ta première cigarette après le réveil ?\n\nC'est la question la plus importante du test de Fagerström — l'outil de référence pour mesurer la dépendance physique à la nicotine. Dans les cinq minutes : dépendance forte. Après une heure : dépendance légère.\n\nLa logique est simple : après une nuit sans nicotine, ton corps est en manque maximal. La vitesse à laquelle tu combles ce manque dit la force de la dépendance physique — celle qui se traite très bien avec des substituts.\n\nL'autre partie, les rituels et les automatismes, se travaille autrement. Les deux se séparent. C'est tout l'intérêt de les connaître.",
+          "action": "Observe demain matin : combien de minutes entre l'œil ouvert et la première cigarette ?",
+          "why": "Le délai de la première cigarette est le meilleur prédicteur simple de la dépendance physique.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 14,
+          "theme": "rituels",
+          "title": "Deux semaines. La structure est là.",
+          "body": "Quatorze entrées. La distribution horaire de tes cigarettes est maintenant une carte fiable.\n\nRegarde-la. Il y a probablement trois ou quatre pics : le matin, autour des repas, les pauses, le soir. Chaque pic est un conditionnement — un lieu, une heure, un geste qui appellent la cigarette sans même une décision.\n\nC'est une excellente nouvelle. Un conditionnement, ça se déconditionne. C'est du travail connu, balisé, documenté. Pas une question de volonté héroïque.\n\nEncore une semaine d'observation. Elle confirme, elle affine.",
+          "action": "Pour chaque pic de ta journée, note ce qui le déclenche : le café ? la pause ? la sortie du travail ?",
+          "why": "Un déclencheur identifié est un déclencheur qu'on peut remplacer.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 17,
+          "theme": "rituels",
+          "title": "La fonction de chaque cigarette",
+          "body": "Question sérieuse. Prends-la au sérieux.\n\nDécompresser après la journée ? Calmer une anxiété qui ne dit pas son nom ? Marquer une pause que personne ne peut te refuser ? Occuper les mains ? Tenir compagnie au café ?\n\nUne habitude qu'on retire sans avoir remplacé sa fonction revient toujours. Toujours. C'est pour ça que la volonté seule échoue : elle s'attaque au geste et laisse la fonction intacte.\n\nSi la cigarette marque la fin de la journée, il te faudra un autre marqueur. Si elle est ta seule pause légitime, il te faudra d'autres pauses. Ce n'est pas une métaphore, c'est un plan.",
+          "action": "Pour tes trois cigarettes les plus importantes de la journée, écris leur fonction. Un mot suffit.",
+          "why": "La fonction reste quand le geste part. Autant la loger ailleurs volontairement.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 19,
+          "theme": "preparation",
+          "title": "Prépare la suite : le pharmacien",
+          "body": "La descente approche. Deux choses à savoir avant.\n\nUn : les substituts nicotiniques — patch, gomme, pastille — doublent les chances de réussite. Ce n'est pas un gadget, c'est le traitement de référence, remboursé sur prescription en France.\n\nDeux : le bon dosage se décide avec un pharmacien ou un médecin, à partir de ta consommation réelle — que tu connais maintenant précisément, grâce à trois semaines de données. Le sous-dosage est la première raison pour laquelle les substituts ne tiennent pas leurs promesses.\n\nLe test de Fagerström, dans l'onglet Substituts, prépare cette conversation. Il ne la remplace pas.",
+          "action": "Fais le test de Fagerström (2 minutes). Note ton score pour le pharmacien.",
+          "why": "Substituts bien dosés = chances de réussite doublées. C'est l'un des résultats les plus solides de toute la littérature.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 21,
+          "theme": "bilan",
+          "title": "Vingt et un jours. Tes données.",
+          "body": "Tu n'as rien arrêté. Tu n'as rien réduit. Tu as noté.\n\nCe que tu vas lire maintenant n'a été écrit par aucune étude, aucun laboratoire, aucun médecin. Ce sont tes nuits, tes cigarettes, ton humeur.\n\nSi une corrélation apparaît, elle est à toi. Si rien n'apparaît, c'est une information tout aussi précieuse : elle veut dire que la cause est ailleurs, et qu'il faut la chercher ailleurs.\n\nTu es la seule personne au monde à disposer de ces données. Elles valent plus que tout ce que tu as lu dans cette application.",
+          "action": "Ouvre les Constats. Lis. Puis décide : la descente commence quand tu le décides.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        }
+      ],
+      "exitScreen": {
+        "title": "Phase d'observation terminée",
+        "body": "Vingt et un jours de données. Tu peux passer à la descente quand tu veux — demain, la semaine prochaine, ou dans un mois.\n\nLe programme ne t'attend pas avec impatience. Il t'attend, c'est tout.",
+        "primaryLabel": "Commencer la descente",
+        "secondaryLabel": "Rester encore en observation",
+        "note": "Rester en observation ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      }
+    },
+    {
+      "id": "nicotineTaper",
+      "index": 1,
+      "title": "Descendre la nicotine",
+      "durationDays": 28,
+      "goal": "Réduire la nicotine jusqu'à zéro, avec les bons outils.",
+      "subtitle": "Quatre semaines. Des substituts bien dosés. Un cap clair.",
+      "entryScreen": {
+        "title": "La descente",
+        "body": "Tu connais maintenant ta consommation, tes rituels et tes déclencheurs. Ces informations peuvent aider un médecin ou un pharmacien à te proposer une stratégie adaptée.\n\nLes recommandations associent soutien comportemental et, selon la situation, traitement du sevrage. Respire ne choisit ni produit, ni dosage, ni calendrier : utilise ton score de Fagerström et tes relevés pour préparer l'échange.",
+        "confirmLabel": "Je commence la descente",
+        "note": "Le dosage des substituts se décide avec un professionnel. Jamais seul, jamais au hasard."
+      },
+      "strategyChoice": {
+        "title": "Ta méthode",
+        "body": "Deux voies valides. Choisis selon ta réalité, pas selon l'idéal.",
+        "options": [
+          {
+            "id": "quit_with_nrt",
+            "label": "Arrêt net + substituts",
+            "detail": "Une date. À partir de ce jour : zéro cigarette, substituts dosés selon l'avis du pharmacien (souvent patch + forme orale pour les pics). La méthode la mieux documentée.",
+            "bestFor": "Dépendance physique moyenne à forte. Ceux qui préfèrent un cap net.",
+            "recommended": true
+          },
+          {
+            "id": "gradual_reduction",
+            "label": "Réduction progressive avec date de fin",
+            "detail": "Une cigarette de moins par jour, tenue quelques jours, puis encore une de moins. Avec une date de fin posée à l'avance — sans date, la réduction s'éternise et remonte.",
+            "bestFor": "Dépendance légère, ou refus des substituts. Exige plus de discipline quotidienne."
+          }
+        ]
+      },
+      "hardWindow": {
+        "startDay": 1,
+        "endDay": 7,
+        "bannerTemplate": "Jour {n} sur 7 de la fenêtre difficile",
+        "curveLabel": "Intensité attendue du manque",
+        "curve": [
+          60,
+          90,
+          95,
+          80,
+          60,
+          45,
+          30
+        ],
+        "footnote": "Cette courbe est une moyenne. La tienne sera différente. Mais elle descendra."
+      },
+      "sosOverrides": {
+        "hardWindowMessage": "Tu es au jour {n} sur 7. Une envie peut monter puis redescendre, mais sa durée et son intensité varient. Utilise le guide SOS et contacte ton professionnel si le traitement ne te soulage pas assez."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "descente",
+          "title": "Le premier jour",
+          "body": "Aujourd'hui commence la stratégie convenue. Irritabilité, difficulté à se concentrer, sommeil perturbé et envies peuvent survenir, avec une intensité et une durée variables.\n\nLe bouton SOS propose des gestes d'attente. Si les symptômes sont difficiles à gérer, demande au médecin ou au pharmacien de réévaluer l'accompagnement ou le traitement.",
+          "action": "Si tu utilises des substituts : pose ton patch au réveil, comme convenu avec le pharmacien.",
+          "why": "Savoir que le pic est à 72 h transforme une épreuve floue en compte à rebours.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 2,
+          "theme": "descente",
+          "title": "Le pic approche. C'est normal.",
+          "body": "Les premiers jours peuvent être plus difficiles pour certaines personnes. Une envie peut monter puis redescendre, avec une durée et une intensité variables.\n\nUtilise le guide SOS pour observer le moment. Si un traitement nicotinique t'a été conseillé mais ne soulage pas assez les envies, demande au médecin ou au pharmacien de le réévaluer.",
+          "action": "À la première grosse envie : SOS, et regarde le chrono la traverser.",
+          "why": "Une envie observée est plus courte qu'une envie subie.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 4,
+          "theme": "corps",
+          "title": "Le café frappe plus fort",
+          "body": "Après l'arrêt du tabac, l'élimination de la caféine peut ralentir. Une même quantité de café peut alors provoquer davantage de nervosité, palpitations ou difficultés d'endormissement.\n\nObserve tes symptômes et parle-en à un professionnel si nécessaire ; Respire ne fixe pas une réduction chiffrée de caféine.",
+          "action": "Compte tes cafés aujourd'hui. Demain, un de moins.",
+          "why": "L'interaction tabac-caféine est documentée et sous-estimée. Elle imite les symptômes du manque.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 6,
+          "theme": "corps",
+          "title": "Les nuits secouées",
+          "body": "Le sommeil peut être perturbé au début du sevrage. Des rêves intenses peuvent aussi être un effet indésirable d'un patch chez certaines personnes.\n\nN'arrête pas ou ne change pas seul ton traitement : parle-en au pharmacien ou au médecin, qui pourra adapter le produit ou son horaire si nécessaire. Des horaires de sommeil réguliers peuvent aider.",
+          "action": "Ce soir : rien de stimulant après 20 h. Café compris.",
+          "why": "Les perturbations du sommeil au sevrage sont transitoires — une à trois semaines.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 8,
+          "theme": "corps",
+          "title": "Le goût revient",
+          "body": "Quarante-huit heures après la dernière cigarette, les terminaisons nerveuses du goût et de l'odorat commencent à repousser. À une semaine, la différence devient nette : le pain, le café, les plats ont plus de relief.\n\nCe n'est pas un détail poétique. C'est ton premier bénéfice perceptible, et il est déjà là.\n\nLes suivants sont datés : le souffle à deux semaines, la toux qui s'allège sur un à deux mois, le risque cardiovasculaire qui fond sur l'année.",
+          "action": "Mange quelque chose que tu aimes vraiment. Compare.",
+          "why": "Goût et odorat récupèrent parmi les premiers — c'est mesurable dès 48 h.",
+          "evidence": "A",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 10,
+          "theme": "tete",
+          "title": "L'irritabilité est un symptôme",
+          "body": "Si tout t'agace depuis quelques jours — les collègues, le bruit, toi-même — ce n'est pas ta personnalité qui ressort. C'est le symptôme le plus banal du sevrage nicotinique.\n\nIl culmine la première semaine et s'éteint sur deux à quatre semaines. Pas pour toujours. Pas « le nouveau toi ». Un symptôme, avec une date de péremption.\n\nLe dire autour de toi aide plus qu'on ne croit : « je suis en sevrage, je suis à cran, ça va passer ». Ça désamorce, et ça t'engage.",
+          "action": "Préviens une personne de ton entourage. Une seule suffit.",
+          "why": "L'irritabilité du sevrage est transitoire et documentée. La nommer la réduit.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 12,
+          "theme": "corps",
+          "title": "Le poids, parlons-en",
+          "body": "Oui, l'arrêt fait souvent prendre du poids : deux à quatre kilos en moyenne sur les premiers mois. Deux mécanismes : le métabolisme se normalise (la nicotine le dopait artificiellement), et la bouche cherche une compensation.\n\nDeux réponses.\n\nLes substituts nicotiniques retardent et lissent cette prise de poids — une raison de plus de les utiliser correctement.\n\nEt surtout : pas deux chantiers de front. Ce mois-ci, tu arrêtes de fumer. Le poids, s'il y a besoin, sera un chantier suivant. Un bénéfice cardiovasculaire de l'arrêt dépasse très largement l'effet de quelques kilos.",
+          "action": "Prévois des en-cas qui occupent la bouche sans charger : eau gazeuse, carottes, chewing-gum sans sucre.",
+          "why": "Prise de poids moyenne documentée : 2 à 4 kg. Le bénéfice de l'arrêt la surpasse, sans débat.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 14,
+          "theme": "corps",
+          "title": "Deux semaines. Le souffle.",
+          "body": "À partir de maintenant, la circulation s'améliore et la fonction pulmonaire commence à remonter. L'escalier te le dira avant le médecin.\n\nFais le test aujourd'hui, sérieusement : monte deux étages au même rythme qu'avant. Écoute ce que ça fait.\n\nEt note-le quelque part. Dans un mois, tu recommenceras, et tu auras une donnée de plus que personne ne pourra te retirer.",
+          "action": "Deux étages, rythme normal. Note ton essoufflement sur 10.",
+          "why": "La fonction pulmonaire s'améliore mesurablement entre 2 semaines et 3 mois.",
+          "evidence": "A",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 17,
+          "theme": "tete",
+          "title": "« Juste une »",
+          "body": "Elle viendra, si elle n'est pas déjà venue. L'idée que maintenant que le plus dur est passé, une seule cigarette ne changerait rien.\n\nVoici ce que disent les données, sans morale : chez les fumeurs qui reprennent « juste une », la grande majorité retrouve sa consommation d'avant en quelques semaines. Pas par faiblesse — parce que le circuit de la nicotine ne s'est pas effacé, il s'est endormi. Une dose le réveille entier.\n\nCe n'est pas une raison d'avoir peur. C'est une information à avoir au moment où l'idée se présente. L'envie qui la porte, elle, dure cinq minutes.",
+          "action": "Si l'idée vient : SOS, cinq minutes. Décide après, jamais pendant.",
+          "why": "La reprise après une seule cigarette est le schéma le plus documenté du tabagisme.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 21,
+          "theme": "tete",
+          "title": "Trois semaines. Le corps a fini le plus dur.",
+          "body": "Le manque physique intense est derrière toi. Ce qui reste, c'est le conditionnement : les situations, les lieux, les heures qui appelaient une cigarette.\n\nC'est un adversaire différent. Il ne crie pas, il chuchote — au café, à la pause, à la sortie du travail, le vendredi soir.\n\nLa parade est connue : modifier légèrement le contexte. Prendre le café debout plutôt qu'assis à la même place. Changer le trajet de la pause. Tenir quelque chose dans la main. Pas pour toujours — le temps que les automatismes meurent de faim.",
+          "action": "Identifie ta situation la plus risquée cette semaine. Change un seul détail de son déroulement.",
+          "why": "Le craving conditionné s'éteint par l'exposition sans récompense. Modifier le contexte accélère l'extinction.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 24,
+          "theme": "tete",
+          "title": "Les substituts ne sont pas éternels, mais rien ne presse",
+          "body": "Question fréquente à ce stade : « je descends quand, le patch ? »\n\nRéponse : avec ton pharmacien, par paliers, généralement sur deux à trois mois au total. Rien ne presse. La nicotine des substituts, sans combustion, sans monoxyde de carbone, sans goudrons, est incomparablement moins nocive que la cigarette.\n\nLe piège classique est de couper les substituts trop tôt, par fierté. Après le sous-dosage, c'est ce qui fait le plus souvent dérailler une descente. La fierté attendra deux mois de plus.",
+          "action": "Si tu utilises des substituts : planifie le prochain point avec ton pharmacien.",
+          "why": "La descente progressive des substituts sur 8 à 12 semaines est le protocole standard.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 28,
+          "theme": "bilan",
+          "title": "Quatre semaines. Regarde d'où tu viens.",
+          "body": "Ouvre l'onglet Avant / Maintenant.\n\nÀ gauche : tes vingt et un jours d'observation, cigarettes comptées, nuits mesurées. À droite : tes quatorze derniers jours.\n\nSi une ligne n'a pas bougé, elle est affichée en gris. L'application ne te ment pas pour te faire plaisir — c'était la règle depuis le premier jour.\n\nCe tableau, personne ne te l'a donné. Tu l'as écrit, deux minutes chaque matin.",
+          "action": "Passe en phase de consolidation. Ou reste ici. Le programme ne t'attend pas avec impatience.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as enregistré une cigarette",
+        "body": "C'est une donnée, pas une faute.\n\nTon total de jours cumulés ne bouge pas. Ton XP ne bouge pas. Tes médailles restent.\n\nSi c'était pendant la première semaine : tu étais dans le pic du manque. C'est l'endroit exact où ça arrive le plus. Reprends là où tu en étais — le compteur de série repart, le reste continue d'avancer.\n\nUne seule question compte : demain matin, tu ouvres ton cahier ?",
+        "xpAwarded": 15,
+        "medalHint": "Le point de demain débloque « Le retour ».",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Relire la carte du sevrage"
+      },
+      "exitScreen": {
+        "title": "Descente terminée",
+        "body": "Quatre semaines. Le manque physique est derrière, les automatismes sont affaiblis, tes données le prouvent.\n\nLa consolidation est un mode allégé : un point par semaine, les paliers de long terme, et le SOS qui ne disparaît jamais.",
+        "primaryLabel": "Passer en consolidation",
+        "secondaryLabel": "Rester encore ici",
+        "note": "Tu peux revenir à un suivi quotidien à tout moment, sans rien perdre."
+      },
+      "fagerstromPrompt": {
+        "title": "D'abord, où tu en es",
+        "body": "Le test de Fagerström mesure ta dépendance nicotinique en six questions. Son résultat ne sert pas à te doser toi-même : il sert à préparer ta conversation avec le pharmacien, pour qu'il choisisse le bon dosage de départ.",
+        "cta": "Faire le test (2 min)"
+      }
+    },
+    {
+      "id": "consolidation",
+      "index": 2,
+      "title": "Consolider",
+      "durationDays": null,
+      "goal": "Maintenir. Vivre avec l'outil, plus léger.",
+      "subtitle": "Le gros du travail est fait. On passe en entretien.",
+      "entryScreen": {
+        "title": "Le mode allégé",
+        "body": "Le programme passe en entretien.\n\nÀ partir de maintenant : un point hebdomadaire au lieu du cahier quotidien, les paliers santé de long terme, et l'onglet Avant/Maintenant pour voir le chemin parcouru.\n\nLe bouton SOS reste disponible. Une envie peut revenir longtemps après et sa durée varie ; demande du soutien si elle devient difficile à gérer.",
+        "confirmLabel": "Passer en entretien",
+        "note": "Tu peux revenir à un suivi quotidien à tout moment, sans rien perdre."
+      },
+      "cadence": "weekly",
+      "weeklyCheckIn": {
+        "title": "Le point de la semaine",
+        "questions": [
+          "Sommeil moyen cette semaine (heures)",
+          "Qualité moyenne /10",
+          "Nombre de cigarettes cette semaine",
+          "Une chose qui a été difficile",
+          "Une chose qui a été plus facile qu'avant"
+        ],
+        "xpReward": 60
+      },
+      "longTermMilestones": [
+        {
+          "key": "clean_1_month",
+          "label": "1 mois sans cigarette",
+          "body": "La toux du matin recule. La fonction respiratoire commence à se restaurer."
+        },
+        {
+          "key": "clean_3_months",
+          "label": "3 mois",
+          "body": "Circulation et capacité pulmonaire nettement améliorées. Le souffle à l'effort le confirme."
+        },
+        {
+          "key": "clean_6_months",
+          "label": "6 mois",
+          "body": "Les envies conditionnées sont devenues rares. Le sommeil est stabilisé au-dessus de sa ligne d'avant."
+        },
+        {
+          "key": "clean_1_year",
+          "label": "1 an",
+          "body": "Le sur-risque coronarien est réduit de moitié. C'est l'un des chiffres les plus solides de toute la médecine préventive."
+        }
+      ],
+      "recurringContent": [
+        {
+          "id": "craving_returns",
+          "title": "Une envie a surgi ?",
+          "body": "Des mois après, une envie peut revenir, forte, sans raison, souvent dans un bon moment. Ce n'est pas un recommencement. C'est un conditionnement qui se rappelle à toi. SOS, cinq minutes, elle passe.",
+          "trigger": "on_craving_after_30_clean_days"
+        },
+        {
+          "id": "sleep_regression",
+          "title": "Une mauvaise semaine de sommeil ?",
+          "body": "Le sommeil fait des vagues, même longtemps après. Une mauvaise semaine n'annule pas trois bons mois. Regarde la moyenne, pas la dernière nuit.",
+          "trigger": "on_sleep_quality_drop"
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as consommé",
+        "body": "Après des semaines ou des mois, ça arrive. Ça n'efface rien.\n\nTes jours cumulés, ton XP, tes médailles : tout reste. Le compteur de série en cours repart, le compteur cumulé, lui, continue d'avancer.\n\nUne seule question compte : demain matin, tu fais ton point ?",
+        "xpAwarded": 15,
+        "medalHint": "Le point de demain débloque « Le retour ».",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Revenir à un suivi quotidien"
+      }
+    }
+  ],
+  "substitutesModule": {
+    "title": "Substituts",
+    "intro": "Ce module t'informe. Il ne te prescrit rien. Le dosage de tout substitut nicotinique se décide avec un médecin ou un pharmacien — c'est gratuit, rapide, et les substituts sont remboursés sur prescription en France.",
+    "fagerstrom": {
+      "title": "Test de Fagerström",
+      "subtitle": "6 questions. Mesure ta dépendance nicotinique. Sert à préparer ta visite en pharmacie, pas à te doser toi-même.",
+      "questions": [
+        {
+          "q": "Le matin, combien de temps après ton réveil fumes-tu ta première cigarette (ou ton premier joint) ?",
+          "answers": [
+            {
+              "label": "Dans les 5 minutes",
+              "points": 3
+            },
+            {
+              "label": "6 à 30 minutes",
+              "points": 2
+            },
+            {
+              "label": "31 à 60 minutes",
+              "points": 1
+            },
+            {
+              "label": "Après 60 minutes",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Trouves-tu difficile de t'abstenir là où c'est interdit ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "À quelle cigarette (ou prise) renoncerais-tu le plus difficilement ?",
+          "answers": [
+            {
+              "label": "La première du matin",
+              "points": 1
+            },
+            {
+              "label": "Une autre",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Combien en fumes-tu par jour ?",
+          "answers": [
+            {
+              "label": "10 ou moins",
+              "points": 0
+            },
+            {
+              "label": "11 à 20",
+              "points": 1
+            },
+            {
+              "label": "21 à 30",
+              "points": 2
+            },
+            {
+              "label": "31 ou plus",
+              "points": 3
+            }
+          ]
+        },
+        {
+          "q": "Fumes-tu davantage dans les premières heures après le réveil que le reste de la journée ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Fumes-tu même quand tu es malade, alité une bonne partie de la journée ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        }
+      ],
+      "scoring": [
+        {
+          "range": "0-2",
+          "label": "Dépendance faible",
+          "note": "Un accompagnement, avec ou sans substitut, peut suffire. Un pharmacien ou un médecin t'aidera à choisir."
+        },
+        {
+          "range": "3-4",
+          "label": "Dépendance moyenne",
+          "note": "Les substituts nicotiniques sont souvent utiles à ce niveau. Montre ce score à un pharmacien ou un médecin : c'est lui qui choisit le produit et le dosage."
+        },
+        {
+          "range": "5-6",
+          "label": "Dépendance forte",
+          "note": "Un professionnel peut proposer un ou plusieurs substituts selon la situation. Ce score ne fixe pas le traitement."
+        },
+        {
+          "range": "7-10",
+          "label": "Dépendance très forte",
+          "note": "Demande conseil à un médecin ou un pharmacien avant de choisir le produit et le dosage."
+        }
+      ],
+      "disclaimer": "Ce score prépare la conversation avec le professionnel. Il ne remplace pas son avis et ne fixe pas ton dosage."
+    },
+    "nicotineSubstitutes": {
+      "title": "Substituts nicotiniques (remboursés sur prescription)",
+      "items": [
+        {
+          "type": "patch",
+          "name": "Patch (timbre)",
+          "how": "Diffusion continue de nicotine à travers la peau. Existe en 16 h et 24 h, à plusieurs dosages.",
+          "keyPointForUser": "Les patchs existent avec différentes durées et différents dosages. Le choix dépend notamment des envies, du sommeil et des effets indésirables : vois avec un professionnel.",
+          "tip": "Coller sur une peau sèche, sans poil, changer de zone chaque jour.",
+          "watchOut": "Rougeur cutanée fréquente et bénigne. Cauchemars possibles avec le 24 h — raison de plus de préférer le 16 h."
+        },
+        {
+          "type": "gum",
+          "name": "Gomme à mâcher",
+          "how": "Nicotine absorbée par la muqueuse de la bouche. Dosages 2 mg et 4 mg.",
+          "keyPointForUser": "Utile sur les pics d'envie, en complément du patch.",
+          "tip": "Technique mâcher-parquer : mâcher jusqu'au picotement, coincer contre la joue, reprendre quand le picotement cesse. ~30 min par gomme.",
+          "watchOut": "Mâcher comme un chewing-gum ne délivre rien et brûle l'estomac. Pas de boisson acide juste avant."
+        },
+        {
+          "type": "lozenge",
+          "name": "Pastille / comprimé sublingual",
+          "how": "Se dissout sous la langue ou dans la bouche. Absorption par la muqueuse.",
+          "keyPointForUser": "Plus discret que la gomme, pratique sur un chantier.",
+          "tip": "Laisser fondre, ne pas croquer ni avaler.",
+          "watchOut": "Même précaution que la gomme sur les boissons acides."
+        },
+        {
+          "type": "spray",
+          "name": "Spray buccal",
+          "how": "Pulvérisation dans la bouche. Absorption la plus rapide des substituts.",
+          "keyPointForUser": "Le plus efficace sur un pic d'envie brutal, quand ça monte vite.",
+          "tip": "Ne pas inhaler pendant la pulvérisation. Ne pas pulvériser vers la gorge.",
+          "watchOut": "Picotement ou hoquet au début, transitoire."
+        },
+        {
+          "type": "inhaler",
+          "name": "Inhalateur",
+          "how": "Cartouche de nicotine aspirée par un embout. Reproduit le geste de porter à la bouche.",
+          "keyPointForUser": "Le seul qui conserve le geste. Pertinent si c'est le mouvement, plus que la substance, qui te manque.",
+          "tip": "Aspirations courtes et fréquentes plutôt que profondes.",
+          "watchOut": "Moins efficace par temps froid : la vaporisation baisse sous 15 °C. À garder au chaud sur un chantier d'hiver."
+        }
+      ]
+    },
+    "ritualSubstitutes": {
+      "title": "Substituts au geste et au rituel (sans nicotine)",
+      "intro": "Quand ce n'est pas la molécule qui manque, mais le geste, l'heure, ou la transition.",
+      "items": [
+        {
+          "name": "Vaporisateur à herbe sèche",
+          "detail": "Éviter la combustion réduit l'exposition au monoxyde de carbone et à certains toxiques de fumée, mais vaporiser n'est pas sans risque. Respire ne recommande ni appareil ni réglage.",
+          "warning": "HERBE SÈCHE UNIQUEMENT. Les cartouches d'huile de provenance incertaine ont causé de graves atteintes pulmonaires (EVALI). Ne jamais vapoter d'huile non contrôlée."
+        },
+        {
+          "name": "Base végétale sans tabac",
+          "detail": "Respire ne recommande pas de fumer des plantes de remplacement : toute combustion produit des substances irritantes et potentiellement toxiques.",
+          "warning": "La combustion demeure : c'est un substitut à la nicotine, pas à la fumée."
+        },
+        {
+          "name": "Substituts comportementaux du geste",
+          "detail": "Bâtonnet de réglisse, cure-dent, balle anti-stress, bracelet à faire tourner. Pour occuper la main qui cherche à rouler.",
+          "warning": null
+        },
+        {
+          "name": "Le remplacement du rituel de fin de journée",
+          "detail": "Si le joint marquait la fin du chantier, il faut un autre marqueur : une douche systématique en rentrant, dix minutes d'étirements, un thé, un tour du jardin ou de l'étang. Le cerveau a besoin d'une frontière entre le travail et la maison.",
+          "warning": null
+        }
+      ]
+    },
+    "neverDoes": [
+      "Recommander un dosage précis de nicotine sans renvoi au pharmacien ou au médecin.",
+      "Suggérer d'arrêter un traitement en cours.",
+      "Se substituer à un avis médical.",
+      "Présenter le cannabis comme anodin.",
+      "Vendre ou recommander une marque de produit."
+    ]
+  }
+}

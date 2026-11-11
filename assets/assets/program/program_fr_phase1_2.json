@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "locale": "fr",
+  "phases": [
+    {
+      "id": "decoupling",
+      "index": 1,
+      "title": "Découpler",
+      "durationDays": 14,
+      "goal": "Séparer la nicotine du THC. Ne rien arrêter.",
+      "subtitle": "Tu ne réduis pas. Tu enlèves le tabac de l'herbe.",
+
+      "entryScreen": {
+        "title": "L'étape la plus rentable, et la moins douloureuse",
+        "body": "Tu fumes deux choses dans le même geste. Le THC, que tu cherches. Et la nicotine, que le tabac y met.\n\nCette phase ne te demande pas de fumer moins. Elle te demande de séparer les deux, pour que tu voies enfin lequel des deux tu cherches vraiment.\n\nUne surprise attend la plupart des gens : quand la nicotine s'en va, la fréquence baisse d'elle-même. Le besoin de rouler toutes les deux heures, c'était elle, pas le THC.\n\nMais retirer le tabac déclenche un vrai sevrage nicotinique. On va le gérer, pas le subir.",
+        "confirmLabel": "Je choisis ma voie",
+        "secondaryLabel": "Je reste encore en observation",
+        "note": "Rester en observation ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      },
+
+      "strategyChoice": {
+        "title": "Comment tu sépares",
+        "body": "Trois voies. La première est la meilleure pour ton corps. Choisis selon ta réalité, pas selon l'idéal.",
+        "options": [
+          {
+            "id": "vaporizer",
+            "label": "Vaporisateur à herbe sèche",
+            "detail": "Pas de combustion : plus de monoxyde de carbone, plus de goudrons. Le THC est là, le reste part. Réglage 180-195 °C. 60 € pour un DynaVap à flamme, 150-250 € pour un portable. Herbe sèche uniquement — jamais les cartouches d'huile de provenance incertaine.",
+            "bestFor": "La voie recommandée. Effet immédiat sur la toux et le souffle.",
+            "recommended": true
+          },
+          {
+            "id": "pure_joint",
+            "label": "Joint pur, base végétale",
+            "detail": "Gratuit, immédiat. Molène, damiana, camomille en herboristerie. 50/50 pour commencer. Règle la nicotine, garde la combustion.",
+            "bestFor": "Zéro budget, envie de garder le geste du roulage."
+          },
+          {
+            "id": "tobacco_plus_nrt",
+            "label": "Je garde le tabac + substituts en journée",
+            "detail": "Patch ou gomme la journée, remboursés sur prescription. Filtre systématique. Le patch retiré le soir supprime le sevrage nocturne.",
+            "bestFor": "Le tabac te tient trop pour l'enlever d'un coup. On le remplace, on ne l'arrache pas."
+          }
+        ],
+        "note": "Tu peux changer de voie à tout moment, sans rien perdre."
+      },
+
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Jour 1. Le premier joint sans tabac.",
+          "body": "Aujourd'hui, une seule chose : une prise sans tabac. Une seule. Le reste de ta journée, tu fumes comme d'habitude.\n\nSi tu as choisi le vaporisateur, attends-toi à une surprise : la vapeur ne « tape » pas dans la poitrine comme la fumée. Beaucoup croient que ça ne marche pas et tirent trois fois plus. Attends dix minutes avant de juger. L'effet est là, plus propre.\n\nSi tu as choisi le joint pur, il tiendra moins bien et brûlera plus vite. C'est normal, tu ajusteras le mélange.",
+          "action": "Une seule prise sans tabac aujourd'hui. Note dans l'app ce que tu as ressenti, en une phrase.",
+          "why": "Séparer les substances rend chacune observable.",
+          "evidence": "B",
+          "readTimeSeconds": 50,
+          "awardsMedal": "decouplage_separe"
+        },
+        {
+          "day": 2,
+          "theme": "sevrage_nicotine",
+          "title": "Jour 2. Le manque de nicotine se montre",
+          "body": "Si tu as remplacé plusieurs prises par du sans-tabac, tu sens peut-être quelque chose : une nervosité, une irritabilité, une envie diffuse de rouler.\n\nCe n'est pas le manque d'herbe. Tu as ton THC. C'est la nicotine.\n\nCette distinction est tout l'intérêt de la phase. Pour la première fois, tu peux sentir la différence entre les deux manques. L'un est lié à la substance que tu cherches. L'autre, à celle que tu ne cherchais même pas.",
+          "action": "Quand l'envie monte, demande-toi : est-ce que je veux planer, ou est-ce que je veux juste la cigarette ? Note ta réponse.",
+          "why": "La nicotine, demi-vie 2 h, génère un manque plus fréquent et plus net que le THC.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 3,
+          "theme": "sevrage_nicotine",
+          "title": "Jour 3. Le pic nicotinique, et la parade",
+          "body": "Le sevrage nicotinique culmine entre aujourd'hui et demain. Irritabilité, concentration en berne, une envie qui revient sans arrêt.\n\nC'est ici que la plupart abandonnent — en croyant, à tort, que « le sans-tabac ne fait pas le job ». Relis cette phrase dans dix jours et tu souriras.\n\nLa parade est médicale et remboursée : un substitut nicotinique. Patch la journée, retiré le soir. Gomme ou pastille sur les pics. Le module Substituts détaille tout. Le dosage se décide avec un pharmacien, en trente secondes au comptoir.",
+          "action": "Passe en pharmacie ou prends 5 min pour lire le module Substituts. Le patch change ces trois jours du tout au tout.",
+          "why": "Les substituts nicotiniques doublent les chances de réussite d'un sevrage tabagique.",
+          "evidence": "A",
+          "readTimeSeconds": 60,
+          "highlight": true
+        },
+        {
+          "day": 5,
+          "theme": "observation",
+          "title": "Jour 5. Compte tes prises.",
+          "body": "Ouvre le journal des consommations et regarde le nombre de prises par jour depuis le début de la phase.\n\nChez beaucoup de gens, il a déjà baissé. Pas par effort, pas par volonté : parce que le moteur de la fréquence, c'était la nicotine, et qu'elle n'est plus dans le geste.\n\nSi c'est ton cas, tu viens d'apprendre quelque chose d'énorme sur ta consommation. Tu fumais souvent parce que tu fumais du tabac.",
+          "action": "Compare tes prises quotidiennes de cette semaine à ta baseline de la phase 0.",
+          "why": "La fréquence de consommation est largement pilotée par la dépendance nicotinique.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 7,
+          "theme": "corps",
+          "title": "Jour 7. Ton souffle, déjà.",
+          "body": "Si tu es passé au vaporisateur ou au sans-tabac, une semaine sans combustion a déjà un effet mesurable.\n\nLe monoxyde de carbone quitte le sang en douze heures. Sur une semaine, la toux du matin s'allège, et l'oxygène recommence à circuler normalement.\n\nTu ne le sens pas encore fort. Mais le mécanisme, lui, tourne déjà.",
+          "action": "Note ta toux du matin sur 10. Tu compareras dans une semaine.",
+          "why": "L'arrêt de la combustion élimine le CO et améliore l'oxygénation tissulaire.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 10,
+          "theme": "rituel",
+          "title": "Jour 10. Le geste, maintenant que la nicotine part.",
+          "body": "La partie chimique du sevrage nicotinique s'estompe. Reste le geste : rouler, allumer, la main occupée.\n\nSi tu es au vaporisateur, tu l'as déjà remplacé. Si tu es au patch, le geste te manque peut-être encore — c'est pour ça que l'inhalateur nicotinique existe : il garde le mouvement quand c'est lui qui compte.\n\nObserve ce qui te manque exactement. La substance, ou le mouvement ? La réponse oriente la suite.",
+          "action": "Identifie si c'est la nicotine ou le geste qui te manque. Ce sont deux problèmes, deux solutions.",
+          "why": "La composante gestuelle de la dépendance est distincte de la composante pharmacologique.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 14,
+          "theme": "bilan",
+          "title": "Jour 14. Deux dépendances, désormais séparées.",
+          "body": "Tu as fait le plus intelligent et le moins reconnu du parcours : tu as démêlé deux dépendances qui n'en formaient qu'une.\n\nMaintenant tu sais. Tu sais si c'était surtout le tabac. Tu sais ce que le THC seul te fait. Tu sais ce que respirer sans combustion change à ton souffle.\n\nLa suite se sépare en deux : réduire la nicotine restante, puis réduire le THC. Tu choisis l'ordre. Chez la plupart, la nicotine d'abord — c'est elle qui pèse le plus sur le sommeil de seconde partie de nuit.",
+          "action": "Passe à la réduction de la nicotine. Ou reste ici pour stabiliser. Rien ne presse.",
+          "why": "Traiter une dépendance isolée est plus simple que deux entremêlées.",
+          "evidence": "B",
+          "readTimeSeconds": 55,
+          "unlocksPhase": "nicotineTaper"
+        }
+      ],
+
+      "relapseScreen": {
+        "title": "Tu as repris du tabac aujourd'hui",
+        "body": "Ce n'est pas une faute. C'est une information sur la force de la dépendance nicotinique — et elle est plus forte qu'on ne le dit.\n\nTes jours cumulés ne bougent pas. Ton XP ne bouge pas.\n\nSi le tabac revient sans arrêt malgré ta volonté, ce n'est pas un manque de caractère : c'est le signe qu'il te faut un substitut dosé correctement. Ça se règle avec un pharmacien, gratuitement, en cinq minutes.",
+        "xpAwarded": 15,
+        "medalHint": "Note ta prochaine prise sans tabac et tu repars.",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Je retourne en observation"
+      },
+
+      "exitScreen": {
+        "title": "Phase 1 terminée",
+        "body": "Les deux substances sont séparées. Tu vois clair.\n\nProchaine étape : réduire la nicotine qui reste. Tu peux y aller ou stabiliser encore ici.",
+        "primaryLabel": "Réduire la nicotine",
+        "secondaryLabel": "Rester ici"
+      }
+    },
+
+    {
+      "id": "nicotineTaper",
+      "index": 2,
+      "title": "Réduire la nicotine",
+      "durationDays": 28,
+      "goal": "Descendre la nicotine par paliers, avec les substituts.",
+      "subtitle": "Une descente encadrée, pas un arrêt à la volonté.",
+
+      "entryScreen": {
+        "title": "On descend par marches, pas en sautant",
+        "body": "Le sevrage nicotinique brutal échoue dans la grande majorité des cas. Pas par faiblesse : parce que la nicotine crée une dépendance physique réelle, et que la volonté seule ne suffit pas contre une pharmacologie.\n\nLa méthode qui marche : un substitut dosé, puis une descente par paliers d'environ une marche par semaine. À chaque marche, le corps s'adapte avant la suivante.\n\nCe n'est pas de la triche. C'est la méthode recommandée, remboursée, et validée par les données.",
+        "confirmLabel": "Je commence la descente",
+        "secondaryLabel": "Je stabilise encore le découplage",
+        "note": "Le dosage de départ se décide avec un médecin ou un pharmacien. L'app t'informe, elle ne te prescrit rien."
+      },
+
+      "fagerstromPrompt": {
+        "title": "D'abord, où tu en es",
+        "body": "Le test de Fagerström mesure ta dépendance nicotinique en six questions. Son résultat ne sert pas à te doser toi-même : il sert à préparer ta conversation avec le pharmacien, pour qu'il choisisse le bon dosage de départ.",
+        "cta": "Faire le test (2 min)"
+      },
+
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Jour 1. Le bon dosage de départ",
+          "body": "Une descente réussie commence par un dosage suffisant. L'erreur classique est de sous-doser le substitut « pour ne pas remplacer une dépendance par une autre » — et de se retrouver en manque, donc de rechuter.\n\nUn substitut nicotinique n'a pas le shoot rapide de la cigarette. Il ne crée pas la même dépendance. Il faut le doser à hauteur de ta consommation réelle, celle que le test de Fagerström vient d'estimer.\n\nLe pharmacien fait ce calcul tous les jours.",
+          "action": "Si ce n'est pas fait : pharmacie, avec ton score de Fagerström. Cinq minutes.",
+          "why": "Le sous-dosage des substituts est la première cause d'échec du sevrage nicotinique.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 3,
+          "theme": "substituts",
+          "title": "Jour 3. Le patch, et la nuit",
+          "body": "Un point capital pour toi, qui dors moins de six heures : le patch existe en 16 h et en 24 h.\n\nLe 16 h, retiré au coucher, supprime la nicotine pendant la nuit. Or le sevrage nicotinique nocturne — quand la nicotine s'élimine pendant que tu dors — est une cause majeure de réveils.\n\nSi tu portes un patch 24 h, tu maintiens un manque nocturne. Le 16 h retiré le soir peut te rendre, dès la première nuit, un sommeil que tu avais oublié.",
+          "action": "Vérifie quel patch tu as. Si c'est du 24 h et que tu dors mal, parles-en au pharmacien.",
+          "why": "Le retrait nocturne du patch supprime le sevrage nicturne et ses réveils.",
+          "evidence": "B",
+          "readTimeSeconds": 55,
+          "highlight": true
+        },
+        {
+          "day": 7,
+          "theme": "palier",
+          "title": "Jour 7. Première marche vers le bas",
+          "body": "Une semaine au dosage de départ. Si les envies sont gérables, tu peux descendre d'une marche : le dosage de patch juste en dessous, ou une gomme de moins par jour.\n\nRègle d'or : tu ne descends que si la marche actuelle est confortable. Une descente trop rapide relance le manque et te fait remonter. Lent et régulier bat rapide et instable.\n\nSi cette semaine a été difficile, ne descends pas. Reste une semaine de plus. Ce n'est pas du retard, c'est du dosage.",
+          "action": "Marche confortable ? Descends d'un cran. Difficile ? Reste. Note ta décision.",
+          "why": "Une réduction trop rapide réactive le manque et précède la rechute.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 10,
+          "theme": "envies",
+          "title": "Jour 10. La gomme, bien utilisée",
+          "body": "Si tu utilises des gommes pour les pics, la technique compte. Mal utilisée, une gomme ne délivre presque rien et donne des brûlures d'estomac.\n\nLa bonne méthode : mâcher lentement jusqu'au picotement, puis coincer la gomme contre la joue. Quand le picotement s'arrête, mâcher deux ou trois fois, puis reparquer. Une gomme dure environ trente minutes.\n\nÀ ne pas faire : mâcher comme un chewing-gum, ni boire quoi que ce soit d'acide juste avant.",
+          "action": "Teste la technique mâcher-parquer sur ta prochaine gomme.",
+          "why": "La nicotine des gommes s'absorbe par la muqueuse buccale, pas par déglutition.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 14,
+          "theme": "bilan",
+          "title": "Jour 14. Deux semaines. Le sommeil répond ?",
+          "body": "Si tu as retiré la nicotine de tes nuits — patch 16 h, ou dosage descendu — regarde la colonne « qualité » et « réveils » du cahier.\n\nC'est souvent ici que le premier vrai gain de sommeil apparaît. Pas parce que tu dors plus longtemps, mais parce que tu n'es plus réveillé par le manque nicturne en seconde partie de nuit.\n\nCompare tes 14 dernières nuits à la baseline de la phase 0.",
+          "action": "Ouvre Constats. Regarde si les réveils nocturnes ont baissé.",
+          "why": "L'élimination du sevrage nicturne réduit la fragmentation du sommeil.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 21,
+          "theme": "palier",
+          "title": "Jour 21. Les marches basses",
+          "body": "Les derniers paliers sont parfois les plus délicats, non par le manque physique — devenu faible — mais par l'attachement au filet de sécurité. Renoncer à la dernière gomme fait peur.\n\nC'est normal. La dose est maintenant symbolique. Tu peux la garder encore une semaine si elle te rassure, ou la lâcher si tu te sens prêt.\n\nIl n'y a pas de médaille pour aller vite. Il y en a une pour arriver.",
+          "action": "Descends encore d'un cran si tu es à l'aise. Sinon, tiens le palier.",
+          "why": "L'attachement au substitut en fin de sevrage est comportemental, pas pharmacologique.",
+          "evidence": "C",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 28,
+          "theme": "bilan",
+          "title": "Jour 28. La nicotine, derrière ou presque.",
+          "body": "Quatre semaines de descente. Que tu sois à zéro nicotine ou sur la dernière marche, tu as fait le plus dur du sevrage nicotinique.\n\nCe qui change concrètement : plus de manque nocturne, plus de pic toutes les deux heures, un sommeil de seconde partie de nuit qui se répare.\n\nReste le THC. C'est la phase suivante, et c'est la plus exigeante pour le sommeil — mais tu l'abordes avec un corps déjà nettoyé de la nicotine. C'est un énorme avantage.",
+          "action": "Passe à la réduction du THC quand tu te sens prêt. Relis son écran d'entrée avant : il prévient de tout.",
+          "why": "Aborder le sevrage THC sans dépendance nicotinique simplifie une variable majeure.",
+          "evidence": "B",
+          "readTimeSeconds": 55,
+          "unlocksPhase": "thcTaper"
+        }
+      ],
+
+      "relapseScreen": {
+        "title": "Tu as consommé plus de nicotine que prévu",
+        "body": "Ce n'est pas un échec de la descente. C'est un signal de dosage.\n\nSi tu as dû remonter, c'est que la marche précédente était trop basse, ou franchie trop vite. Ça se corrige : on remonte d'un cran, on stabilise, on repart plus lentement.\n\nTes jours cumulés et ton XP ne bougent pas. Une descente en dents de scie reste une descente.",
+        "xpAwarded": 15,
+        "medalHint": "Reprends au palier confortable et continue.",
+        "primaryLabel": "J'ajuste et je continue",
+        "secondaryLabel": "Je remonte d'une phase"
+      },
+
+      "exitScreen": {
+        "title": "Phase 2 terminée",
+        "body": "La nicotine est derrière, ou presque. Le sommeil de seconde partie de nuit se répare déjà.\n\nProchaine étape : le THC. La plus exigeante, mais tu l'abordes nettoyé de la nicotine. Lis bien son écran d'entrée.",
+        "primaryLabel": "Aborder le sevrage THC",
+        "secondaryLabel": "Stabiliser encore ici"
+      }
+    }
+  ]
+}

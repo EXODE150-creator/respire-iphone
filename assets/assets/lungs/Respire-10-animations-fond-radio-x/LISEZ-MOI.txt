@@ -1,0 +1,8 @@
+RESPire — 10 animations respiratoires sur fond radiographique bleu fixe
+
+Format vidéo : MP4 H.264, 1024x1024 px, 10 images/s.
+Durée : 5 secondes par boucle.
+Inspiration : 2 secondes ; expiration passive : 3 secondes.
+Le corps, le squelette, le cadrage et la lumière bleue restent fixes.
+Seuls les poumons et leur trachée respirent.
+Le fichier fond-radio-x-fixe.png est inclus pour l'intégration Android en couches.

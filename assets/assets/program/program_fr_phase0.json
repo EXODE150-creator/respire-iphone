@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "locale": "fr",
+  "evidenceLegend": {
+    "A": "Preuve solide — essais randomisés multiples ou consensus institutionnel.",
+    "B": "Preuve modérée — essais limités, effectifs faibles, résultats hétérogènes.",
+    "C": "Preuve faible ou mécanistique — physiologie, observationnel, données contradictoires.",
+    "—": "Aucune preuve — marketing, témoignage, tradition."
+  },
+  "phases": [
+    {
+      "id": "observation",
+      "index": 0,
+      "title": "Observer",
+      "durationDays": 21,
+      "goal": "Ne rien changer. Mesurer.",
+      "subtitle": "Vingt et un matins. Deux minutes chacun. Aucun renoncement.",
+      "entryScreen": {
+        "title": "Cette phase ne te demande rien",
+        "body": "Tu ne vas rien arrêter. Tu ne vas rien réduire. Pendant trois semaines, tu fumes exactement comme d'habitude.\n\nLa seule chose que tu fais, c'est noter. Deux minutes chaque matin, au réveil.\n\nÀ la fin, l'application te montrera ce que personne ne peut te dire aujourd'hui : ce que la fumée fait à TON sommeil, à TOI. Pas à un panel d'étude. À toi.\n\nDeux règles gratuites s'installent quand même dès aujourd'hui, parce qu'elles ne demandent aucun renoncement — seulement un décalage.",
+        "confirmLabel": "Je commence"
+      },
+      "freeRules": [
+        {
+          "id": "no_smoke_before_bed",
+          "label": "Rien de fumé dans les 2 à 3 h avant le coucher",
+          "why": "C'est la mesure la plus rentable du programme. Elle ne réduit pas ta consommation, elle la déplace."
+        },
+        {
+          "id": "no_smoke_after_wake",
+          "label": "Rien de fumé dans l'heure suivant le réveil",
+          "why": "Casse le conditionnement. Rend toute réduction ultérieure beaucoup plus facile."
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Aujourd'hui, tu ne changes rien",
+          "body": "C'est le seul programme de sevrage qui commence par te demander de continuer.\n\nLa raison est simple : tu ne peux pas corriger ce que tu n'as pas mesuré. Si tu réduis aujourd'hui, tu n'auras jamais de point de comparaison. Tu sauras peut-être que ça va mieux, mais tu ne sauras pas pourquoi, ni de combien, ni grâce à quoi.\n\nPendant vingt et un jours, tu es le sujet et le chercheur. Le chercheur ne touche à rien tant qu'il n'a pas de données.",
+          "action": "Ce soir, note l'heure de ton dernier joint. Demain matin au réveil, ouvre le cahier.",
+          "why": "Sans mesure, pas de pilotage.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 2,
+          "theme": "installation",
+          "title": "Sept colonnes, deux minutes",
+          "body": "Le cahier de bord tient sur six colonnes. Heure de coucher, heure de lever, qualité de la nuit sur dix, nombre de réveils, humeur sur dix, et une dernière : combien d'heures se sont écoulées entre ta dernière consommation et le moment où tu t'es couché.\n\nCette dernière colonne est celle qui compte. Les cinq autres sont là pour lui donner un sens.\n\nRemplis-le au réveil, avant le café — enfin, tu n'en bois pas. Avant le premier geste, alors.",
+          "action": "Remplis ta première entrée maintenant. Même approximative. Une donnée imparfaite vaut mieux qu'une case vide.",
+          "why": "L'estimation de mémoire est systématiquement fausse. Le relevé quotidien ne l'est pas.",
+          "evidence": "A",
+          "readTimeSeconds": 40
+        },
+        {
+          "day": 3,
+          "theme": "installation",
+          "title": "Les deux règles qui ne coûtent rien",
+          "body": "Tu ne réduis pas. Tu déplaces.\n\nRien de fumé dans les deux à trois heures avant le coucher. Rien de fumé dans l'heure suivant le réveil. Le total de la journée ne change pas — seulement sa répartition.\n\nLa première règle protège ta nuit. La seconde casse le réflexe : celui qui te fait rouler avant même d'être réveillé, sans décision, sans envie réelle. C'est le geste le plus automatique de ta journée, et donc le plus facile à observer.\n\nSi tu ne tiens pas ces règles, note-le aussi. C'est une donnée.",
+          "action": "Décale ton premier joint d'une heure après le réveil. Observe ce qui se passe dans ta tête entre-temps.",
+          "why": "Un rituel automatique ne se supprime pas. Il se rend d'abord visible.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 4,
+          "theme": "molecules",
+          "title": "Tu fumes deux choses",
+          "body": "Un joint avec tabac, ce n'est pas une substance. C'est deux, et elles ne font pas du tout la même chose.\n\nLe THC a une demi-vie longue. Il reste. La nicotine, elle, disparaît en deux heures — et c'est précisément pour ça qu'elle revient te chercher toutes les deux heures.\n\nQuand tu roules un joint parce que « ça fait un moment », ce n'est presque jamais le THC qui parle. C'est la nicotine. Beaucoup de gens qui se croient dépendants au cannabis sont surtout dépendants au tabac qu'ils y mettent.\n\nTu ne le sauras qu'en les séparant. Pas aujourd'hui.",
+          "action": "Aujourd'hui, à chaque joint, note dans l'app le contexte : réveil, pause, fin de chantier, soir. Rien d'autre.",
+          "why": "La fréquence est le rythme de la nicotine. La durée est celui du THC.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 5,
+          "theme": "molecules",
+          "title": "Ce que le THC t'apporte, honnêtement",
+          "body": "Ce programme ne va pas te raconter que le cannabis ne sert à rien. Ce serait faux, et tu le sais mieux que n'importe quelle étude.\n\nContre la douleur chronique, les preuves sont substantielles. Contre la spasticité musculaire, elles sont solides. À faible dose, l'effet anxiolytique est réel.\n\nEt un point qu'aucune campagne de prévention ne dira : tu ne bois pas d'alcool. Pour un homme de cinquante ans, un joint le soir plutôt que trois verres, sur le foie et sur les accidents, ce n'est pas une comparaison défavorable.\n\nCe qui suit n'est donc pas un procès. C'est un inventaire.",
+          "action": "Demande-toi ce que tu attends du joint. Pas ce qu'il te fait — ce que tu attends de lui.",
+          "why": "On ne quitte bien que ce qu'on a d'abord regardé en face.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 6,
+          "theme": "molecules",
+          "title": "Ce qu'il te coûte, honnêtement aussi",
+          "body": "Le THC raccourcit l'endormissement. Ça, tu le sens. Mais il supprime le sommeil paradoxal — la phase de récupération nerveuse.\n\nAu début, le joint t'ajoute quelque chose. Après des années, plusieurs fois par jour, il te ramène simplement à zéro. Ce n'est plus un bénéfice au-dessus de ta ligne de base : c'est ta ligne de base qui est descendue, et le joint la remonte.\n\nLes usagers quotidiens rapportent plus de troubles du sommeil que les usagers occasionnels. Et plus que les non-usagers.\n\nTu dors moins de six heures. Sans café. Sans alcool.",
+          "action": "Rien. Lis, et va travailler.",
+          "why": "La tolérance transforme un bénéfice en maintenance.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 7,
+          "theme": "molecules",
+          "title": "Une semaine. Regarde ce que tu as écrit.",
+          "body": "Sept entrées. Ouvre-les.\n\nCombien de joints par jour, en moyenne ? Compare ce chiffre à celui que tu aurais donné dimanche dernier, de mémoire. Il y a presque toujours un écart. Il est instructif.\n\nÀ quelle heure fumes-tu le plus ? Regarde la distribution horaire. Tu vas y voir des rituels, pas des envies. Le réveil. La pause. La fin du chantier. Le coucher.\n\nUn rituel se remplace. Une envie s'attend. Ce ne sont pas les mêmes outils.",
+          "action": "Identifie ton rituel le plus rigide. Celui dont l'heure ne bouge jamais.",
+          "why": "Sept jours suffisent à révéler une structure. Vingt et un suffisent à la prouver.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 8,
+          "theme": "sommeil",
+          "title": "Pourquoi toi, sans café ni alcool",
+          "body": "Le café et l'alcool sont les deux causes les plus banales du sommeil court. Tu n'as ni l'un ni l'autre.\n\nS'ils ne sont pas en cause chez toi, ton déficit vient d'ailleurs. Restent deux suspects majeurs. La nicotine, qui te réveille en seconde moitié de nuit quand elle est éliminée. Et le THC, qui supprime le sommeil paradoxal.\n\nLe protocole classique — « coupez le café » — ne te sert à rien. Tu as besoin d'un protocole sur mesure. Tu es en train de le construire.",
+          "action": "Cette nuit, si tu te réveilles, note l'heure sur ton téléphone. Le matin, note ce qui t'a réveillé, si tu le sais.",
+          "why": "Éliminer les causes banales, c'est déjà la moitié du diagnostic.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 9,
+          "theme": "sommeil",
+          "title": "L'heure de lever, pas l'heure de coucher",
+          "body": "Si tu ne devais retenir qu'une seule chose de tout ce programme, ce serait celle-ci.\n\nL'ancre du rythme circadien, c'est l'heure de lever. Fixe. Sept jours sur sept. Y compris le dimanche, y compris après une mauvaise nuit — surtout après une mauvaise nuit.\n\nDormir plus tard le week-end pour « rattraper » décale ton horloge de deux heures. Le lundi, tu es en décalage horaire sans avoir pris l'avion.\n\nC'est gratuit. C'est immédiat. Et c'est le levier le plus puissant que tu aies.",
+          "action": "Choisis une heure de lever. Une seule. Règle l'alarme pour les sept prochains jours, week-end compris.",
+          "why": "L'heure de lever fixe est le régulateur circadien le mieux établi.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 10,
+          "theme": "sommeil",
+          "title": "Dix minutes dehors",
+          "body": "Dans la demi-heure qui suit ton lever, sors. Dix minutes. Pas derrière une vitre — dehors. Même sous un ciel couvert du Puy-de-Dôme en novembre.\n\nLa lumière du matin déclenche la sécrétion de mélatonine quatorze à seize heures plus tard. Autrement dit : ce que tu fais à sept heures du matin décide de ton endormissement à vingt-trois heures.\n\nC'est le levier le plus sous-estimé du sommeil. Il ne coûte rien. Il ne se vend pas. C'est peut-être pour ça qu'on n'en parle jamais.",
+          "action": "Demain matin, café du chantier dehors. Ou dix minutes à regarder le jardin. Peu importe, mais dehors.",
+          "why": "L'exposition lumineuse matinale avance la phase circadienne.",
+          "evidence": "A",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 11,
+          "theme": "sommeil",
+          "title": "Dix-sept degrés",
+          "body": "L'endormissement est déclenché par une baisse de la température corporelle. Pas par la fatigue, pas par le noir : par le refroidissement.\n\nUne chambre à vingt et un degrés retarde l'endormissement. Dix-sept à dix-neuf, c'est la fenêtre. En hiver, coupe le chauffage de la chambre. En été, ouvre avant de te coucher.",
+          "action": "Vérifie la température de ta chambre ce soir. Teste la position avec le coussin.",
+          "why": "La thermorégulation est le signal physiologique d'endormissement.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 12,
+          "theme": "envies",
+          "title": "Une envie dure cinq minutes",
+          "body": "C'est le fait le plus utile de tout ce programme.\n\nUne envie n'est pas une ligne droite qui monte jusqu'à ce que tu cèdes. C'est une vague. Elle monte, elle culmine, elle redescend. Trois à cinq minutes, en général.\n\nTu n'as pas à la combattre. Tu n'as pas besoin de volonté. Tu as besoin d'une horloge.\n\nÀ partir d'aujourd'hui, le bouton SOS est actif. Tu n'es pas obligé de t'en servir pour résister. Sers-t'en pour observer : appuie, regarde le timer, et va fumer si tu veux. Tu auras appris la forme de ta vague.",
+          "action": "Au prochain pic d'envie, appuie sur SOS. Même si tu comptes fumer après.",
+          "why": "Le craving est auto-limité. La croyance qu'il monte indéfiniment est ce qui le rend invincible.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 13,
+          "theme": "envies",
+          "title": "À quoi sert le joint ?",
+          "body": "Question sérieuse. Prends-la au sérieux.\n\nDécompresser après la journée ? Calmer une anxiété qui ne dit pas son nom ? Éteindre une douleur ? Marquer la frontière entre le travail et la maison ? Occuper les mains ?\n\nUne habitude qu'on retire sans avoir remplacé sa fonction revient toujours. Toujours. C'est pour ça que la volonté échoue : elle s'attaque au geste et laisse la fonction intacte.\n\nSi le joint marque la fin de la journée, il te faudra un autre rituel de fin de journée. Si le joint éteint la douleur, il te faudra traiter la douleur. Ce n'est pas une métaphore, c'est un plan.",
+          "action": "Écris ta réponse dans la note libre du cahier. Sans te relire. Personne ne la lira.",
+          "why": "Identifier la fonction d'une habitude, c'est la moitié du travail de remplacement.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 14,
+          "theme": "envies",
+          "title": "Deux semaines. Le premier graphique.",
+          "body": "Quatorze entrées. L'onglet Constats vient de s'ouvrir.\n\nTu vas y voir un nuage de points : chaque nuit, sa qualité en hauteur, et en largeur le nombre d'heures entre ton dernier joint et ton coucher.\n\nRegarde-le sans conclure. Quatorze points, ce n'est pas encore une preuve. C'est une intuition.\n\nEt s'il n'y a rien à voir — si le nuage est plat, sans tendance — l'application te le dira. Elle ne fabriquera pas un résultat pour t'encourager. Ce serait le plus mauvais service qu'elle puisse te rendre.",
+          "action": "Ouvre Constats. Regarde. Ne décide rien.",
+          "why": "Quatorze mesures donnent une tendance. Vingt et une donnent une corrélation.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 15,
+          "theme": "corps",
+          "title": "Ton corps manque d'oxygène",
+          "body": "La nicotine resserre les vaisseaux. Le monoxyde de carbone de la combustion prend la place de l'oxygène sur l'hémoglobine. Tes tissus reçoivent donc moins d'oxygène que ceux d'un non-fumeur. En permanence. Chaque heure de chaque jour.\n\nMoins d'oxygène, c'est une réparation plus lente : les blessures, les inflammations et les douleurs durent plus longtemps et récidivent davantage chez les fumeurs. C'est mesuré et documenté.\n\nChaque jour sans combustion, l'oxygène recommence à circuler normalement.",
+          "action": "Si tu n'as pas encore pris rendez-vous, prends-le aujourd'hui. Dis au médecin si la douleur te réveille la nuit.",
+          "why": "La vasoconstriction et le CO ralentissent la cicatrisation tendineuse.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 16,
+          "theme": "corps",
+          "title": "Le piège que personne ne voit",
+          "body": "Attention, celui-ci est retors.\n\nChez un usager quotidien, l'arrêt brutal peut provoquer une hyperalgésie : une sensibilité à la douleur SUPÉRIEURE au niveau de départ.\n\nCe qui veut dire qu'une partie de « ça me soulage » pourrait être, en réalité, le soulagement du manque entre deux joints. Tu ne traites plus la douleur : tu traites le sevrage. Et de l'intérieur, c'est rigoureusement indiscernable.\n\nMais il y a une bonne nouvelle dans ce mécanisme. Si tu traites la vraie cause — la douleur, le stress, le sommeil — une partie de ce que le joint fait pour toi devient inutile. C'est un chemin de sortie.",
+          "action": "Commence les rotations externes à l'élastique. Trois séries de quinze. Charge très légère.",
+          "why": "L'hyperalgésie de sevrage imite la douleur qu'elle prétend soulager.",
+          "evidence": "C",
+          "readTimeSeconds": 65
+        },
+        {
+          "day": 17,
+          "theme": "corps",
+          "title": "Ce qui se répare pendant que tu dors",
+          "body": "Le sommeil n'est pas un arrêt. C'est un chantier.\n\nC'est là que se fait la réparation tissulaire et la sécrétion d'hormone de croissance. Une semaine à moins de six heures dégrade la testostérone, la sensibilité à l'insuline et le temps de réaction.\n\nEt cette dernière n'est pas une abstraction. Meuleuse. Poste à souder. Tube acier de cinquante millimètres. Le temps de réaction, dans ton métier, c'est un doigt.\n\nLa privation de sommeil abaisse aussi le seuil de perception de la douleur. Tu ne dors pas mal parce que tu as mal. Tu as plus mal parce que tu dors mal. Les deux sont vrais. C'est une boucle.",
+          "action": "Compte tes heures de sommeil réelles sur les sept derniers jours. Fais la moyenne.",
+          "why": "Le sommeil court abaisse le seuil de douleur et ralentit la réparation.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 18,
+          "theme": "preparation",
+          "title": "Bientôt : séparer, pas arrêter",
+          "body": "Dans trois jours, tu liras tes données. Ensuite viendra la phase 1.\n\nElle ne te demandera pas d'arrêter. Elle te demandera de séparer le tabac de l'herbe.\n\nPourquoi séparer d'abord ? Parce que tant que les deux sont mélangés, tu ne sais pas laquelle des deux dépendances tu combats. Et parce que la nicotine, celle qui crée la fréquence, est peut-être plus facile à retirer que tu ne le crois — une fois qu'elle n'est plus prise en otage par l'herbe.\n\nBeaucoup de gens voient leur fréquence baisser d'elle-même en deux semaines. Sans effort. Parce que le rythme de toutes les deux heures, c'était celui de la nicotine.",
+          "action": "Aucune. Lis. Laisse infuser.",
+          "why": "Deux dépendances entremêlées sont plus difficiles à défaire qu'une seule à la fois.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 19,
+          "theme": "preparation",
+          "title": "Trois voies, tu en choisiras une",
+          "body": "Le vaporisateur à herbe sèche. Pas de combustion : pas de monoxyde de carbone, pas de goudrons. Le THC est là, le reste ne l'est pas. Cent cinquante à deux cent cinquante euros pour un portable, soixante pour un DynaVap à flamme. Réglage cent quatre-vingts à cent quatre-vingt-quinze degrés. Attention : herbe sèche uniquement, jamais les cartouches d'huile de provenance incertaine.\n\nLe joint pur sur base végétale. Gratuit. Molène, damiana, camomille. Cinquante-cinquante pour commencer. Règle la nicotine, pas la combustion.\n\nLe maintien du tabac avec substituts nicotiniques en journée. Patch ou gomme, remboursés sur prescription. Filtre systématique.",
+          "action": "Ouvre le module Substituts. Lis les trois voies. Ne choisis pas encore.",
+          "why": "Supprimer la combustion supprime le monoxyde de carbone, pas le THC.",
+          "evidence": "B",
+          "readTimeSeconds": 70
+        },
+        {
+          "day": 20,
+          "theme": "preparation",
+          "title": "Ce qui t'attend, dit à l'avance",
+          "body": "Le jour où tu retireras le tabac, tu entreras en sevrage nicotinique. Pas cannabique.\n\nIrritabilité. Concentration difficile. Une envie pressante de rouler quelque chose, n'importe quoi. Pic entre le premier et le troisième jour. Décroissance sur deux à quatre semaines.\n\nEt voici l'erreur que font presque tous ceux qui essaient : ils attribuent ça au manque d'herbe. Ils concluent que « le joint pur, ça ne le fait pas ». Ils remettent du tabac.\n\nCe n'était pas l'herbe qui manquait.\n\nLa parade existe : un patch nicotinique pendant deux à trois semaines, porté la journée, retiré le soir. Prescription du médecin. Remboursé.",
+          "action": "Note cette page. Tu la reliras au jour 3 de la phase suivante, et tu comprendras pourquoi.",
+          "why": "Un sevrage annoncé est un sevrage franchissable.",
+          "evidence": "A",
+          "readTimeSeconds": 65
+        },
+        {
+          "day": 21,
+          "theme": "analyse",
+          "title": "Vingt et un matins. Voici ce que tu as trouvé.",
+          "body": "Tu n'as rien arrêté. Tu n'as rien réduit. Tu as noté.\n\nCe que tu vas lire maintenant n'a été écrit par aucune étude, aucun laboratoire, aucun médecin. Ce sont tes nuits, tes consommations, ton humeur.\n\nSi une corrélation apparaît, elle est à toi. Si rien n'apparaît, c'est une information tout aussi précieuse : elle veut dire que la cause est ailleurs, et qu'il faut la chercher ailleurs.\n\nTu es la seule personne au monde à disposer de ces données. Elles valent plus que tout ce que tu as lu dans cette application.",
+          "action": "Ouvre l'analyse complète.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 50,
+          "triggersAnalysis": true,
+          "unlocksPhase": "decoupling"
+        }
+      ],
+      "exitScreen": {
+        "title": "Phase 0 terminée",
+        "body": "Vingt et un jours d'observation. Tu peux passer à la phase de découplage quand tu veux — demain, la semaine prochaine, ou dans un mois.\n\nLe programme ne t'attend pas avec impatience. Il t'attend, c'est tout.",
+        "primaryLabel": "Passer au découplage",
+        "secondaryLabel": "Rester encore en observation",
+        "note": "Rester en observation ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      }
+    }
+  ]
+}

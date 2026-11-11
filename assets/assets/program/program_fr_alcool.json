@@ -1,0 +1,640 @@
+{
+  "version": 1,
+  "locale": "fr",
+  "evidenceLegend": {
+    "A": "Preuve solide — essais randomisés multiples ou consensus institutionnel.",
+    "B": "Preuve modérée — essais limités, effectifs faibles, résultats hétérogènes.",
+    "C": "Preuve faible ou mécanistique — physiologie, observationnel, données contradictoires.",
+    "—": "Aucune preuve — marketing, témoignage, tradition."
+  },
+  "phases": [
+    {
+      "id": "observation",
+      "index": 0,
+      "title": "Observer",
+      "durationDays": 21,
+      "goal": "Ne rien changer. Mesurer.",
+      "subtitle": "Vingt et un matins. Deux minutes chacun. Aucun renoncement.",
+      "entryScreen": {
+        "title": "Cette phase ne te demande rien",
+        "body": "Cette phase sert à noter ta consommation, ton sommeil et ton ressenti sans poser de diagnostic. Elle ne te demande pas de modifier seul une consommation d'alcool quotidienne ou importante.\n\nSi c'est ton cas, ou si tu as déjà eu des symptômes de manque, contacte un médecin ou un CSAPA dès maintenant. Les données relevées dans l'application pourront aider à préparer cet échange. Respire n'établit aucun protocole de sevrage.",
+        "confirmLabel": "Je commence"
+      },
+      "freeRules": [
+        {
+          "id": "no_drink_before_bed",
+          "label": "Pas d'alcool dans les 3 h avant le coucher",
+          "why": "L'alcool du soir fragmente la seconde partie de la nuit. Cette règle ne réduit pas ta consommation, elle protège ton sommeil."
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "theme": "installation",
+          "title": "Aujourd'hui, tu ne changes rien",
+          "body": "Aujourd'hui, commence par noter sans jugement. Tes relevés peuvent montrer des associations entre consommation, sommeil et humeur, mais ils ne prouvent pas une cause médicale.\n\nTu n'as pas besoin d'attendre vingt et un jours pour demander de l'aide. Si tu bois quotidiennement ou en quantité importante, ou si tu as déjà eu des symptômes de manque, contacte un professionnel avant de modifier ta consommation.",
+          "action": "Ce soir, note l'heure de ton dernier verre. Demain matin au réveil, ouvre le cahier.",
+          "why": "Sans mesure, pas de pilotage.",
+          "evidence": "B",
+          "readTimeSeconds": 45
+        },
+        {
+          "day": 2,
+          "theme": "installation",
+          "title": "Le verre standard",
+          "body": "En France, un verre standard contient environ dix grammes d'alcool pur : 25 cl de bière à 5 %, 10 cl de vin à 12 % ou 3 cl de spiritueux à 40 %.\n\nUne bière plus forte, un grand verre de vin ou un cocktail peuvent compter pour plusieurs verres standard. Regarde le volume et le degré d'alcool plutôt que le seul nombre de contenants.",
+          "action": "Ce soir, convertis ta consommation d'aujourd'hui en verres standard. Le chiffre peut surprendre — c'est normal, et c'est le but.",
+          "why": "Le verre standard est l'unité de référence de toute la santé publique. Sans elle, on se compte faux.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 3,
+          "theme": "installation",
+          "title": "Six colonnes, deux minutes",
+          "body": "Le cahier de bord tient sur six colonnes. Heure de coucher, heure de lever, qualité de la nuit sur dix, nombre de réveils, humeur sur dix, et une dernière : combien d'heures se sont écoulées entre ton dernier verre et le moment où tu t'es couché.\n\nCette dernière colonne est celle qui compte pour ton sommeil. Les cinq autres sont là pour lui donner un sens.\n\nEt à chaque verre dans la journée, deux taps sur « J'ai consommé ». Sans jugement, sans arrondi. Le cahier n'est pas un tribunal, c'est un instrument de mesure.",
+          "action": "Remplis ta première entrée maintenant. Même approximative. Une donnée imparfaite vaut mieux qu'une case vide.",
+          "why": "L'estimation de mémoire sous-évalue systématiquement la consommation réelle.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 4,
+          "theme": "securite",
+          "title": "À lire absolument avant toute réduction",
+          "body": "Ce repère de sécurité est essentiel. Si tu bois quotidiennement ou en quantité importante, ou si tu as déjà eu des symptômes de manque, un arrêt brutal peut être dangereux : ne modifie pas seul ta consommation. Tremblements, sueurs, nausées, agitation ou anxiété marquée après une diminution nécessitent un avis médical rapide. Confusion, hallucinations, convulsions, malaise important ou agitation sévère sont des urgences : appelle le 15 ou le 112.\n\nUn médecin ou un CSAPA peut évaluer le risque et proposer un accompagnement adapté. L'absence de ces signes ne permet pas à l'application de conclure qu'une réduction en autonomie est sûre. Respire sert à noter et préparer la consultation ; il ne détermine aucun protocole de sevrage.",
+          "action": "Si ta consommation est quotidienne ou importante, contacte un médecin, un CSAPA ou Alcool Info Service avant de la modifier.",
+          "why": "Le risque de sevrage alcoolique dépend du profil et doit être évalué par un professionnel.",
+          "evidence": "A",
+          "readTimeSeconds": 75
+        },
+        {
+          "day": 5,
+          "theme": "molecules",
+          "title": "Ce que l'alcool t'apporte, honnêtement",
+          "body": "Ce programme ne va pas te raconter que l'alcool ne sert à rien. Ce serait faux, et tu le sais mieux que n'importe quelle étude.\n\nLa détente en fin de journée est réelle — l'alcool est un dépresseur du système nerveux, il apaise vraiment, sur le moment. Le rôle social est réel : l'apéritif, le repas, la célébration. Le rituel est réel : le verre qui marque la frontière entre les obligations et le temps pour soi.\n\nCe qui suit n'est donc pas un procès. C'est un inventaire. Parce qu'une habitude qu'on retire sans avoir remplacé sa fonction revient toujours.",
+          "action": "Demande-toi ce que tu attends du verre du soir. Pas ce qu'il te fait — ce que tu attends de lui.",
+          "why": "On ne quitte bien que ce qu'on a d'abord regardé en face.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 6,
+          "theme": "sommeil",
+          "title": "L'alcool et ta nuit : le marché de dupes",
+          "body": "L'alcool peut faciliter l'endormissement tout en altérant la qualité du sommeil et en favorisant des réveils plus tard dans la nuit. Les effets varient selon la quantité, l'horaire et la personne.\n\nLe cahier peut montrer une association entre tes horaires de consommation et ton sommeil, mais il ne peut pas prouver une cause médicale.",
+          "action": "Ce soir, applique la règle des 3 h sans alcool avant le coucher. Demain matin, note tes réveils nocturnes.",
+          "why": "La fragmentation du sommeil en seconde partie de nuit sous alcool est documentée par polysomnographie.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 7,
+          "theme": "rituels",
+          "title": "Une semaine. Regarde ce que tu as écrit.",
+          "body": "Sept entrées. Ouvre-les.\n\nCombien de verres standard par jour, en moyenne ? Compare ce chiffre à celui que tu aurais donné dimanche dernier, de mémoire. L'écart est presque toujours là, et presque toujours dans le même sens.\n\nÀ quelle heure bois-tu le plus ? Regarde la distribution horaire. Tu vas y voir des rituels, pas des envies. L'apéritif. Le repas. Le soir devant l'écran.\n\nUn rituel se remplace. Une envie s'attend. Ce ne sont pas les mêmes outils.",
+          "action": "Identifie ton rituel le plus rigide. Celui dont l'heure ne bouge jamais.",
+          "why": "Sept jours suffisent à révéler une structure. Vingt et un suffisent à la prouver.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 9,
+          "theme": "sommeil",
+          "title": "L'heure de lever, pas l'heure de coucher",
+          "body": "Si tu ne devais retenir qu'une seule chose de tout ce programme, ce serait celle-ci.\n\nL'ancre du rythme circadien, c'est l'heure de lever. Fixe. Sept jours sur sept. Y compris le dimanche, y compris après une mauvaise nuit — surtout après une mauvaise nuit.\n\nDormir plus tard le week-end pour « rattraper » décale ton horloge de deux heures. Le lundi, tu es en décalage horaire sans avoir pris l'avion.\n\nC'est gratuit. C'est immédiat. Et c'est le levier le plus puissant que tu aies.",
+          "action": "Choisis ton heure de lever. Note-la. Tiens-la sept jours.",
+          "why": "L'heure de lever fixe est le pilier central des thérapies du sommeil.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 11,
+          "theme": "molecules",
+          "title": "L'anxiété rebond",
+          "body": "Le verre du soir calme. C'est vrai, et c'est le piège.\n\nQuand l'alcool est éliminé, le système nerveux rebondit dans l'autre sens : une anxiété de fond, une nervosité du lendemain. Que le verre suivant vient calmer. Le serpent se mord la queue.\n\nChez le buveur régulier, une partie de l'anxiété quotidienne est fabriquée par l'alcool de la veille. De l'intérieur, c'est indiscernable : impossible de savoir si le verre te calme, ou s'il calme ce que le verre d'hier a créé.\n\nC'est exactement ce que la suite permettra de trancher — avec tes données, pas avec des slogans.",
+          "action": "Note ton niveau de tension au réveil, sur 10, dans la note libre. Trois jours de suite.",
+          "why": "L'anxiété rebond après alcoolisation est un mécanisme documenté.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 14,
+          "theme": "corps",
+          "title": "Le foie, silencieux",
+          "body": "Une atteinte du foie liée à l'alcool peut rester longtemps sans symptôme. Seuls un entretien médical et, si nécessaire, des examens peuvent l'évaluer.\n\nRéduire l'alcool diminue les risques, mais Respire ne peut pas affirmer que ton foie est atteint, dater une amélioration ni remplacer un bilan.",
+          "action": "Si ta consommation a été importante ou prolongée, parle à ton médecin de l'intérêt d'un bilan.",
+          "why": "L'absence de douleur ne permet pas d'évaluer l'état du foie.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 17,
+          "theme": "rituels",
+          "title": "Les contextes disent tout",
+          "body": "Relis tes deux semaines de données avec une seule question : avec qui, où, à quelle heure ?\n\nSeul devant l'écran ou en compagnie ? À table ou en dehors des repas ? Le week-end ou tous les jours pareil ? Chaque motif appelle une stratégie différente pour la suite.\n\nLe verre social se négocie socialement — il existe des phrases pour ça, on les verra. Le verre solitaire du soir est un rituel de décompression — il se remplace par un autre rituel. Le verre de table est une habitude de goût — il a des substituts crédibles.\n\nConnaître son motif, c'est déjà avoir la moitié du plan.",
+          "action": "Classe tes verres de la semaine : social, solitaire, table. Lequel domine ?",
+          "why": "Les interventions ciblées sur le contexte de consommation sont plus efficaces que les consignes générales.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 19,
+          "theme": "preparation",
+          "title": "Prépare la descente",
+          "body": "La descente approche. Trois choses à poser avant.\n\nUn : ton point de départ. Ta moyenne réelle en verres standard par jour — tu l'as, c'est la donnée la plus précieuse de ces trois semaines.\n\nDeux : le rappel de sécurité du jour 4. Si un des signaux te concernait — tremblements matinaux, sueurs, verre du matin, antécédent de crise — le médecin d'abord. Ce n'est pas négociable, et c'est temporaire : encadrée, la descente se passe bien.\n\nTrois : ta stratégie. Réduction progressive, jours sans alcool, ou plafond par occasion. Tu choisiras à l'entrée de la phase — aucune n'est la bonne dans l'absolu, la bonne est celle que tu tiendras.",
+          "action": "Note ta moyenne exacte en verres standard par jour. C'est d'elle que tu partiras.",
+          "why": "Une descente chiffrée depuis un point de départ mesuré tient mieux qu'une résolution vague.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 21,
+          "theme": "bilan",
+          "title": "Vingt et un jours. Tes données.",
+          "body": "Tu n'as rien arrêté. Tu n'as rien réduit. Tu as noté.\n\nCe que tu vas lire maintenant n'a été écrit par aucune étude, aucun laboratoire, aucun médecin. Ce sont tes nuits, tes verres, ton humeur.\n\nSi une corrélation apparaît, elle est à toi. Si rien n'apparaît, c'est une information tout aussi précieuse : elle veut dire que la cause est ailleurs, et qu'il faut la chercher ailleurs.\n\nTu es la seule personne au monde à disposer de ces données. Elles valent plus que tout ce que tu as lu dans cette application.",
+          "action": "Ouvre les Constats. Lis. Puis décide : la descente commence quand tu le décides.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        }
+      ],
+      "exitScreen": {
+        "title": "Phase d'observation terminée",
+        "body": "Vingt et un jours de données. Tu peux passer à la descente quand tu veux — demain, la semaine prochaine, ou dans un mois.\n\nUn seul rappel avant : si les signaux du jour 4 te concernent, le rendez-vous médical passe avant la descente.\n\nLe programme ne t'attend pas avec impatience. Il t'attend, c'est tout.",
+        "primaryLabel": "Commencer la descente",
+        "secondaryLabel": "Rester encore en observation",
+        "note": "Rester en observation ne fait perdre aucun XP, aucune médaille, aucun jour cumulé."
+      }
+    },
+    {
+      "id": "alcoholTaper",
+      "index": 1,
+      "title": "Descendre l'alcool",
+      "durationDays": 28,
+      "goal": "Réduire verre par verre, en sécurité, jusqu'au niveau que tu as choisi.",
+      "subtitle": "Quatre semaines. Une pente douce. Jamais de saut dans le vide.",
+      "entryScreen": {
+        "title": "La descente, pas le saut",
+        "body": "Tu connais mieux ta consommation, tes contextes et tes rituels. Ces informations peuvent préparer une discussion avec un professionnel.\n\nRespire ne choisit ni vitesse, ni quantité, ni calendrier de réduction. Si tu bois quotidiennement ou en quantité importante, ou si tu as déjà eu des symptômes de manque, demande un avis médical avant toute modification. Un médecin ou un CSAPA peut évaluer le risque et proposer un accompagnement adapté.",
+        "confirmLabel": "Je commence la descente",
+        "note": "Symptômes de manque : avis médical rapide. Confusion, hallucinations ou convulsions : appelle le 15 ou le 112."
+      },
+      "strategyChoice": {
+        "title": "Ta stratégie",
+        "body": "Ces exemples servent à préparer la discussion. Ils ne constituent pas un protocole : le choix dépend de ta consommation, de tes antécédents et de l'avis d'un professionnel.",
+        "options": [
+          {
+            "id": "gradual_reduction",
+            "label": "Réduction progressive",
+            "detail": "Une réduction progressive peut être proposée par un professionnel lorsque la situation s'y prête. Respire sert ensuite uniquement au suivi.",
+            "bestFor": "À décider avec un médecin ou un professionnel en addictologie."
+          },
+          {
+            "id": "alcohol_free_days",
+            "label": "Des jours sans alcool",
+            "detail": "Prévoir des jours sans alcool correspond aux repères français à moindre risque, mais ne remplace pas une évaluation en cas de dépendance possible.",
+            "bestFor": "Repère général, à confirmer selon ta situation."
+          },
+          {
+            "id": "cap_per_occasion",
+            "label": "Un plafond par occasion",
+            "detail": "Compter les verres standard peut aider à objectiver une occasion. Les repères français restent au maximum 2 verres par jour et pas tous les jours.",
+            "bestFor": "Repère de suivi, pas prescription personnalisée."
+          }
+        ]
+      },
+      "hardWindow": {
+        "startDay": 1,
+        "endDay": 7,
+        "bannerTemplate": "Jour {n} sur 7 de la fenêtre d'adaptation",
+        "curveLabel": "Intensité attendue de l'inconfort",
+        "curve": [
+          55,
+          80,
+          85,
+          70,
+          55,
+          40,
+          30
+        ],
+        "footnote": "Cette courbe illustrative ne prédit pas tes symptômes. Tremblements, sueurs, nausées, agitation ou anxiété marquée nécessitent un avis médical rapide ; confusion, hallucinations ou convulsions imposent le 15 ou le 112."
+      },
+      "sosOverrides": {
+        "hardWindowMessage": "Tu es au jour {n} sur 7. La durée d'une envie varie. Si tu trembles, transpires, vomis ou te sens très agité après avoir réduit, contacte rapidement un médecin. Confusion, hallucinations ou convulsions : 15 ou 112."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "fenetre",
+          "title": "La règle d'or",
+          "body": "Cette étape commence uniquement après l'évaluation adaptée à ta situation. Si un professionnel t'a proposé un plan, utilise Respire pour noter tes consommations, ton sommeil, ton humeur et les symptômes à lui signaler.\n\nNe modifie pas ce plan à partir des scores ou messages de l'application. Si tu n'as pas encore d'avis et que ta consommation est quotidienne ou importante, contacte un médecin ou un CSAPA avant de poursuivre.",
+          "action": "Note les informations utiles et suis uniquement le plan convenu avec ton professionnel.",
+          "why": "Respire documente ton parcours mais ne peut pas évaluer ni traiter un sevrage alcoolique.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 2,
+          "theme": "fenetre",
+          "title": "Les premières nuits",
+          "body": "Le sommeil peut être perturbé après une diminution d'alcool, avec une évolution très variable. Ne considère pas automatiquement une insomnie comme bénigne.\n\nTremblements, sueurs, nausées, agitation ou anxiété marquée nécessitent un avis médical rapide. Confusion, hallucinations ou convulsions imposent le 15 ou le 112.",
+          "action": "Protocole du soir : rien d'alcoolisé dans les 3 h avant le coucher, chambre fraîche, heure de lever fixe demain.",
+          "why": "L'insomnie initiale de réduction est transitoire ; le sommeil post-réduction est objectivement plus continu.",
+          "evidence": "A",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 4,
+          "theme": "fenetre",
+          "title": "Le créneau à risque",
+          "body": "Pour la plupart des buveurs réguliers, tout se joue sur un créneau de deux heures — souvent entre la fin des obligations et le repas. C'est là que le rituel appelle.\n\nLa parade la plus efficace est étonnamment simple : avoir un verre dans la main. Eau gazeuse, tonic, bière sans alcool, peu importe — le geste compte autant que le contenu. Le rituel veut une main occupée et une gorgée à prendre ; donne-lui ça.\n\nDeuxième parade : décaler le rituel. Douche, marche, dix minutes de n'importe quoi entre la fin de journée et le premier verre. Le créneau se rétrécit de lui-même.",
+          "action": "Prépare ta boisson de remplacement AVANT ton créneau à risque. Dans le bon verre, avec des glaçons si tu veux. Le cérémonial compte.",
+          "why": "La substitution du geste réduit la consommation indépendamment de la volonté.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 6,
+          "theme": "fenetre",
+          "title": "L'envie peut redescendre ici aussi",
+          "body": "Une envie peut monter puis redescendre, mais sa durée et son intensité varient. Le bouton SOS propose un chrono, une respiration et des gestes simples pour traverser le moment.\n\nSoif, faim, fatigue, émotion ou rituel peuvent parfois participer à l'envie. Boire de l'eau peut aider en cas de soif, mais ne traite pas un sevrage alcoolique.",
+          "action": "À la prochaine envie : un grand verre d'eau d'abord, SOS ensuite. Dans cet ordre.",
+          "why": "Le craving est phasique — il passe, avec ou sans consommation. L'observer raccourcit sa durée perçue.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 8,
+          "theme": "social",
+          "title": "Dire non sans se justifier",
+          "body": "Le verre social est le plus difficile à refuser — pas à cause de l'envie, à cause du regard des autres.\n\nDeux vérités d'expérience. La première : personne ne remarque autant qu'on le croit. Avec un verre quelconque à la main, littéralement personne ne sait ce qu'il contient. La deuxième : les phrases courtes marchent mieux que les explications. « Pas ce soir. » « Je conduis. » « J'en suis à un par soirée en ce moment. » Point. Pas de plaidoirie.\n\nCelui qui insiste lourdement après deux refus parle de son rapport à l'alcool, pas du tien.",
+          "action": "Prépare TA phrase. Une seule, courte. Répète-la une fois à voix haute — ça a l'air ridicule, ça fonctionne.",
+          "why": "Les scripts de refus préparés augmentent le taux de refus effectif en situation sociale.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 10,
+          "theme": "corps",
+          "title": "L'anxiété redescend",
+          "body": "Dix jours de descente. Si le fond d'anxiété matinale s'allège, ce n'est pas une impression : c'est le cycle du rebond qui se défait.\n\nMoins d'alcool le soir, c'est moins de contrecoup le matin, donc moins de tension dans la journée, donc moins de « besoin » d'un verre le soir. Le serpent arrête de se mordre la queue — dans le bon sens cette fois.\n\nLe processus complet prend deux à quatre semaines. Ton cahier le mesure mieux que ta mémoire : compare tes notes d'humeur au réveil avec celles de la phase d'observation.",
+          "action": "Ouvre l'onglet Avant / Maintenant. Regarde la ligne humeur.",
+          "why": "L'anxiété liée au rebond alcoolique s'améliore en 2 à 4 semaines de réduction.",
+          "evidence": "B",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 13,
+          "theme": "corps",
+          "title": "La tension artérielle",
+          "body": "L'alcool peut contribuer à une tension artérielle élevée. Une diminution peut être bénéfique, mais son effet et son délai varient.\n\nUne mesure isolée ne permet pas de conclure. Si ta tension est élevée ou si tu suis un traitement, parle-en à un médecin et ne modifie pas tes médicaments seul.",
+          "action": "Si tu peux : une mesure de tension cette semaine. Note-la dans la note libre du cahier.",
+          "why": "La baisse de tension à la réduction d'alcool est documentée par essais randomisés.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 16,
+          "theme": "corps",
+          "title": "Le sommeil profond revient",
+          "body": "Deux semaines et demie. Les réveils de quatre heures du matin s'espacent — vérifie dans ton cahier, la colonne des réveils nocturnes.\n\nCe qui se passe : sans alcool à éliminer en milieu de nuit, ton système nerveux ne rebondit plus. La seconde partie de nuit se réunifie. Le sommeil paradoxal, comprimé depuis des années, reprend sa place.\n\nRésultat concret : des matins différents. Pas spectaculaires — différents. Moins de brouillard, moins de lourdeur. C'est le sommeil qui travaille à nouveau pour toi.",
+          "action": "Compare tes réveils nocturnes de cette semaine à ceux de la phase d'observation.",
+          "why": "La continuité du sommeil s'améliore mesurablement dès 2 à 3 semaines de réduction.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        },
+        {
+          "day": 19,
+          "theme": "tete",
+          "title": "« Juste un verre »",
+          "body": "Elle viendra, si elle n'est pas déjà venue. L'idée qu'un seul verre, maintenant que ça va mieux, ne changerait rien.\n\nSois précis avec cette idée. Si ta stratégie est la réduction — un verre compté, prévu, dans ton plafond du jour — alors ce n'est pas un écart, c'est ta stratégie. Bois-le sans culpabilité.\n\nMais si c'est le verre non prévu, celui qui s'ajoute « exceptionnellement » : c'est le conditionnement qui teste la clôture. L'expérience est constante — l'exception d'aujourd'hui devient la règle de la semaine prochaine. L'envie qui le porte dure cinq minutes. Décide après, jamais pendant.",
+          "action": "Si l'idée vient : SOS, cinq minutes, puis décision. Le verre prévu se boit ; le verre d'exception s'attend.",
+          "why": "La distinction entre consommation planifiée et écart impulsif est au cœur des approches de réduction efficaces.",
+          "evidence": "B",
+          "readTimeSeconds": 60
+        },
+        {
+          "day": 22,
+          "theme": "bilan",
+          "title": "Mi-parcours : les chiffres",
+          "body": "Trois semaines de descente. Sors les chiffres, sans complaisance et sans sévérité.\n\nTa moyenne actuelle en verres standard, contre celle de la phase d'observation. Tes réveils nocturnes. Ton humeur au réveil. Tes économies — l'onglet est là pour ça.\n\nSi la courbe descend : continue, même pente, rien à changer. Si elle stagne au-dessus de ton objectif : resserre un seul boulon — le créneau à risque, ou un jour sans de plus — pas tout à la fois.\n\nUne descente qui stagne n'est pas un échec. C'est un réglage à faire.",
+          "action": "Écris tes trois chiffres : moyenne d'avant, moyenne actuelle, objectif. Regarde où tu es sur la pente.",
+          "why": "Le suivi chiffré à mi-parcours est le meilleur prédicteur du maintien de la réduction.",
+          "evidence": "B",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 25,
+          "theme": "corps",
+          "title": "Ce qui se répare déjà",
+          "body": "Après plusieurs semaines, certaines personnes remarquent des changements de sommeil, d'énergie ou d'humeur ; d'autres non. Seuls des examens adaptés peuvent évaluer le foie ou la tension.\n\nObserve tes données sans transformer une tendance en certitude. Toute difficulté persistante mérite d'être discutée avec un professionnel.",
+          "action": "Relis ton jour 14 de la phase d'observation — celui sur le foie silencieux. Il parle de toi, version d'avant.",
+          "why": "Les bénéfices précoces de la réduction (foie, tension, sommeil) apparaissent en 2 à 6 semaines.",
+          "evidence": "A",
+          "readTimeSeconds": 55
+        },
+        {
+          "day": 28,
+          "theme": "bilan",
+          "title": "Quatre semaines. Regarde d'où tu viens.",
+          "body": "Ouvre l'onglet Avant / Maintenant.\n\nÀ gauche : tes vingt et un jours d'observation, verres comptés, nuits mesurées. À droite : tes quatorze derniers jours.\n\nSi une ligne n'a pas bougé, elle est affichée en gris. L'application ne te ment pas pour te faire plaisir — c'était la règle depuis le premier jour.\n\nCe tableau, personne ne te l'a donné. Tu l'as écrit, deux minutes chaque matin.",
+          "action": "Passe en phase de consolidation. Ou reste ici. Le programme ne t'attend pas avec impatience.",
+          "why": "Aucune étude au monde n'a été faite sur toi.",
+          "evidence": "A",
+          "readTimeSeconds": 50
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as enregistré des verres en plus",
+        "body": "C'est une donnée, pas une faute.\n\nTon total de jours cumulés ne bouge pas. Ton XP ne bouge pas. Tes médailles restent.\n\nUne soirée au-dessus du plan n'annule pas une pente de trois semaines — regarde la moyenne, pas la soirée. Le compteur de série repart, le reste continue d'avancer.\n\nUne seule question compte : demain matin, tu ouvres ton cahier ?",
+        "xpAwarded": 15,
+        "medalHint": "Le point de demain débloque « Le retour ».",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Revoir ma stratégie"
+      },
+      "exitScreen": {
+        "title": "Descente terminée",
+        "body": "Quatre semaines de suivi. Tes données peuvent montrer des tendances, sans prouver une amélioration médicale du sommeil, du foie ou de la tension.\n\nLa consolidation est un mode allégé : un point par semaine, des repères de long terme et le SOS qui reste disponible.",
+        "primaryLabel": "Passer en consolidation",
+        "secondaryLabel": "Rester encore ici",
+        "note": "Tu peux revenir à un suivi quotidien à tout moment, sans rien perdre."
+      }
+    },
+    {
+      "id": "consolidation",
+      "index": 2,
+      "title": "Consolider",
+      "durationDays": null,
+      "goal": "Maintenir. Vivre avec l'outil, plus léger.",
+      "subtitle": "Le gros du travail est fait. On passe en entretien.",
+      "entryScreen": {
+        "title": "Le mode allégé",
+        "body": "Le programme passe en entretien.\n\nÀ partir de maintenant : un point hebdomadaire au lieu du cahier quotidien, les paliers santé de long terme, et l'onglet Avant/Maintenant pour voir le chemin parcouru.\n\nLe bouton SOS reste disponible. Une envie peut revenir longtemps après et sa durée varie ; demande du soutien si elle devient difficile à gérer.",
+        "confirmLabel": "Passer en entretien",
+        "note": "Tu peux revenir à un suivi quotidien à tout moment, sans rien perdre."
+      },
+      "cadence": "weekly",
+      "weeklyCheckIn": {
+        "title": "Le point de la semaine",
+        "questions": [
+          "Sommeil moyen cette semaine (heures)",
+          "Qualité moyenne /10",
+          "Nombre de verres standard cette semaine",
+          "Une situation qui a été difficile",
+          "Une chose qui a été plus facile qu'avant"
+        ],
+        "xpReward": 60
+      },
+      "longTermMilestones": [
+        {
+          "key": "clean_1_month",
+          "label": "1 mois",
+          "body": "Fais le point sur ton sommeil et ton bien-être. L'état du foie ne peut être évalué que par un professionnel et, si nécessaire, des examens."
+        },
+        {
+          "key": "clean_3_months",
+          "label": "3 mois",
+          "body": "Fais contrôler ta tension selon l'avis médical et note ton énergie ou ta concentration sans supposer une amélioration garantie."
+        },
+        {
+          "key": "clean_6_months",
+          "label": "6 mois",
+          "body": "Les situations sociales se gèrent sans y penser. Refais le point avec ton médecin si tu en avais un en cours."
+        },
+        {
+          "key": "clean_1_year",
+          "label": "1 an",
+          "body": "Les risques cardiovasculaires et hépatiques sont nettement réduits. Relis ta phase d'observation : c'est la meilleure mesure du chemin."
+        }
+      ],
+      "recurringContent": [
+        {
+          "id": "craving_returns",
+          "title": "Une envie a surgi ?",
+          "body": "Des mois après, une envie peut revenir, forte, sans raison, souvent dans un bon moment. Ce n'est pas un recommencement. C'est un conditionnement qui se rappelle à toi. SOS, cinq minutes, elle passe.",
+          "trigger": "on_craving_after_30_clean_days"
+        },
+        {
+          "id": "sleep_regression",
+          "title": "Une mauvaise semaine de sommeil ?",
+          "body": "Le sommeil fait des vagues, même longtemps après. Une mauvaise semaine n'annule pas trois bons mois. Regarde la moyenne, pas la dernière nuit.",
+          "trigger": "on_sleep_quality_drop"
+        }
+      ],
+      "relapseScreen": {
+        "title": "Tu as consommé plus que prévu",
+        "body": "Après des semaines ou des mois, ça arrive. Ça n'efface rien.\n\nTes jours cumulés, ton XP, tes médailles : tout reste. Le compteur de série en cours repart, le compteur cumulé, lui, continue d'avancer.\n\nUne seule question compte : demain matin, tu fais ton point ?",
+        "xpAwarded": 15,
+        "medalHint": "Le point de demain débloque « Le retour ».",
+        "primaryLabel": "Je continue",
+        "secondaryLabel": "Revenir à un suivi quotidien"
+      }
+    }
+  ],
+  "substitutesModule": {
+    "title": "Substituts",
+    "intro": "Ce module t'informe. Il ne te prescrit rien. Le dosage de tout substitut nicotinique se décide avec un médecin ou un pharmacien — c'est gratuit, rapide, et les substituts sont remboursés sur prescription en France.",
+    "fagerstrom": {
+      "title": "Test de Fagerström",
+      "subtitle": "6 questions. Mesure ta dépendance nicotinique. Sert à préparer ta visite en pharmacie, pas à te doser toi-même.",
+      "questions": [
+        {
+          "q": "Le matin, combien de temps après ton réveil fumes-tu ta première cigarette (ou ton premier joint) ?",
+          "answers": [
+            {
+              "label": "Dans les 5 minutes",
+              "points": 3
+            },
+            {
+              "label": "6 à 30 minutes",
+              "points": 2
+            },
+            {
+              "label": "31 à 60 minutes",
+              "points": 1
+            },
+            {
+              "label": "Après 60 minutes",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Trouves-tu difficile de t'abstenir là où c'est interdit ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "À quelle cigarette (ou prise) renoncerais-tu le plus difficilement ?",
+          "answers": [
+            {
+              "label": "La première du matin",
+              "points": 1
+            },
+            {
+              "label": "Une autre",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Combien en fumes-tu par jour ?",
+          "answers": [
+            {
+              "label": "10 ou moins",
+              "points": 0
+            },
+            {
+              "label": "11 à 20",
+              "points": 1
+            },
+            {
+              "label": "21 à 30",
+              "points": 2
+            },
+            {
+              "label": "31 ou plus",
+              "points": 3
+            }
+          ]
+        },
+        {
+          "q": "Fumes-tu davantage dans les premières heures après le réveil que le reste de la journée ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        },
+        {
+          "q": "Fumes-tu même quand tu es malade, alité une bonne partie de la journée ?",
+          "answers": [
+            {
+              "label": "Oui",
+              "points": 1
+            },
+            {
+              "label": "Non",
+              "points": 0
+            }
+          ]
+        }
+      ],
+      "scoring": [
+        {
+          "range": "0-2",
+          "label": "Dépendance faible",
+          "note": "Un accompagnement, avec ou sans substitut, peut suffire. Un pharmacien ou un médecin t'aidera à choisir."
+        },
+        {
+          "range": "3-4",
+          "label": "Dépendance moyenne",
+          "note": "Les substituts nicotiniques sont souvent utiles à ce niveau. Montre ce score à un pharmacien ou un médecin : c'est lui qui choisit le produit et le dosage."
+        },
+        {
+          "range": "5-6",
+          "label": "Dépendance forte",
+          "note": "Un professionnel peut proposer un ou plusieurs substituts selon la situation. Ce score ne fixe pas le traitement."
+        },
+        {
+          "range": "7-10",
+          "label": "Dépendance très forte",
+          "note": "Demande conseil à un médecin ou un pharmacien avant de choisir le produit et le dosage."
+        }
+      ],
+      "disclaimer": "Ce score prépare la conversation avec le professionnel. Il ne remplace pas son avis et ne fixe pas ton dosage."
+    },
+    "nicotineSubstitutes": {
+      "title": "Substituts nicotiniques (remboursés sur prescription)",
+      "items": [
+        {
+          "type": "patch",
+          "name": "Patch (timbre)",
+          "how": "Diffusion continue de nicotine à travers la peau. Existe en 16 h et 24 h, à plusieurs dosages.",
+          "keyPointForUser": "Les patchs existent avec différentes durées et différents dosages. Le choix dépend notamment des envies, du sommeil et des effets indésirables : vois avec un professionnel.",
+          "tip": "Coller sur une peau sèche, sans poil, changer de zone chaque jour.",
+          "watchOut": "Rougeur cutanée fréquente et bénigne. Cauchemars possibles avec le 24 h — raison de plus de préférer le 16 h."
+        },
+        {
+          "type": "gum",
+          "name": "Gomme à mâcher",
+          "how": "Nicotine absorbée par la muqueuse de la bouche. Dosages 2 mg et 4 mg.",
+          "keyPointForUser": "Utile sur les pics d'envie, en complément du patch.",
+          "tip": "Technique mâcher-parquer : mâcher jusqu'au picotement, coincer contre la joue, reprendre quand le picotement cesse. ~30 min par gomme.",
+          "watchOut": "Mâcher comme un chewing-gum ne délivre rien et brûle l'estomac. Pas de boisson acide juste avant."
+        },
+        {
+          "type": "lozenge",
+          "name": "Pastille / comprimé sublingual",
+          "how": "Se dissout sous la langue ou dans la bouche. Absorption par la muqueuse.",
+          "keyPointForUser": "Plus discret que la gomme, pratique sur un chantier.",
+          "tip": "Laisser fondre, ne pas croquer ni avaler.",
+          "watchOut": "Même précaution que la gomme sur les boissons acides."
+        },
+        {
+          "type": "spray",
+          "name": "Spray buccal",
+          "how": "Pulvérisation dans la bouche. Absorption la plus rapide des substituts.",
+          "keyPointForUser": "Le plus efficace sur un pic d'envie brutal, quand ça monte vite.",
+          "tip": "Ne pas inhaler pendant la pulvérisation. Ne pas pulvériser vers la gorge.",
+          "watchOut": "Picotement ou hoquet au début, transitoire."
+        },
+        {
+          "type": "inhaler",
+          "name": "Inhalateur",
+          "how": "Cartouche de nicotine aspirée par un embout. Reproduit le geste de porter à la bouche.",
+          "keyPointForUser": "Le seul qui conserve le geste. Pertinent si c'est le mouvement, plus que la substance, qui te manque.",
+          "tip": "Aspirations courtes et fréquentes plutôt que profondes.",
+          "watchOut": "Moins efficace par temps froid : la vaporisation baisse sous 15 °C. À garder au chaud sur un chantier d'hiver."
+        }
+      ]
+    },
+    "ritualSubstitutes": {
+      "title": "Substituts au geste et au rituel (sans nicotine)",
+      "intro": "Quand ce n'est pas la molécule qui manque, mais le geste, l'heure, ou la transition.",
+      "items": [
+        {
+          "name": "Vaporisateur à herbe sèche",
+          "detail": "Éviter la combustion réduit l'exposition au monoxyde de carbone et à certains toxiques de fumée, mais vaporiser n'est pas sans risque. Respire ne recommande ni appareil ni réglage.",
+          "warning": "HERBE SÈCHE UNIQUEMENT. Les cartouches d'huile de provenance incertaine ont causé de graves atteintes pulmonaires (EVALI). Ne jamais vapoter d'huile non contrôlée."
+        },
+        {
+          "name": "Base végétale sans tabac",
+          "detail": "Respire ne recommande pas de fumer des plantes de remplacement : toute combustion produit des substances irritantes et potentiellement toxiques.",
+          "warning": "La combustion demeure : c'est un substitut à la nicotine, pas à la fumée."
+        },
+        {
+          "name": "Substituts comportementaux du geste",
+          "detail": "Bâtonnet de réglisse, cure-dent, balle anti-stress, bracelet à faire tourner. Pour occuper la main qui cherche à rouler.",
+          "warning": null
+        },
+        {
+          "name": "Le remplacement du rituel de fin de journée",
+          "detail": "Si le joint marquait la fin du chantier, il faut un autre marqueur : une douche systématique en rentrant, dix minutes d'étirements, un thé, un tour du jardin ou de l'étang. Le cerveau a besoin d'une frontière entre le travail et la maison.",
+          "warning": null
+        }
+      ]
+    },
+    "neverDoes": [
+      "Recommander un dosage précis de nicotine sans renvoi au pharmacien ou au médecin.",
+      "Suggérer d'arrêter un traitement en cours.",
+      "Se substituer à un avis médical.",
+      "Présenter le cannabis comme anodin.",
+      "Vendre ou recommander une marque de produit."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+Polices de la version web de Respire
+====================================
+
+roboto-*.ttf : Roboto (Google), licence Apache 2.0 (voir LICENSE-roboto.txt).
+
+Modification : un glyphe « → » (U+2192) a été ajouté à chaque graisse par
+tool/web/add_arrow_glyph.py, parce que Roboto n'en a pas et que la version
+web n'utilise aucune police téléchargée chez un service tiers. Tout le reste
+des fichiers est inchangé.
+
+fallback/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2 : copie de
+roboto-regular.ttf (contenu TrueType) au chemin où le moteur web de Flutter
+cherche sa police par défaut (fontFallbackBaseUrl, voir flutter_bootstrap.js).
